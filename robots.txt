@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://affordabletreefellers.com/sitemap.xml
+Sitemap: https://affordabletreefellers.com/sitemap-images.xml

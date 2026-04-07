@@ -1,0 +1,38 @@
+# Affordable Treefellers LLC
+
+## Company
+- Name: Affordable Treefellers LLC
+- Owner: Eric Frauenknecht
+- Location: Shawnee, KS
+- Phone: (816) 509-3232
+- Email: bigvermont@hotmail.com
+- Website: https://affordabletreefellers.com
+- Hours: Mon-Sat 9AM-5PM | Emergency services 24/7
+- USDOT: 3421117
+- Licensed and insured
+- Established: 2013
+
+## Service Area
+30-40 mile radius from Shawnee, KS — Kansas side only
+Johnson County, Wyandotte County, Leavenworth County, parts of Douglas County
+
+## Services
+- Tree Removal: /services/tree-removal
+- Tree Trimming & Pruning: /services/tree-trimming-pruning
+- Stump Grinding & Removal: /services/stump-grinding
+- Storm Damage Cleanup & Emergency Services: /services/storm-damage-cleanup
+- Commercial & Residential Tree Care: /services/commercial-residential-tree-care
+- Lot & Land Clearing: /services/lot-land-clearing
+
+## Pages
+- Home: https://affordabletreefellers.com/
+- Services: https://affordabletreefellers.com/services
+- Tree Removal: https://affordabletreefellers.com/services/tree-removal
+- Tree Trimming & Pruning: https://affordabletreefellers.com/services/tree-trimming-pruning
+- Stump Grinding: https://affordabletreefellers.com/services/stump-grinding
+- Storm Damage Cleanup: https://affordabletreefellers.com/services/storm-damage-cleanup
+- Commercial & Residential: https://affordabletreefellers.com/services/commercial-residential-tree-care
+- Lot & Land Clearing: https://affordabletreefellers.com/services/lot-land-clearing
+- Service Area: https://affordabletreefellers.com/service-area
+- About: https://affordabletreefellers.com/about
+- Contact: https://affordabletreefellers.com/contact
