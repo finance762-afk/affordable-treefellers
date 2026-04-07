@@ -1,4 +1,5 @@
 Options -Indexes
+DirectoryIndex index.php
 
 RewriteEngine On
 
@@ -6,11 +7,7 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Exclude assets and includes from rewrites
-RewriteCond %{REQUEST_URI} !^/assets/
-RewriteCond %{REQUEST_URI} !^/includes/
-
-# Remove trailing slashes (except root)
+# Remove trailing slashes (except root and real directories with index.php)
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)/$ /$1 [L,R=301]
 
@@ -18,7 +15,7 @@ RewriteRule ^(.*)/$ /$1 [L,R=301]
 RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
 RewriteRule ^ /%1 [NC,L,R=301]
 
-# Serve .php files for clean URLs (Version B — with !-d for subdirectory structure)
+# Serve .php files for clean URLs
 RewriteCond %{REQUEST_URI} !^/assets/
 RewriteCond %{REQUEST_URI} !^/includes/
 RewriteCond %{REQUEST_FILENAME} !-f

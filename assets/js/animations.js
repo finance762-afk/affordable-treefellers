@@ -4,6 +4,9 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  /* --- Enable animations (elements visible by default until JS confirms) --- */
+  document.documentElement.classList.add('js-ready');
+
   /* --- Scroll Reveal (fade-up, wipe-right) --- */
   const animElements = document.querySelectorAll('[data-animate]');
   if (animElements.length) {

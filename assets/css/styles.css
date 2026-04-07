@@ -707,13 +707,14 @@ h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
 /* ============================================
    SCROLL ANIMATION BASE
    ============================================ */
-[data-animate] {
+/* Animations only activate when JS adds .js-ready to <html> */
+.js-ready [data-animate] {
   opacity: 0;
   transition: opacity 0.5s ease, transform 0.5s ease, clip-path 0.6s ease;
 }
-[data-animate="fade-up"] { transform: translateY(30px); }
-[data-animate="wipe-right"] { clip-path: inset(0 100% 0 0); }
-[data-animate].in-view { opacity: 1; transform: translateY(0); clip-path: inset(0 0 0 0); }
+.js-ready [data-animate="fade-up"] { transform: translateY(30px); }
+.js-ready [data-animate="wipe-right"] { clip-path: inset(0 100% 0 0); }
+.js-ready [data-animate].in-view { opacity: 1; transform: translateY(0); clip-path: inset(0 0 0 0); }
 
 /* ============================================
    SECTIONS — General
