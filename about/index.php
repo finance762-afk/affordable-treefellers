@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div data-animate="fade-up">
           <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i data-lucide="shield-check"></i></div>
           <h3 style="font-size: 1rem;">Licensed &amp; Insured</h3>
-          <p style="color: var(--text-light); font-size: 0.9rem; margin-top: var(--space-xs);">Liability insurance and workers' compensation coverage on every job</p>
+          <p style="color: var(--text-light); font-size: 0.9rem; margin-top: var(--space-xs);">Full liability insurance coverage on every job</p>
         </div>
         <div data-animate="fade-up">
           <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i data-lucide="truck"></i></div>

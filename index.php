@@ -125,7 +125,7 @@ $schemaMarkup    = '{
           "name": "Are you licensed and insured for tree work in Kansas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Affordable Treefellers LLC is fully licensed, insured, and registered with the U.S. Department of Transportation (USDOT #3421117). We carry liability insurance and workers compensation coverage."
+            "text": "Yes. Affordable Treefellers LLC is fully licensed, insured, and registered with the U.S. Department of Transportation (USDOT #3421117). We carry full liability insurance coverage."
           }
         }
       ]
@@ -418,7 +418,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">
-              Yes. Affordable Treefellers LLC is fully licensed, insured, and registered with the U.S. Department of Transportation (USDOT #3421117). We carry liability insurance and workers' compensation coverage. This protects you as the property owner — if anything goes wrong on the job, you're covered. We're happy to provide proof of insurance before any work begins.
+              Yes. Affordable Treefellers LLC is fully licensed, insured, and registered with the U.S. Department of Transportation (USDOT #3421117). We carry full liability insurance coverage. This protects you as the property owner — if anything goes wrong on the job, you're covered. We're happy to provide proof of insurance before any work begins.
             </div>
           </div>
         </div>

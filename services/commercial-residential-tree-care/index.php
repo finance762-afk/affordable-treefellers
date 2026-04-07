@@ -183,7 +183,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </li>
             <li>
               <span class="benefit-icon"><i data-lucide="file-check"></i></span>
-              <span><strong>Insurance Certificates</strong> — COIs provided before work begins. Liability and workers' comp coverage.</span>
+              <span><strong>Insurance Certificates</strong> — COIs provided before work begins. Full liability coverage.</span>
             </li>
             <li>
               <span class="benefit-icon"><i data-lucide="truck"></i></span>
