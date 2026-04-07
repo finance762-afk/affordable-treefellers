@@ -19,7 +19,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="min-height: 60vh; display: flex; align-items: center;">
     <div class="container" style="text-align: center;">
-      <div style="font-size: 3rem; color: var(--primary); margin-bottom: var(--space-md);"><i class="lucide-check-circle"></i></div>
+      <div style="font-size: 3rem; color: var(--primary); margin-bottom: var(--space-md);"><i class="icon-check-circle"></i></div>
       <h1 style="font-size: clamp(1.6rem, 3vw, 2.2rem);">Thank You!</h1>
       <p class="prose-centered" style="color: var(--text-light); margin: var(--space-lg) auto; font-size: 1.1rem;">Your message has been received. We typically respond within a few hours during business hours (Mon&ndash;Sat, 9AM&ndash;5PM).</p>
       <div style="background: var(--bg-alt); padding: var(--space-xl); border-radius: 4px; max-width: 500px; margin: var(--space-xl) auto;">

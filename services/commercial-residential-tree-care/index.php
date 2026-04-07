@@ -118,19 +118,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="grid-2" data-stagger>
         <div class="card" style="border-radius: 4px;" data-animate="fade-up">
-          <h3><i class="lucide-home" style="color: var(--primary); margin-right: var(--space-sm);"></i> Homeowners</h3>
+          <h3><i class="icon-home" style="color: var(--primary); margin-right: var(--space-sm);"></i> Homeowners</h3>
           <p class="prose" style="margin-top: var(--space-sm); color: var(--text-light);">Most of our work is for residential homeowners — trimming shade trees away from rooflines, removing dead trees before they fall, and grinding old stumps. One tree or ten, we treat every yard the same.</p>
         </div>
         <div class="card" style="border-radius: 4px;" data-animate="fade-up">
-          <h3><i class="lucide-building-2" style="color: var(--primary); margin-right: var(--space-sm);"></i> Property Managers &amp; Landlords</h3>
+          <h3><i class="icon-building-2" style="color: var(--primary); margin-right: var(--space-sm);"></i> Property Managers &amp; Landlords</h3>
           <p class="prose" style="margin-top: var(--space-sm); color: var(--text-light);">We provide scheduled maintenance for multi-unit properties and rental portfolios. One point of contact, one invoice, consistent service across all your properties.</p>
         </div>
         <div class="card" style="border-radius: 4px;" data-animate="fade-up">
-          <h3><i class="lucide-users" style="color: var(--primary); margin-right: var(--space-sm);"></i> HOAs &amp; Communities</h3>
+          <h3><i class="icon-users" style="color: var(--primary); margin-right: var(--space-sm);"></i> HOAs &amp; Communities</h3>
           <p class="prose" style="margin-top: var(--space-sm); color: var(--text-light);">Common areas, entry features, and neighborhood tree canopy need consistent care. We coordinate with HOA boards on timing, scope, and insurance requirements for community tree work.</p>
         </div>
         <div class="card" style="border-radius: 4px;" data-animate="fade-up">
-          <h3><i class="lucide-store" style="color: var(--primary); margin-right: var(--space-sm);"></i> Commercial Properties</h3>
+          <h3><i class="icon-store" style="color: var(--primary); margin-right: var(--space-sm);"></i> Commercial Properties</h3>
           <p class="prose" style="margin-top: var(--space-sm); color: var(--text-light);">Office parks, retail centers, restaurants, and church campuses. We schedule around business hours, maintain clean sites, and provide liability certificates upfront.</p>
         </div>
       </div>
@@ -148,10 +148,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">Ongoing Maintenance Plans</h2>
           <p class="prose">Trees don't stop growing after one trim. Kansas weather, fast-growing species, and the sheer number of trees on most properties mean tree work is ongoing. Our maintenance plans take the guesswork out:</p>
           <ul class="check-list" style="margin-top: var(--space-md);">
-            <li><i class="lucide-check"></i> <span><strong>Annual plans</strong> — scheduled trimming, deadwood removal, and hazard assessment once a year</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Semi-annual plans</strong> — spring and fall service to prep for storm season and winter loads</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Priority scheduling</strong> — plan members get moved to the front of the line after storms</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Consistent pricing</strong> — no year-to-year price surprises when you stay on a plan</span></li>
+            <li><i class="icon-check"></i> <span><strong>Annual plans</strong> — scheduled trimming, deadwood removal, and hazard assessment once a year</span></li>
+            <li><i class="icon-check"></i> <span><strong>Semi-annual plans</strong> — spring and fall service to prep for storm season and winter loads</span></li>
+            <li><i class="icon-check"></i> <span><strong>Priority scheduling</strong> — plan members get moved to the front of the line after storms</span></li>
+            <li><i class="icon-check"></i> <span><strong>Consistent pricing</strong> — no year-to-year price surprises when you stay on a plan</span></li>
           </ul>
         </div>
       </div>
@@ -178,19 +178,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">Why Property Managers Choose Us</h2>
           <ul class="benefit-list">
             <li>
-              <span class="benefit-icon"><i class="lucide-user-check"></i></span>
+              <span class="benefit-icon"><i class="icon-user-check"></i></span>
               <span><strong>Owner-Operated</strong> — Eric oversees every commercial account personally. One point of contact, not a call center.</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="lucide-file-check"></i></span>
+              <span class="benefit-icon"><i class="icon-file-check"></i></span>
               <span><strong>Insurance Certificates</strong> — COIs provided before work begins. Liability and workers' comp coverage.</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="lucide-truck"></i></span>
+              <span class="benefit-icon"><i class="icon-truck"></i></span>
               <span><strong>USDOT Registered</strong> — DOT #3421117. Equipment transported legally and safely.</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="lucide-clock"></i></span>
+              <span class="benefit-icon"><i class="icon-clock"></i></span>
               <span><strong>Flexible Scheduling</strong> — Work around business hours, tenant schedules, and HOA meeting timelines.</span>
             </li>
           </ul>
@@ -212,7 +212,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Do you offer recurring tree maintenance plans?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Yes. We offer annual and semi-annual plans that include scheduled trimming, deadwood removal, and hazard assessments. Plans are customized to your property's tree count, species, and maintenance goals. Contact us to build one that fits your budget.</div>
@@ -221,7 +221,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Can you handle tree work for HOAs and apartment complexes?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Absolutely. We work with HOAs, apartment communities, and multi-unit properties throughout the KC metro. We coordinate scheduling with property management, provide insurance certificates, and handle the full scope of tree work across the property.</div>
@@ -230,7 +230,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Are you insured for commercial tree work?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Yes. We carry liability insurance and are registered with the U.S. Department of Transportation (USDOT #3421117). Certificates of insurance are provided to property managers and HOAs before any work begins.</div>
@@ -246,9 +246,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div style="margin-bottom: var(--space-2xl);">
         <h3>Related Services</h3>
         <div class="related-services" style="margin-top: var(--space-md);">
-          <a href="/services/tree-trimming-pruning" class="related-link"><i class="lucide-scissors"></i> Tree Trimming &amp; Pruning</a>
-          <a href="/services/tree-removal" class="related-link"><i class="lucide-axe"></i> Tree Removal</a>
-          <a href="/services/lot-land-clearing" class="related-link"><i class="lucide-trees"></i> Lot &amp; Land Clearing</a>
+          <a href="/services/tree-trimming-pruning" class="related-link"><i class="icon-scissors"></i> Tree Trimming &amp; Pruning</a>
+          <a href="/services/tree-removal" class="related-link"><i class="icon-axe"></i> Tree Removal</a>
+          <a href="/services/lot-land-clearing" class="related-link"><i class="icon-trees"></i> Lot &amp; Land Clearing</a>
         </div>
       </div>
       <div class="closing-cta">

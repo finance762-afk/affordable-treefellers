@@ -132,12 +132,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div data-animate="fade-up">
           <h2 class="section-title">Why You Shouldn't Leave That Stump</h2>
           <ul class="check-list">
-            <li><i class="lucide-check"></i> <span><strong>Tripping hazard</strong> — especially in yards where kids play or guests walk</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Pest magnet</strong> — decaying stumps attract termites, carpenter ants, and beetles</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Fungal spread</strong> — root rot and fungi can spread to healthy trees nearby</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Mowing obstacle</strong> — stumps damage mower blades and make lawn care frustrating</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Regrowth suckers</strong> — some species send up shoots that require constant cutting</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Property value</strong> — stumps reduce curb appeal and can complicate property sales</span></li>
+            <li><i class="icon-check"></i> <span><strong>Tripping hazard</strong> — especially in yards where kids play or guests walk</span></li>
+            <li><i class="icon-check"></i> <span><strong>Pest magnet</strong> — decaying stumps attract termites, carpenter ants, and beetles</span></li>
+            <li><i class="icon-check"></i> <span><strong>Fungal spread</strong> — root rot and fungi can spread to healthy trees nearby</span></li>
+            <li><i class="icon-check"></i> <span><strong>Mowing obstacle</strong> — stumps damage mower blades and make lawn care frustrating</span></li>
+            <li><i class="icon-check"></i> <span><strong>Regrowth suckers</strong> — some species send up shoots that require constant cutting</span></li>
+            <li><i class="icon-check"></i> <span><strong>Property value</strong> — stumps reduce curb appeal and can complicate property sales</span></li>
           </ul>
         </div>
         <div class="svc-img" data-animate="wipe-right">
@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">After the stump is ground, you're left with a pile of wood chips filling the hole. Most homeowners leave these in place and let them decompose naturally — they break down into the soil within a season. If you want to reseed grass immediately, we can haul away the chips and bring in topsoil for a clean starting surface.</p>
           <p class="prose" style="margin-top: var(--space-md);"><strong>Can you plant a new tree where the stump was?</strong> Yes, but wait 1&ndash;2 seasons for the grindings to decompose and the soil to settle. Plant the new tree slightly offset from the original stump location for best root establishment.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
-            <i class="lucide-settings"></i>
+            <i class="icon-settings"></i>
             <p><strong>Professional-Grade Equipment</strong> — We use a commercial stump grinder that handles stumps of any diameter, from 6-inch ornamentals to 36-inch hardwood trunks. The Vermeer BC1000 chipper processes all debris on-site.</p>
           </div>
         </div>
@@ -221,7 +221,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How much does stump grinding cost in Shawnee, KS?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">$100&ndash;$500+ depending on stump diameter. Small stumps under 12 inches start at $100&ndash;$150. Large stumps over 24 inches run $250&ndash;$500+. Multi-stump discounts make it more affordable when you have several to do at once.</div>
@@ -230,7 +230,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How deep does stump grinding go?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">We grind 6&ndash;12 inches below grade level. This is deep enough to reseed grass, install landscaping, or pour a concrete pad. Deeper grinding is available for specific construction projects that need complete root clearance.</div>
@@ -239,7 +239,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Can I plant a new tree where the stump was ground?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Yes. Wait 1&ndash;2 seasons for the wood chips to decompose and soil to settle. Remove excess grindings, add quality topsoil, and plant the new tree slightly offset from the original location for best root development.</div>
@@ -255,9 +255,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div style="margin-bottom: var(--space-2xl);">
         <h3>Related Services</h3>
         <div class="related-services" style="margin-top: var(--space-md);">
-          <a href="/services/tree-removal" class="related-link"><i class="lucide-axe"></i> Tree Removal</a>
-          <a href="/services/lot-land-clearing" class="related-link"><i class="lucide-trees"></i> Lot &amp; Land Clearing</a>
-          <a href="/services/commercial-residential-tree-care" class="related-link"><i class="lucide-building-2"></i> Commercial &amp; Residential Care</a>
+          <a href="/services/tree-removal" class="related-link"><i class="icon-axe"></i> Tree Removal</a>
+          <a href="/services/lot-land-clearing" class="related-link"><i class="icon-trees"></i> Lot &amp; Land Clearing</a>
+          <a href="/services/commercial-residential-tree-care" class="related-link"><i class="icon-building-2"></i> Commercial &amp; Residential Care</a>
         </div>
       </div>
       <div class="closing-cta">

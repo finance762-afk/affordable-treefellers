@@ -91,10 +91,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Emergency Banner -->
   <div class="trust-strip" style="background: #b91c1c;">
     <div class="container">
-      <div class="trust-badge"><i class="lucide-zap"></i> 24/7 Emergency Response</div>
-      <div class="trust-badge"><i class="lucide-clock"></i> Under 2-Hour Response Time</div>
-      <div class="trust-badge"><i class="lucide-shield-check"></i> Licensed &amp; Insured</div>
-      <div class="trust-badge"><i class="lucide-file-text"></i> Insurance Claim Support</div>
+      <div class="trust-badge"><i class="icon-zap"></i> 24/7 Emergency Response</div>
+      <div class="trust-badge"><i class="icon-clock"></i> Under 2-Hour Response Time</div>
+      <div class="trust-badge"><i class="icon-shield-check"></i> Licensed &amp; Insured</div>
+      <div class="trust-badge"><i class="icon-file-text"></i> Insurance Claim Support</div>
     </div>
   </div>
 
@@ -122,12 +122,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <span class="eyebrow-label">Emergency Services</span>
           <h2 class="section-title">What We Handle After a Storm</h2>
           <ul class="check-list">
-            <li><i class="lucide-check"></i> <span><strong>Trees on homes and roofs</strong> — careful removal to minimize further structural damage</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Trees on vehicles</strong> — safe extraction and debris cleanup</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Trees blocking roads and driveways</strong> — fast clearance to restore access</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Hanging limbs and widow makers</strong> — dangerous branches that haven't fallen yet</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Trees on fences and power lines</strong> — we coordinate with utilities when needed</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Full yard debris cleanup</strong> — chipping, hauling, and site restoration</span></li>
+            <li><i class="icon-check"></i> <span><strong>Trees on homes and roofs</strong> — careful removal to minimize further structural damage</span></li>
+            <li><i class="icon-check"></i> <span><strong>Trees on vehicles</strong> — safe extraction and debris cleanup</span></li>
+            <li><i class="icon-check"></i> <span><strong>Trees blocking roads and driveways</strong> — fast clearance to restore access</span></li>
+            <li><i class="icon-check"></i> <span><strong>Hanging limbs and widow makers</strong> — dangerous branches that haven't fallen yet</span></li>
+            <li><i class="icon-check"></i> <span><strong>Trees on fences and power lines</strong> — we coordinate with utilities when needed</span></li>
+            <li><i class="icon-check"></i> <span><strong>Full yard debris cleanup</strong> — chipping, hauling, and site restoration</span></li>
           </ul>
         </div>
       </div>
@@ -155,7 +155,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <h2>Don't Wait — Call Now</h2>
         <p class="prose" style="color: rgba(255,255,255,0.9); font-size: 1.1rem;">Every hour a damaged tree sits on your property increases the risk of further damage. Water intrusion through a compromised roof can cause thousands in additional repairs. We respond fast so you can start recovering.</p>
         <a href="tel:+18165093232" class="storm-phone">(816) 509-3232</a>
-        <div class="storm-badge"><i class="lucide-clock"></i> Answering calls 24/7 — even at 3AM</div>
+        <div class="storm-badge"><i class="icon-clock"></i> Answering calls 24/7 — even at 3AM</div>
       </div>
     </div>
   </section>
@@ -186,7 +186,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How fast can you respond to storm damage in Shawnee?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">We typically reach properties within our 30-mile service area in under 2 hours. Safety hazards — trees on structures, blocking roads, or entangled in power lines — are always prioritized. Call <a href="tel:+18165093232">(816) 509-3232</a> any time, day or night.</div>
@@ -195,7 +195,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Does homeowners insurance cover storm damage tree removal?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Usually yes, when a tree damages an insured structure (home, garage, fence, vehicle). Trees that fall in open yard areas may not be covered. We provide documentation and work with adjusters to support your claim. Check your specific policy for details.</div>
@@ -204,7 +204,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             A tree fell on my house — what should I do first?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Ensure everyone is safe and evacuate from under compromised areas. Call us for emergency removal, then contact your insurance company. Don't attempt to move the tree yourself. We can assist with emergency tarping to prevent further water damage during removal.</div>
@@ -220,9 +220,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div style="margin-bottom: var(--space-2xl);">
         <h3>Related Services</h3>
         <div class="related-services" style="margin-top: var(--space-md);">
-          <a href="/services/tree-removal" class="related-link"><i class="lucide-axe"></i> Tree Removal</a>
-          <a href="/services/tree-trimming-pruning" class="related-link"><i class="lucide-scissors"></i> Tree Trimming (Storm Prep)</a>
-          <a href="/services/stump-grinding" class="related-link"><i class="lucide-circle-dot"></i> Stump Grinding</a>
+          <a href="/services/tree-removal" class="related-link"><i class="icon-axe"></i> Tree Removal</a>
+          <a href="/services/tree-trimming-pruning" class="related-link"><i class="icon-scissors"></i> Tree Trimming (Storm Prep)</a>
+          <a href="/services/stump-grinding" class="related-link"><i class="icon-circle-dot"></i> Stump Grinding</a>
         </div>
       </div>
       <div class="closing-cta">

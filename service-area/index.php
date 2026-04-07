@@ -108,45 +108,45 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <!-- Johnson County -->
         <div data-animate="fade-up">
-          <h3 style="font-size: 1.1rem; margin-bottom: var(--space-md); color: var(--primary);"><i class="lucide-map-pin" style="margin-right: var(--space-xs);"></i> Johnson County</h3>
+          <h3 style="font-size: 1.1rem; margin-bottom: var(--space-md); color: var(--primary);"><i class="icon-map-pin" style="margin-right: var(--space-xs);"></i> Johnson County</h3>
           <ul class="check-list">
-            <li><i class="lucide-check"></i> <span><strong>Shawnee</strong> — our home base</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Overland Park</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Olathe</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Lenexa</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Merriam</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Mission</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Prairie Village</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Leawood</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Gardner</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Spring Hill</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>De Soto</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Edgerton</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Shawnee</strong> — our home base</span></li>
+            <li><i class="icon-check"></i> <span><strong>Overland Park</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Olathe</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Lenexa</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Merriam</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Mission</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Prairie Village</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Leawood</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Gardner</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Spring Hill</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>De Soto</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Edgerton</strong></span></li>
           </ul>
         </div>
 
         <!-- Wyandotte County -->
         <div data-animate="fade-up">
-          <h3 style="font-size: 1.1rem; margin-bottom: var(--space-md); color: var(--primary);"><i class="lucide-map-pin" style="margin-right: var(--space-xs);"></i> Wyandotte County</h3>
+          <h3 style="font-size: 1.1rem; margin-bottom: var(--space-md); color: var(--primary);"><i class="icon-map-pin" style="margin-right: var(--space-xs);"></i> Wyandotte County</h3>
           <ul class="check-list">
-            <li><i class="lucide-check"></i> <span><strong>Kansas City, KS</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Bonner Springs</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Edwardsville</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Kansas City, KS</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Bonner Springs</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Edwardsville</strong></span></li>
           </ul>
-          <h3 style="font-size: 1.1rem; margin: var(--space-xl) 0 var(--space-md); color: var(--primary);"><i class="lucide-map-pin" style="margin-right: var(--space-xs);"></i> Leavenworth County</h3>
+          <h3 style="font-size: 1.1rem; margin: var(--space-xl) 0 var(--space-md); color: var(--primary);"><i class="icon-map-pin" style="margin-right: var(--space-xs);"></i> Leavenworth County</h3>
           <ul class="check-list">
-            <li><i class="lucide-check"></i> <span><strong>Basehor</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Tonganoxie</strong></span></li>
-            <li><i class="lucide-check"></i> <span><strong>Leavenworth</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Basehor</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Tonganoxie</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Leavenworth</strong></span></li>
           </ul>
         </div>
 
         <!-- Douglas County / Extended -->
         <div data-animate="fade-up">
-          <h3 style="font-size: 1.1rem; margin-bottom: var(--space-md); color: var(--primary);"><i class="lucide-map-pin" style="margin-right: var(--space-xs);"></i> Extended Area</h3>
+          <h3 style="font-size: 1.1rem; margin-bottom: var(--space-md); color: var(--primary);"><i class="icon-map-pin" style="margin-right: var(--space-xs);"></i> Extended Area</h3>
           <ul class="check-list">
-            <li><i class="lucide-check"></i> <span><strong>Lawrence area</strong> (edge of range)</span></li>
-            <li><i class="lucide-check"></i> <span><strong>Eudora</strong></span></li>
+            <li><i class="icon-check"></i> <span><strong>Lawrence area</strong> (edge of range)</span></li>
+            <li><i class="icon-check"></i> <span><strong>Eudora</strong></span></li>
           </ul>
           <div style="background: var(--bg-alt); padding: var(--space-lg); border-radius: 4px; margin-top: var(--space-xl);">
             <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-light);"><strong style="color: var(--text);">Not sure if you're in our area?</strong> If you're within roughly 40 miles of Shawnee on the Kansas side, we can probably get to you. Call and ask — we'll let you know.</p>
@@ -166,40 +166,40 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="grid-3" data-stagger>
         <a href="/services/tree-removal" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="lucide-axe"></i></div>
+          <div class="card-icon"><i class="icon-axe"></i></div>
           <h3>Tree Removal</h3>
           <p>Dead, hazardous, and unwanted trees removed safely with our bucket truck and professional equipment.</p>
-          <span class="card-link">Learn More <i class="lucide-arrow-right"></i></span>
+          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
         </a>
         <a href="/services/tree-trimming-pruning" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="lucide-scissors"></i></div>
+          <div class="card-icon"><i class="icon-scissors"></i></div>
           <h3>Tree Trimming &amp; Pruning</h3>
           <p>Crown thinning, deadwood removal, and clearance trimming for healthy, well-maintained trees.</p>
-          <span class="card-link">Learn More <i class="lucide-arrow-right"></i></span>
+          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
         </a>
         <a href="/services/stump-grinding" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="lucide-circle-dot"></i></div>
+          <div class="card-icon"><i class="icon-circle-dot"></i></div>
           <h3>Stump Grinding</h3>
           <p>Stumps ground 6&ndash;12 inches below grade so you can reclaim your yard.</p>
-          <span class="card-link">Learn More <i class="lucide-arrow-right"></i></span>
+          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
         </a>
         <a href="/services/storm-damage-cleanup" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="lucide-cloud-lightning"></i></div>
+          <div class="card-icon"><i class="icon-cloud-lightning"></i></div>
           <h3>Storm Damage Cleanup</h3>
           <p>24/7 emergency response for fallen trees and storm debris across the entire service area.</p>
-          <span class="card-link">Learn More <i class="lucide-arrow-right"></i></span>
+          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
         </a>
         <a href="/services/commercial-residential-tree-care" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="lucide-building-2"></i></div>
+          <div class="card-icon"><i class="icon-building-2"></i></div>
           <h3>Commercial &amp; Residential</h3>
           <p>Ongoing maintenance for homeowners, property managers, and commercial properties.</p>
-          <span class="card-link">Learn More <i class="lucide-arrow-right"></i></span>
+          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
         </a>
         <a href="/services/lot-land-clearing" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="lucide-trees"></i></div>
+          <div class="card-icon"><i class="icon-trees"></i></div>
           <h3>Lot &amp; Land Clearing</h3>
           <p>Complete site clearing for construction, fencing, and overgrown property cleanup.</p>
-          <span class="card-link">Learn More <i class="lucide-arrow-right"></i></span>
+          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
         </a>
       </div>
     </div>

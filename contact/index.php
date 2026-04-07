@@ -120,7 +120,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
           <!-- Emergency Callout -->
           <div style="background: #b91c1c; color: #fff; padding: var(--space-xl); border-radius: 4px; text-align: center; margin-bottom: var(--space-xl);">
-            <i class="lucide-zap" style="font-size: 2rem; margin-bottom: var(--space-sm); display: block;"></i>
+            <i class="icon-zap" style="font-size: 2rem; margin-bottom: var(--space-sm); display: block;"></i>
             <h3 style="color: #fff; font-size: 1.2rem; margin-bottom: var(--space-sm);">Tree Emergency?</h3>
             <p style="font-size: 0.9rem; margin-bottom: var(--space-md); opacity: 0.9;">Fallen tree on your home, vehicle, or blocking your driveway? Don't wait for a form response.</p>
             <a href="tel:+18165093232" style="font-family: 'Oswald', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--accent); display: block;">Call (816) 509-3232</a>
@@ -133,7 +133,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
             <div style="display: flex; flex-direction: column; gap: var(--space-lg);">
               <div style="display: flex; align-items: flex-start; gap: var(--space-md);">
-                <i class="lucide-phone" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
+                <i class="icon-phone" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
                 <div>
                   <strong>Phone</strong><br>
                   <a href="tel:+18165093232" style="color: var(--primary); font-weight: 600;">(816) 509-3232</a>
@@ -141,7 +141,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               </div>
 
               <div style="display: flex; align-items: flex-start; gap: var(--space-md);">
-                <i class="lucide-mail" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
+                <i class="icon-mail" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
                 <div>
                   <strong>Email</strong><br>
                   <a href="mailto:bigvermont@hotmail.com" style="color: var(--primary);">bigvermont@hotmail.com</a>
@@ -149,7 +149,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               </div>
 
               <div style="display: flex; align-items: flex-start; gap: var(--space-md);">
-                <i class="lucide-clock" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
+                <i class="icon-clock" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
                 <div>
                   <strong>Hours</strong><br>
                   Mon&ndash;Sat: 9:00 AM &ndash; 5:00 PM<br>
@@ -158,7 +158,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               </div>
 
               <div style="display: flex; align-items: flex-start; gap: var(--space-md);">
-                <i class="lucide-map-pin" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
+                <i class="icon-map-pin" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
                 <div>
                   <strong>Service Area</strong><br>
                   Shawnee, KS<br>

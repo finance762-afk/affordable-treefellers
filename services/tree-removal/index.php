@@ -132,12 +132,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <span class="eyebrow-label">When Removal Is the Right Call</span>
           <h2 class="section-title">Signs a Tree Needs to Come Down</h2>
           <ul class="check-list">
-            <li><i class="lucide-check"></i> <span>Dead or dying — no leaf growth, peeling bark, fungal growth at the base</span></li>
-            <li><i class="lucide-check"></i> <span>Leaning dangerously toward your home, garage, or fence line</span></li>
-            <li><i class="lucide-check"></i> <span>Storm-damaged trunk with visible cracks or split crotches</span></li>
-            <li><i class="lucide-check"></i> <span>Root damage compromising your foundation, sidewalk, or driveway</span></li>
-            <li><i class="lucide-check"></i> <span>Blocking construction, new landscaping, or solar panel installation</span></li>
-            <li><i class="lucide-check"></i> <span>Diseased — emerald ash borer, oak wilt, Dutch elm disease spreading to healthy trees</span></li>
+            <li><i class="icon-check"></i> <span>Dead or dying — no leaf growth, peeling bark, fungal growth at the base</span></li>
+            <li><i class="icon-check"></i> <span>Leaning dangerously toward your home, garage, or fence line</span></li>
+            <li><i class="icon-check"></i> <span>Storm-damaged trunk with visible cracks or split crotches</span></li>
+            <li><i class="icon-check"></i> <span>Root damage compromising your foundation, sidewalk, or driveway</span></li>
+            <li><i class="icon-check"></i> <span>Blocking construction, new landscaping, or solar panel installation</span></li>
+            <li><i class="icon-check"></i> <span>Diseased — emerald ash borer, oak wilt, Dutch elm disease spreading to healthy trees</span></li>
           </ul>
           <p class="prose" style="margin-top: var(--space-lg); color: var(--text-light);">Not sure if removal is necessary? We assess every tree on-site and only recommend removal when trimming won't solve the problem. If <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">trimming or pruning</a> can save the tree, we'll tell you.</p>
         </div>
@@ -169,7 +169,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">Built for the Toughest Jobs</h2>
           <p class="prose">Every removal starts with the right tools. Our fleet includes a bucket truck with a 60+ foot reach for high canopy access, Stihl MS 461 and MS 661 chainsaws for efficient cutting, a Vermeer BC1000 chipper for on-site debris processing, and professional rigging equipment for controlled sectional removal near structures.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
-            <i class="lucide-truck"></i>
+            <i class="icon-truck"></i>
             <p><strong>USDOT #3421117</strong> — Our equipment is DOT-registered for safe transport across Johnson County and the KC metro. Licensed and insured for your protection.</p>
           </div>
         </div>
@@ -223,11 +223,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">What Types of Trees Do We Remove?</h2>
           <p class="prose">We handle all species common to the Shawnee and Johnson County area — oaks, elms, maples, ash, Bradford pears, cottonwoods, cedars, and more. No tree is too big or too small. Our crew regularly takes down:</p>
           <ul class="check-list" style="margin-top: var(--space-md);">
-            <li><i class="lucide-check"></i> <span>Dead or dying trees that pose a falling hazard</span></li>
-            <li><i class="lucide-check"></i> <span>Storm-damaged trees with cracked trunks or hanging limbs</span></li>
-            <li><i class="lucide-check"></i> <span>Large trees too close to homes, garages, or fences</span></li>
-            <li><i class="lucide-check"></i> <span>Trees interfering with new construction or landscaping plans</span></li>
-            <li><i class="lucide-check"></i> <span>Diseased trees spreading infection to neighboring trees</span></li>
+            <li><i class="icon-check"></i> <span>Dead or dying trees that pose a falling hazard</span></li>
+            <li><i class="icon-check"></i> <span>Storm-damaged trees with cracked trunks or hanging limbs</span></li>
+            <li><i class="icon-check"></i> <span>Large trees too close to homes, garages, or fences</span></li>
+            <li><i class="icon-check"></i> <span>Trees interfering with new construction or landscaping plans</span></li>
+            <li><i class="icon-check"></i> <span>Diseased trees spreading infection to neighboring trees</span></li>
           </ul>
           <p class="prose" style="margin-top: var(--space-lg);">Need the stump gone too? We offer <a href="/services/stump-grinding" style="color: var(--primary); font-weight: 600;">stump grinding</a> as an add-on to any removal job — often at a discounted rate when bundled.</p>
         </div>
@@ -245,7 +245,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How much does tree removal cost in Shawnee, KS?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Most residential tree removals in Shawnee cost between $300 and $2,500+. The main factors are height, trunk diameter, and proximity to structures or power lines. Small trees on open lots are the least expensive. Large hardwoods near homes require more equipment and labor. We always provide a free, firm estimate before starting.</div>
@@ -254,7 +254,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Do I need a permit to remove a tree in Shawnee, Kansas?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">No permit is required for removing trees on private residential property in Shawnee. However, trees in the city right-of-way or protected under HOA covenants may have restrictions. Contact the City of Shawnee Public Works or your HOA for specifics. We can help you figure this out during your estimate.</div>
@@ -263,7 +263,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How long does a tree removal take?
-            <i class="lucide-chevron-down"></i>
+            <i class="icon-chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Most residential removals take half a day to a full day. Small backyard trees can be down in 2&ndash;3 hours. Large hardwoods near structures may take a full day with careful sectional cutting. The timeline depends on size, location, and how much rigging is required for safe removal.</div>
@@ -279,9 +279,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div style="margin-bottom: var(--space-2xl);">
         <h3>Related Services</h3>
         <div class="related-services" style="margin-top: var(--space-md);">
-          <a href="/services/stump-grinding" class="related-link"><i class="lucide-circle-dot"></i> Stump Grinding</a>
-          <a href="/services/storm-damage-cleanup" class="related-link"><i class="lucide-cloud-lightning"></i> Storm Damage Cleanup</a>
-          <a href="/services/lot-land-clearing" class="related-link"><i class="lucide-trees"></i> Lot &amp; Land Clearing</a>
+          <a href="/services/stump-grinding" class="related-link"><i class="icon-circle-dot"></i> Stump Grinding</a>
+          <a href="/services/storm-damage-cleanup" class="related-link"><i class="icon-cloud-lightning"></i> Storm Damage Cleanup</a>
+          <a href="/services/lot-land-clearing" class="related-link"><i class="icon-trees"></i> Lot &amp; Land Clearing</a>
         </div>
       </div>
       <div class="closing-cta">
