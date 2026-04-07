@@ -26,8 +26,7 @@
   <!-- Preload Heading Font -->
   <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2" crossorigin>
 
-  <!-- Icons — Lucide -->
-  <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+  <!-- Icons — Lucide (loaded in footer) -->
 
   <!-- Swiper CSS (conditional) -->
   <?php if (!empty($useSwiper)): ?>

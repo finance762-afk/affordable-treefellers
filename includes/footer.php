@@ -28,21 +28,21 @@
         <!-- Contact -->
         <div class="footer-contact">
           <h4>Contact Us</h4>
-          <p><a href="tel:+18165093232"><i class="icon-phone"></i> (816) 509-3232</a></p>
-          <p><a href="mailto:bigvermont@hotmail.com"><i class="icon-mail"></i> bigvermont@hotmail.com</a></p>
-          <p><i class="icon-map-pin"></i> Shawnee, Kansas</p>
-          <p><i class="icon-clock"></i> Mon&ndash;Sat 9AM&ndash;5PM</p>
-          <p><i class="icon-zap"></i> 24/7 Emergency Service</p>
+          <p><a href="tel:+18165093232"><i data-lucide="phone"></i> (816) 509-3232</a></p>
+          <p><a href="mailto:bigvermont@hotmail.com"><i data-lucide="mail"></i> bigvermont@hotmail.com</a></p>
+          <p><i data-lucide="map-pin"></i> Shawnee, Kansas</p>
+          <p><i data-lucide="clock"></i> Mon&ndash;Sat 9AM&ndash;5PM</p>
+          <p><i data-lucide="zap"></i> 24/7 Emergency Service</p>
         </div>
 
         <!-- Social -->
         <div class="footer-social">
           <h4>Find Us Online</h4>
           <div class="social-icons">
-            <a href="https://www.facebook.com/p/Affordable-Treefellers-100064671924544/" aria-label="Facebook" target="_blank" rel="noopener"><i class="icon-external-link"></i></a>
-            <a href="https://share.google/3DjlcRF61q4CUGWuE" aria-label="Google Business Profile" target="_blank" rel="noopener"><i class="icon-star"></i></a>
-            <a href="https://www.yelp.com/biz/affordable-treefellers-kansas-city" aria-label="Yelp" target="_blank" rel="noopener"><i class="icon-message-circle"></i></a>
-            <a href="https://nextdoor.com/pages/affordable-treefellers-shawnee-ks/" aria-label="Nextdoor" target="_blank" rel="noopener"><i class="icon-home"></i></a>
+            <a href="https://www.facebook.com/p/Affordable-Treefellers-100064671924544/" aria-label="Facebook" target="_blank" rel="noopener"><i data-lucide="external-link"></i></a>
+            <a href="https://share.google/3DjlcRF61q4CUGWuE" aria-label="Google Business Profile" target="_blank" rel="noopener"><i data-lucide="star"></i></a>
+            <a href="https://www.yelp.com/biz/affordable-treefellers-kansas-city" aria-label="Yelp" target="_blank" rel="noopener"><i data-lucide="message-circle"></i></a>
+            <a href="https://nextdoor.com/pages/affordable-treefellers-shawnee-ks/" aria-label="Nextdoor" target="_blank" rel="noopener"><i data-lucide="home"></i></a>
           </div>
         </div>
 
@@ -60,8 +60,12 @@
 
 <!-- Back to Top -->
 <button class="back-to-top" aria-label="Back to top">
-  <i class="icon-chevron-up"></i>
+  <i data-lucide="chevron-up"></i>
 </button>
+
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script>lucide.createIcons();</script>
 
 <!-- Scripts -->
 <script src="/assets/js/animations.js" defer></script>

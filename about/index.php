@@ -126,14 +126,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <p>Having the right equipment means we can handle jobs safely, efficiently, and without subcontracting — which keeps your costs down and the quality consistent. Our fleet includes:</p>
           </div>
           <ul class="check-list" style="margin-top: var(--space-md);">
-            <li><i class="icon-check"></i> <span><strong>Bucket truck</strong> — 60+ foot reach for high canopy trimming and sectional removal without climbing</span></li>
-            <li><i class="icon-check"></i> <span><strong>Vermeer BC1000 wood chipper</strong> — processes all branches and brush on-site, reducing debris to manageable chips</span></li>
-            <li><i class="icon-check"></i> <span><strong>Stihl professional chainsaws</strong> — MS 461 and MS 661 models for precision cutting on jobs large and small</span></li>
-            <li><i class="icon-check"></i> <span><strong>Commercial stump grinder</strong> — handles stumps of any diameter, grinding 6&ndash;12 inches below grade</span></li>
-            <li><i class="icon-check"></i> <span><strong>Rigging systems</strong> — for controlled removal of trees in tight spaces near structures and power lines</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Bucket truck</strong> — 60+ foot reach for high canopy trimming and sectional removal without climbing</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Vermeer BC1000 wood chipper</strong> — processes all branches and brush on-site, reducing debris to manageable chips</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Stihl professional chainsaws</strong> — MS 461 and MS 661 models for precision cutting on jobs large and small</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Commercial stump grinder</strong> — handles stumps of any diameter, grinding 6&ndash;12 inches below grade</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Rigging systems</strong> — for controlled removal of trees in tight spaces near structures and power lines</span></li>
           </ul>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
-            <i class="icon-shield-check"></i>
+            <i data-lucide="shield-check"></i>
             <p><strong>USDOT #3421117</strong> — All equipment is registered with the U.S. Department of Transportation for safe, legal highway transport. Fully licensed and insured.</p>
           </div>
         </div>
@@ -172,19 +172,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">What You Can Expect</h2>
           <ul class="benefit-list">
             <li>
-              <span class="benefit-icon"><i class="icon-user-check"></i></span>
+              <span class="benefit-icon"><i data-lucide="user-check"></i></span>
               <span><strong>Owner on the job</strong> — Eric supervises every major project personally. You're not handed off to a random crew.</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="icon-dollar-sign"></i></span>
+              <span class="benefit-icon"><i data-lucide="dollar-sign"></i></span>
               <span><strong>Honest pricing</strong> — the quote we give is the price you pay. No hidden fees, no pressure upsells, no per-branch surprises after we start.</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="icon-clock"></i></span>
+              <span class="benefit-icon"><i data-lucide="clock"></i></span>
               <span><strong>Show up when we say we will</strong> — we respect your time. Scheduled appointments are kept, not bumped for bigger jobs.</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="icon-sparkles"></i></span>
+              <span class="benefit-icon"><i data-lucide="sparkles"></i></span>
               <span><strong>Clean site when we leave</strong> — every branch, every chip, every piece of debris. Your yard looks better than before we arrived.</span>
             </li>
           </ul>
@@ -201,17 +201,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="grid-3" style="text-align: center;" data-stagger>
         <div data-animate="fade-up">
-          <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i class="icon-shield-check"></i></div>
+          <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i data-lucide="shield-check"></i></div>
           <h3 style="font-size: 1rem;">Licensed &amp; Insured</h3>
           <p style="color: var(--text-light); font-size: 0.9rem; margin-top: var(--space-xs);">Liability insurance and workers' compensation coverage on every job</p>
         </div>
         <div data-animate="fade-up">
-          <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i class="icon-truck"></i></div>
+          <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i data-lucide="truck"></i></div>
           <h3 style="font-size: 1rem;">USDOT #3421117</h3>
           <p style="color: var(--text-light); font-size: 0.9rem; margin-top: var(--space-xs);">Registered with the U.S. Department of Transportation for equipment transport</p>
         </div>
         <div data-animate="fade-up">
-          <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i class="icon-calendar-check"></i></div>
+          <div style="font-size: 2.5rem; color: var(--primary); margin-bottom: var(--space-sm);"><i data-lucide="calendar-check"></i></div>
           <h3 style="font-size: 1rem;">Established 2013</h3>
           <p style="color: var(--text-light); font-size: 0.9rem; margin-top: var(--space-xs);">Over a decade of tree work in the Shawnee and Kansas City, KS area</p>
         </div>

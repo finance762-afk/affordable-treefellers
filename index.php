@@ -155,11 +155,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- ===== TRUST BADGE STRIP ===== -->
   <div class="trust-strip">
     <div class="container">
-      <div class="trust-badge"><i class="icon-shield-check"></i> Licensed &amp; Insured</div>
-      <div class="trust-badge"><i class="icon-calendar-check"></i> 10+ Years Experience</div>
-      <div class="trust-badge"><i class="icon-zap"></i> 24/7 Emergency</div>
-      <div class="trust-badge"><i class="icon-clipboard-check"></i> Free Estimates</div>
-      <div class="trust-badge"><i class="icon-truck"></i> USDOT Registered</div>
+      <div class="trust-badge"><i data-lucide="shield-check"></i> Licensed &amp; Insured</div>
+      <div class="trust-badge"><i data-lucide="calendar-check"></i> 10+ Years Experience</div>
+      <div class="trust-badge"><i data-lucide="zap"></i> 24/7 Emergency</div>
+      <div class="trust-badge"><i data-lucide="clipboard-check"></i> Free Estimates</div>
+      <div class="trust-badge"><i data-lucide="truck"></i> USDOT Registered</div>
     </div>
   </div>
 
@@ -179,40 +179,40 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="grid-3" data-stagger>
         <a href="/services/tree-removal" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="icon-axe"></i></div>
+          <div class="card-icon"><i data-lucide="axe"></i></div>
           <h3>Tree Removal</h3>
           <p>Safe removal of dead, dying, or hazardous trees from residential and commercial properties across Shawnee and Johnson County.</p>
-          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+          <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="/services/tree-trimming-pruning" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="icon-scissors"></i></div>
+          <div class="card-icon"><i data-lucide="scissors"></i></div>
           <h3>Tree Trimming &amp; Pruning</h3>
           <p>Precision trimming to maintain tree health, clear structures, and keep your property looking sharp year-round.</p>
-          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+          <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="/services/stump-grinding" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="icon-circle-dot"></i></div>
+          <div class="card-icon"><i data-lucide="circle-dot"></i></div>
           <h3>Stump Grinding &amp; Removal</h3>
           <p>Complete stump elimination below grade level so you can reclaim your yard without tripping hazards or regrowth.</p>
-          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+          <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="/services/storm-damage-cleanup" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="icon-cloud-lightning"></i></div>
+          <div class="card-icon"><i data-lucide="cloud-lightning"></i></div>
           <h3>Storm Damage Cleanup</h3>
           <p>24/7 emergency response for fallen trees, broken limbs, and storm debris blocking roads, roofs, or power lines.</p>
-          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+          <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="/services/commercial-residential-tree-care" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="icon-building-2"></i></div>
+          <div class="card-icon"><i data-lucide="building-2"></i></div>
           <h3>Commercial &amp; Residential Tree Care</h3>
           <p>Ongoing maintenance programs for property managers, HOAs, and homeowners who need consistent, reliable tree work.</p>
-          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+          <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="/services/lot-land-clearing" class="service-card" data-animate="fade-up">
-          <div class="card-icon"><i class="icon-trees"></i></div>
+          <div class="card-icon"><i data-lucide="trees"></i></div>
           <h3>Lot &amp; Land Clearing</h3>
           <p>Brush removal, tree clearing, and site prep for construction, fencing, or property development projects.</p>
-          <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+          <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
       </div>
     </div>
@@ -256,19 +256,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">When Eric Frauenknecht started Affordable Treefellers in 2013, the goal was simple: do honest tree work at fair prices. Over a decade later, that hasn't changed. Every job is owner-supervised, every estimate is free, and every crew member treats your property like their own.</p>
           <ul class="benefit-list">
             <li>
-              <span class="benefit-icon"><i class="icon-user-check"></i></span>
+              <span class="benefit-icon"><i data-lucide="user-check"></i></span>
               <span><strong>Owner-Operated</strong> &mdash; Eric is on every major job, not behind a desk</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="icon-dollar-sign"></i></span>
+              <span class="benefit-icon"><i data-lucide="dollar-sign"></i></span>
               <span><strong>Fair, Transparent Pricing</strong> &mdash; no hidden fees, no pressure upsells</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="icon-truck"></i></span>
+              <span class="benefit-icon"><i data-lucide="truck"></i></span>
               <span><strong>Full Equipment Fleet</strong> &mdash; bucket truck, Vermeer chipper, Stihl saws</span>
             </li>
             <li>
-              <span class="benefit-icon"><i class="icon-shield-check"></i></span>
+              <span class="benefit-icon"><i data-lucide="shield-check"></i></span>
               <span><strong>Licensed &amp; USDOT Registered</strong> &mdash; USDOT #3421117, fully insured</span>
             </li>
           </ul>
@@ -348,8 +348,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p class="prose" style="color: rgba(255,255,255,0.9); font-size: 1.1rem;">Fallen trees don't wait until business hours — and neither do we. Affordable Treefellers provides 24/7 emergency storm damage cleanup across the Kansas City, KS area. Downed trees on your roof, across your driveway, or tangled in power lines — call now and we'll be there.</p>
         <a href="tel:+18165093232" class="storm-phone">(816) 509-3232</a>
         <br>
-        <a href="/services/storm-damage-cleanup" class="btn-primary" style="background: var(--accent); box-shadow: 0 4px 0 #c48a1e;">Emergency Services <i class="icon-arrow-right"></i></a>
-        <div class="storm-badge"><i class="icon-clock"></i> Average response under 2 hours in our service area</div>
+        <a href="/services/storm-damage-cleanup" class="btn-primary" style="background: var(--accent); box-shadow: 0 4px 0 #c48a1e;">Emergency Services <i data-lucide="arrow-right"></i></a>
+        <div class="storm-badge"><i data-lucide="clock"></i> Average response under 2 hours in our service area</div>
       </div>
     </div>
   </section>
@@ -366,7 +366,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How much does tree removal cost in Shawnee, KS?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">
@@ -378,7 +378,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             When is the best time to trim trees in Kansas?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">
@@ -390,7 +390,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             What does stump grinding involve and how long does it take?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">
@@ -402,7 +402,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How fast can you respond to storm damage emergencies?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">
@@ -414,7 +414,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Are you licensed and insured for tree work in Kansas?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">

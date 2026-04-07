@@ -24,7 +24,7 @@
     </ul>
 
     <a href="tel:+18165093232" class="navbar-phone">
-      <i class="icon-phone"></i>
+      <i data-lucide="phone"></i>
       (816) 509-3232
     </a>
 
@@ -52,7 +52,7 @@
   <a href="/about" <?php if ($currentPage === 'about') echo 'aria-current="page"'; ?>>About</a>
   <a href="/contact" <?php if ($currentPage === 'contact') echo 'aria-current="page"'; ?>>Contact</a>
   <a href="tel:+18165093232" class="mobile-menu-phone">
-    <i class="icon-phone"></i>
+    <i data-lucide="phone"></i>
     (816) 509-3232
   </a>
 </div>

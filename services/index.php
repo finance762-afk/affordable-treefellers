@@ -79,7 +79,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="card-body">
             <h3>Tree Removal</h3>
             <p>Safe, complete removal of dead, hazardous, or unwanted trees. Bucket truck equipped for any height or access challenge.</p>
-            <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+            <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
           </div>
         </a>
 
@@ -90,7 +90,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="card-body">
             <h3>Tree Trimming &amp; Pruning</h3>
             <p>Crown thinning, deadwood removal, and shaping to keep trees healthy and clear of structures, fences, and power lines.</p>
-            <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+            <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
           </div>
         </a>
 
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="card-body">
             <h3>Stump Grinding &amp; Removal</h3>
             <p>Grind stumps 6&ndash;12 inches below grade so you can reclaim your yard, reseed, or build without obstruction.</p>
-            <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+            <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
           </div>
         </a>
 
@@ -112,7 +112,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="card-body">
             <h3>Storm Damage Cleanup</h3>
             <p>24/7 emergency response for fallen trees, broken limbs, and debris from Kansas storms, tornadoes, and ice events.</p>
-            <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+            <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
           </div>
         </a>
 
@@ -123,7 +123,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="card-body">
             <h3>Commercial &amp; Residential Tree Care</h3>
             <p>Ongoing maintenance for homeowners, property managers, HOAs, and commercial lots across the Kansas City, KS metro.</p>
-            <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+            <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
           </div>
         </a>
 
@@ -134,7 +134,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="card-body">
             <h3>Lot &amp; Land Clearing</h3>
             <p>Complete site clearing for new construction, fence lines, and overgrown properties. Trees, brush, and stumps removed.</p>
-            <span class="card-link">Learn More <i class="icon-arrow-right"></i></span>
+            <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
           </div>
         </a>
 

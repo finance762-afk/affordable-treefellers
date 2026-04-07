@@ -132,12 +132,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <span class="eyebrow-label">Common Projects</span>
           <h2 class="section-title">What People Clear Land For</h2>
           <ul class="check-list">
-            <li><i class="icon-check"></i> <span><strong>New construction</strong> — building pads, driveways, and utility access for new homes or additions</span></li>
-            <li><i class="icon-check"></i> <span><strong>Fence installation</strong> — clearing a clean line for new fencing along property boundaries</span></li>
-            <li><i class="icon-check"></i> <span><strong>Overgrown lot cleanup</strong> — restoring neglected or vacant properties to usable condition</span></li>
-            <li><i class="icon-check"></i> <span><strong>Commercial development</strong> — site prep for retail, office, or parking lot construction</span></li>
-            <li><i class="icon-check"></i> <span><strong>Garden or pool sites</strong> — clearing a specific area for landscaping, gardens, or outdoor structures</span></li>
-            <li><i class="icon-check"></i> <span><strong>Fire mitigation</strong> — creating defensible space around structures by removing overgrown brush</span></li>
+            <li><i data-lucide="check"></i> <span><strong>New construction</strong> — building pads, driveways, and utility access for new homes or additions</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Fence installation</strong> — clearing a clean line for new fencing along property boundaries</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Overgrown lot cleanup</strong> — restoring neglected or vacant properties to usable condition</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Commercial development</strong> — site prep for retail, office, or parking lot construction</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Garden or pool sites</strong> — clearing a specific area for landscaping, gardens, or outdoor structures</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Fire mitigation</strong> — creating defensible space around structures by removing overgrown brush</span></li>
           </ul>
           <p class="prose" style="margin-top: var(--space-md); color: var(--text-light);">Don't need the whole lot cleared? We handle partial clearing too — just the section you need, leaving the rest untouched.</p>
         </div>
@@ -203,13 +203,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">The Right Equipment for the Job</h2>
           <p class="prose">Land clearing is equipment-intensive work. We bring what's needed so the job moves efficiently and the site is left clean:</p>
           <ul class="check-list" style="margin-top: var(--space-md);">
-            <li><i class="icon-check"></i> <span><strong>Stihl professional chainsaws</strong> — MS 461 and MS 661 for felling and bucking</span></li>
-            <li><i class="icon-check"></i> <span><strong>Bucket truck</strong> — 60+ foot reach for tall trees that need sectional removal</span></li>
-            <li><i class="icon-check"></i> <span><strong>Vermeer BC1000 chipper</strong> — processes all wood and brush debris on-site</span></li>
-            <li><i class="icon-check"></i> <span><strong>Commercial stump grinder</strong> — grinds stumps 6&ndash;12 inches below grade</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Stihl professional chainsaws</strong> — MS 461 and MS 661 for felling and bucking</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Bucket truck</strong> — 60+ foot reach for tall trees that need sectional removal</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Vermeer BC1000 chipper</strong> — processes all wood and brush debris on-site</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Commercial stump grinder</strong> — grinds stumps 6&ndash;12 inches below grade</span></li>
           </ul>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
-            <i class="icon-truck"></i>
+            <i data-lucide="truck"></i>
             <p><strong>USDOT #3421117</strong> — All equipment is DOT-registered for safe highway transport. Licensed and insured for both residential and commercial clearing work.</p>
           </div>
         </div>
@@ -227,7 +227,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How much does lot clearing cost in Shawnee, KS?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Small residential lots under 1/4 acre with moderate brush start around $1,500&ndash;$3,000. Larger or heavily wooded parcels range from $3,000&ndash;$10,000+ depending on tree count and whether stumps need grinding. Free on-site estimates for every project.</div>
@@ -236,7 +236,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Do you handle stump removal during land clearing?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Yes. Our clearing service includes tree removal, brush clearing, and stump grinding as a complete package. All stumps are ground below grade so the lot is ready for construction, grading, or landscaping.</div>
@@ -245,7 +245,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Can you clear just part of a property?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Absolutely. Many projects only need a specific section — a fence line, a building pad, or the overgrown back portion of the lot. We clear exactly the area you mark and leave everything else untouched.</div>
@@ -261,9 +261,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div style="margin-bottom: var(--space-2xl);">
         <h3>Related Services</h3>
         <div class="related-services" style="margin-top: var(--space-md);">
-          <a href="/services/tree-removal" class="related-link"><i class="icon-axe"></i> Tree Removal</a>
-          <a href="/services/stump-grinding" class="related-link"><i class="icon-circle-dot"></i> Stump Grinding</a>
-          <a href="/services/commercial-residential-tree-care" class="related-link"><i class="icon-building-2"></i> Commercial &amp; Residential Care</a>
+          <a href="/services/tree-removal" class="related-link"><i data-lucide="axe"></i> Tree Removal</a>
+          <a href="/services/stump-grinding" class="related-link"><i data-lucide="circle-dot"></i> Stump Grinding</a>
+          <a href="/services/commercial-residential-tree-care" class="related-link"><i data-lucide="building-2"></i> Commercial &amp; Residential Care</a>
         </div>
       </div>
       <div class="closing-cta">

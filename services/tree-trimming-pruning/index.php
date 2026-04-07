@@ -140,12 +140,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <span class="eyebrow-label">What We Do</span>
           <h2 class="section-title">Trimming Services We Offer</h2>
           <ul class="check-list">
-            <li><i class="icon-check"></i> <span><strong>Crown thinning</strong> — selective removal of inner branches to improve airflow and light penetration</span></li>
-            <li><i class="icon-check"></i> <span><strong>Deadwood removal</strong> — eliminating dead and dying branches before they fall</span></li>
-            <li><i class="icon-check"></i> <span><strong>Crown raising</strong> — removing lower branches for clearance over walkways, driveways, and roofs</span></li>
-            <li><i class="icon-check"></i> <span><strong>Clearance trimming</strong> — cutting back branches from homes, fences, power lines, and other structures</span></li>
-            <li><i class="icon-check"></i> <span><strong>Shaping</strong> — restoring natural form to overgrown or lopsided trees</span></li>
-            <li><i class="icon-check"></i> <span><strong>Vista pruning</strong> — selective thinning to open up views without removing the tree</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Crown thinning</strong> — selective removal of inner branches to improve airflow and light penetration</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Deadwood removal</strong> — eliminating dead and dying branches before they fall</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Crown raising</strong> — removing lower branches for clearance over walkways, driveways, and roofs</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Clearance trimming</strong> — cutting back branches from homes, fences, power lines, and other structures</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Shaping</strong> — restoring natural form to overgrown or lopsided trees</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Vista pruning</strong> — selective thinning to open up views without removing the tree</span></li>
           </ul>
         </div>
       </div>
@@ -173,7 +173,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose">Kansas weather is hard on trees. Summer storms, ice loads in winter, straight-line winds, and occasional tornadoes all stress tree canopies. Regular trimming reduces wind resistance, removes deadwood before it becomes a projectile, and helps trees develop strong branch structure that withstands severe weather.</p>
           <p class="prose" style="margin-top: var(--space-md);">Beyond storm prep, trimming improves curb appeal, prevents branches from damaging roofing and siding, keeps sight lines clear for driveways and intersections, and promotes healthy growth patterns that extend your tree's lifespan by decades.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
-            <i class="icon-truck"></i>
+            <i data-lucide="truck"></i>
             <p><strong>Bucket Truck Access</strong> — Our 60+ foot bucket truck reaches high canopies safely without climbing, reducing damage to your tree and our crew's risk. Ideal for large oaks, elms, and cottonwoods common in Johnson County.</p>
           </div>
         </div>
@@ -226,7 +226,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             How much does tree trimming cost in Shawnee, KS?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Trimming typically costs $150&ndash;$1,200+ depending on tree size, count, and difficulty. Small ornamentals start around $150&ndash;$300. Large shade trees requiring bucket truck access run $500&ndash;$1,200+. We provide free estimates and never charge hidden fees.</div>
@@ -235,7 +235,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             When is the best time to trim trees in Kansas?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Most hardwoods should be trimmed during dormancy — late November through early March. Dead or dangerous branches should be removed any time of year. Spring-flowering trees are best trimmed right after blooming. We can advise on the ideal timing for your specific species.</div>
@@ -244,7 +244,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             Can you trim branches near power lines?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Yes. Our bucket truck allows safe, elevated access for trimming near power lines without climbing. For branches in direct contact with high-voltage lines, we coordinate with the local utility. Never attempt to trim near power lines yourself — always call a professional.</div>
@@ -253,7 +253,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             What is the difference between trimming and pruning?
-            <i class="icon-chevron-down"></i>
+            <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">Trimming cuts back overgrowth for shape and clearance. Pruning is more targeted — removing dead, diseased, or structurally weak branches to improve tree health. Most jobs involve some of both. We assess what each tree needs during the free estimate.</div>
@@ -269,9 +269,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div style="margin-bottom: var(--space-2xl);">
         <h3>Related Services</h3>
         <div class="related-services" style="margin-top: var(--space-md);">
-          <a href="/services/tree-removal" class="related-link"><i class="icon-axe"></i> Tree Removal</a>
-          <a href="/services/storm-damage-cleanup" class="related-link"><i class="icon-cloud-lightning"></i> Storm Damage Cleanup</a>
-          <a href="/services/commercial-residential-tree-care" class="related-link"><i class="icon-building-2"></i> Commercial &amp; Residential Care</a>
+          <a href="/services/tree-removal" class="related-link"><i data-lucide="axe"></i> Tree Removal</a>
+          <a href="/services/storm-damage-cleanup" class="related-link"><i data-lucide="cloud-lightning"></i> Storm Damage Cleanup</a>
+          <a href="/services/commercial-residential-tree-care" class="related-link"><i data-lucide="building-2"></i> Commercial &amp; Residential Care</a>
         </div>
       </div>
       <div class="closing-cta">
