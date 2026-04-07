@@ -225,7 +225,7 @@ h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
 }
 .has-dropdown:hover .dropdown,
 .has-dropdown:focus-within .dropdown {
-  display: block;
+  display: block !important;
 }
 .dropdown li {
   list-style: none;

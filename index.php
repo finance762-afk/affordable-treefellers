@@ -246,7 +246,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split">
-        <div class="trust-img-wrap" data-animate="wipe-right">
+        <div class="trust-img-wrap">
           <img src="https://i.imgur.com/o052yR4.jpeg" alt="Affordable Treefellers crew members in safety gear in Shawnee, Kansas" width="800" height="600" loading="lazy">
           <span class="trust-img-accent">Owner-Operated Since 2013</span>
         </div>

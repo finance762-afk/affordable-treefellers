@@ -9,7 +9,7 @@
       <li><a href="/" <?php if ($currentPage === 'home') echo 'aria-current="page"'; ?>>Home</a></li>
       <li class="has-dropdown">
         <a href="/services" <?php if ($currentPage === 'services') echo 'aria-current="page"'; ?>>Services</a>
-        <ul class="dropdown" role="menu">
+        <ul class="dropdown" role="menu" style="display:none">
           <li role="none"><a role="menuitem" href="/services/tree-removal">Tree Removal</a></li>
           <li role="none"><a role="menuitem" href="/services/tree-trimming-pruning">Tree Trimming &amp; Pruning</a></li>
           <li role="none"><a role="menuitem" href="/services/stump-grinding">Stump Grinding</a></li>
