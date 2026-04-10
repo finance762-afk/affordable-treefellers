@@ -89,7 +89,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="prose" data-animate="fade-up">
-        <p style="font-size: 1.1rem; line-height: 1.7;">Whether you're a homeowner with a few backyard trees or a property manager responsible for dozens across a commercial campus, Affordable Treefellers provides the same level of professional service at a fair price. We handle <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">trimming</a>, <a href="/services/tree-removal" style="color: var(--primary); font-weight: 600;">removal</a>, <a href="/services/stump-grinding" style="color: var(--primary); font-weight: 600;">stump grinding</a>, and ongoing maintenance plans for properties of every size in Shawnee, Kansas and throughout the greater Kansas City, KS metro area.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Affordable Treefellers handles tree care for residential homeowners and commercial properties alike — same crew, same equipment, same fair pricing. We do <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">trimming</a>, <a href="/services/tree-removal" style="color: var(--primary); font-weight: 600;">removal</a>, <a href="/services/stump-grinding" style="color: var(--primary); font-weight: 600;">stump grinding</a>, and ongoing maintenance plans for properties of every size in Shawnee, Kansas and throughout the greater Kansas City, KS metro area.</p>
         <p>Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas. USDOT #3421117. Since 2013, we've served homeowners, landlords, HOAs, apartment communities, office parks, retail centers, and municipal properties across Johnson County and the surrounding area.</p>
       </div>
     </div>
@@ -178,8 +178,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">Why Property Managers Choose Us</h2>
           <ul class="benefit-list">
             <li>
-              <span class="benefit-icon"><i data-lucide="user-check"></i></span>
-              <span><strong>Owner-Operated</strong> — Eric oversees every commercial account personally. One point of contact, not a call center.</span>
+              <span class="benefit-icon"><i data-lucide="users"></i></span>
+              <span><strong>Locally Owned</strong> — one point of contact, consistent crew, not a call center.</span>
             </li>
             <li>
               <span class="benefit-icon"><i data-lucide="file-check"></i></span>
@@ -253,7 +253,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="closing-cta">
         <h2 class="section-title">One Call Covers Your Entire Property</h2>
-        <p class="prose-centered" style="text-align: center; color: var(--text-light);">Whether it's a single backyard tree or a 50-property portfolio, we'll give you a straight answer and a fair price. Call today for a free assessment.</p>
+        <p class="prose-centered" style="text-align: center; color: var(--text-light);">One backyard tree or a 50-property portfolio — same crew, same fair pricing. Call today for a free assessment.</p>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <div class="cta-buttons">
           <a href="/contact" class="btn-primary">Get a Free Assessment</a>

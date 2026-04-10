@@ -2,9 +2,9 @@
 $pageTitle       = "Stump Grinding & Removal in Shawnee, KS | Affordable Treefellers";
 $pageDescription = "Affordable stump grinding in Shawnee, KS. Stumps ground 6-12 inches below grade for clean yards and new construction. Licensed and insured. Free estimates — call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/services/stump-grinding";
-$ogImage         = "https://i.imgur.com/FtWpS3D.jpeg";
+$ogImage         = "https://i.imgur.com/BvsalRQ.jpeg";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/FtWpS3D.jpeg";
+$heroImage       = "https://i.imgur.com/BvsalRQ.jpeg";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/FtWpS3D.jpeg');">
+  <section class="page-hero" style="background-image: url('https://i.imgur.com/BvsalRQ.jpeg');">
     <div class="container">
       <h1>Stump Grinding &amp; Removal in Shawnee, KS</h1>
       <p>Reclaim your yard. We grind stumps below grade so you can reseed, landscape, or build over the spot.</p>
@@ -196,7 +196,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img" data-animate="wipe-right">
-          <img src="https://i.imgur.com/FtWpS3D.jpeg" alt="Vermeer BC1000 chipper used for stump grinding jobs in Shawnee, Kansas" width="800" height="600" loading="lazy">
+          <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers equipment for stump grinding jobs in Shawnee, Kansas" width="800" height="600" loading="lazy">
         </div>
         <div data-animate="fade-up">
           <h2 class="section-title">What Happens After Grinding?</h2>

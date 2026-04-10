@@ -21,7 +21,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container" style="text-align: center;">
       <div style="font-size: 3rem; color: var(--primary); margin-bottom: var(--space-md);"><i data-lucide="check-circle"></i></div>
       <h1 style="font-size: clamp(1.6rem, 3vw, 2.2rem);">Thank You!</h1>
-      <p class="prose-centered" style="color: var(--text-light); margin: var(--space-lg) auto; font-size: 1.1rem;">Your message has been received. We typically respond within a few hours during business hours (Mon&ndash;Sat, 9AM&ndash;5PM).</p>
+      <p class="prose-centered" style="color: var(--text-light); margin: var(--space-lg) auto; font-size: 1.1rem;">Your message has been received. We typically respond within a few hours during business hours (Mon&ndash;Fri, 9:00 AM &ndash; 5:00 PM).</p>
       <div style="background: var(--bg-alt); padding: var(--space-xl); border-radius: 4px; max-width: 500px; margin: var(--space-xl) auto;">
         <p style="font-weight: 600; margin-bottom: var(--space-sm);">Need a faster response?</p>
         <p style="color: var(--text-light); font-size: 0.95rem; margin-bottom: var(--space-md);">Call us directly — especially for emergency tree work.</p>

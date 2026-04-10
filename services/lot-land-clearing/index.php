@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="split">
         <div class="prose" data-animate="fade-up">
           <p style="font-size: 1.1rem; line-height: 1.7;">Lot clearing in Shawnee, KS starts around <strong>$1,500 for small residential parcels</strong> and scales up based on acreage, tree density, and whether stump grinding is included. Most residential lots clear in 1&ndash;3 days. Affordable Treefellers provides lot and land clearing services for homeowners, builders, and property developers across Shawnee, Kansas and the greater Kansas City, KS area.</p>
-          <p>Whether you're prepping a building pad for new construction, clearing a fence line, cleaning up a neglected lot, or opening space for landscaping — we bring the crew and equipment to handle the full scope. Trees, brush, stumps, and debris — removed and processed on-site with our Vermeer chipper.</p>
+          <p>Building pad for new construction, fence line, neglected lot, or space for landscaping — we bring the crew and equipment to handle the full scope. Trees, brush, stumps, and debris get removed and processed on-site with our Vermeer chipper.</p>
         </div>
         <div class="svc-img" data-animate="wipe-right">
           <img src="https://i.imgur.com/RW6NMwI.jpeg" alt="Overgrown brush requiring lot clearing in Shawnee, KS" width="800" height="600" loading="lazy">
@@ -170,7 +170,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="step" data-animate="fade-up">
             <span class="step-marker">1</span>
             <h3>Site Walk &amp; Estimate</h3>
-            <p>Eric walks the property with you, marks the clearing boundaries, identifies any trees to preserve, and gives a firm project price.</p>
+            <p>We walk the property with you, mark the clearing boundaries, identify any trees to preserve, and give a firm project price.</p>
           </div>
           <div class="step" data-animate="fade-up">
             <span class="step-marker">2</span>
@@ -268,7 +268,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="closing-cta">
         <h2 class="section-title">Clear the Way for Your Next Project</h2>
-        <p class="prose-centered" style="text-align: center; color: var(--text-light);">From a single fence line to a multi-acre parcel, we handle it all. Call for a free site walk-through and firm project quote.</p>
+        <p class="prose-centered" style="text-align: center; color: var(--text-light);">Fence line, building pad, or full parcel — we handle it. Call for a free site walk-through and firm project quote.</p>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <div class="cta-buttons">
           <a href="/contact" class="btn-primary">Get a Free Estimate</a>

@@ -105,7 +105,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose" data-animate="fade-up">
         <p style="font-size: 1.1rem; line-height: 1.7;">Tree removal in Shawnee, KS typically costs between <strong>$300 and $2,500+</strong> depending on the tree's size, condition, and proximity to structures. Most residential jobs are completed in a single day. Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas, providing safe, controlled tree removal for homeowners and commercial properties across Johnson County and the surrounding Kansas City, KS metro area.</p>
-        <p>Whether it's a dead ash threatening your roof, a storm-cracked elm blocking your driveway, or a healthy tree that needs to go for a construction project — our crew has the equipment and experience to handle it. We've removed thousands of trees since 2013 using our bucket truck, Stihl professional chainsaws, and rigging systems designed for tight-access residential lots.</p>
+        <p>Dead ash threatening your roof, storm-cracked elm blocking your driveway, or a healthy tree in the way of a construction project — our crew has the equipment and experience to handle it. We've removed thousands of trees since 2013 using our bucket truck, Stihl professional chainsaws, and rigging systems built for tight-access residential lots.</p>
       </div>
     </div>
   </section>
@@ -191,7 +191,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">1</div>
           <h3>Free On-Site Estimate</h3>
-          <p>Eric visits your property, assesses the tree, and gives you a firm quote — no hidden charges, no surprises.</p>
+          <p>We visit your property, assess the tree, and give you a firm quote — no hidden charges, no surprises.</p>
         </div>
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">2</div>

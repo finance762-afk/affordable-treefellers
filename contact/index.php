@@ -26,7 +26,7 @@ $schemaMarkup    = '{
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
           "opens": "09:00",
           "closes": "17:00"
         }
@@ -152,7 +152,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
                 <i data-lucide="clock" style="color: var(--primary); font-size: 1.2rem; margin-top: 3px;"></i>
                 <div>
                   <strong>Hours</strong><br>
-                  Mon&ndash;Sat: 9:00 AM &ndash; 5:00 PM<br>
+                  Mon&ndash;Fri: 9:00 AM &ndash; 5:00 PM<br>
+                  Closed Saturday &amp; Sunday<br>
+                  <span style="font-size: 0.85rem; color: var(--text-light);">Closed weekends, but you can still reach us anytime at <a href="tel:+18165093232" style="color: var(--primary);">(816) 509-3232</a> for questions or emergencies.</span><br>
                   <span style="color: var(--accent); font-weight: 600;">Emergency: 24/7</span>
                 </div>
               </div>

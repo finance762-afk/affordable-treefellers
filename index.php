@@ -32,7 +32,7 @@ $schemaMarkup    = '{
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
           "opens": "09:00",
           "closes": "17:00"
         }
@@ -247,17 +247,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="trust-img-wrap">
-          <img src="https://i.imgur.com/o052yR4.jpeg" alt="Affordable Treefellers crew members in safety gear in Shawnee, Kansas" width="800" height="600" loading="lazy">
-          <span class="trust-img-accent">Owner-Operated Since 2013</span>
+          <img src="https://i.imgur.com/ZTry5Cq.jpeg" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, Kansas" width="800" height="600" loading="lazy">
+          <span class="trust-img-accent">Serving Shawnee Since 2013</span>
         </div>
         <div class="trust-content" data-animate="fade-up">
           <span class="eyebrow-label">Why Shawnee Trusts Us</span>
           <h2 class="section-title">Built on Hard Work, Not Overhead</h2>
-          <p class="prose">When Eric Frauenknecht started Affordable Treefellers in 2013, the goal was simple: do honest tree work at fair prices. Over a decade later, that hasn't changed. Every job is owner-supervised, every estimate is free, and every crew member treats your property like their own.</p>
+          <p class="prose">Affordable Treefellers has been doing tree work in Shawnee and the KC metro since 2013. The company started small and grew because we show up on time, charge fair prices, and clean up after ourselves. Our crew handles everything from routine trims to emergency storm calls — no subcontractors, no runaround.</p>
           <ul class="benefit-list">
             <li>
-              <span class="benefit-icon"><i data-lucide="user-check"></i></span>
-              <span><strong>Owner-Operated</strong> &mdash; Eric is on every major job, not behind a desk</span>
+              <span class="benefit-icon"><i data-lucide="users"></i></span>
+              <span><strong>Experienced Crew</strong> &mdash; a team that knows Kansas trees and treats your yard right</span>
             </li>
             <li>
               <span class="benefit-icon"><i data-lucide="dollar-sign"></i></span>
@@ -296,10 +296,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck trimming mature tree in Shawnee, Kansas neighborhood" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
-          <img src="https://i.imgur.com/zfRQTMb.jpeg" alt="Affordable Treefellers bucket truck parked and ready for tree service" width="600" height="450" loading="lazy">
+          <img src="https://i.imgur.com/1KvudFj.jpeg" alt="Affordable Treefellers truck ready for tree service in Shawnee, KS" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
-          <img src="https://i.imgur.com/FtWpS3D.jpeg" alt="Vermeer wood chipper used for tree trimming and land clearing jobs" width="600" height="450" loading="lazy">
+          <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers work truck at job site in Kansas" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item wide" data-animate="fade-up">
           <img src="https://i.imgur.com/NfefzTe.jpeg" alt="Large felled tree trunk with worker for scale showing tree removal in Kansas" width="800" height="600" loading="lazy">
@@ -324,7 +324,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">2</div>
           <h3>On-Site Assessment</h3>
-          <p>Eric comes to your property, evaluates the job, and gives you a straightforward price — no surprises.</p>
+          <p>We come to your property, evaluate the job, and give you a straightforward price — no surprises.</p>
         </div>
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">3</div>
@@ -431,7 +431,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="closing-cta">
     <div class="container">
       <h2 class="section-title">Ready to Get Started?</h2>
-      <p class="prose-centered" style="text-align: center; color: var(--text-light); font-size: 1.1rem;">Whether it's a single branch or an entire tree, Affordable Treefellers has the crew and equipment to handle it. Free estimates, fair prices, and no job too big or small across the Shawnee, KS area.</p>
+      <p class="prose-centered" style="text-align: center; color: var(--text-light); font-size: 1.1rem;">One branch or an entire tree — we handle it. Free estimates, fair prices, and no job too big or small across the Shawnee, KS area.</p>
       <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
       <div class="cta-buttons">
         <a href="/contact" class="btn-primary">Request a Free Estimate</a>

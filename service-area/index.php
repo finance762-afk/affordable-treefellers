@@ -70,7 +70,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose" data-animate="fade-up">
         <p style="font-size: 1.1rem; line-height: 1.7;">Affordable Treefellers LLC provides <a href="/services/tree-removal" style="color: var(--primary); font-weight: 600;">tree removal</a>, <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">trimming</a>, <a href="/services/stump-grinding" style="color: var(--primary); font-weight: 600;">stump grinding</a>, <a href="/services/storm-damage-cleanup" style="color: var(--primary); font-weight: 600;">storm damage cleanup</a>, and <a href="/services/lot-land-clearing" style="color: var(--primary); font-weight: 600;">land clearing</a> within a 30&ndash;40 mile radius of Shawnee, Kansas. We serve the <strong>Kansas side only</strong> of the Kansas City metropolitan area — covering Johnson County, Wyandotte County, Leavenworth County, and parts of Douglas County.</p>
-        <p>Whether you're in downtown Overland Park, a rural lot outside De Soto, or a neighborhood in Bonner Springs, our bucket truck, chipper, and crew are equipped to get to you. <a href="/services/storm-damage-cleanup" style="color: var(--primary); font-weight: 600;">Emergency storm service</a> is available 24/7 across the entire service area.</p>
+        <p>Downtown Overland Park, a rural lot outside De Soto, a neighborhood in Bonner Springs — we cover it all. Our bucket truck, chipper, and crew are equipped to get to you. <a href="/services/storm-damage-cleanup" style="color: var(--primary); font-weight: 600;">Emergency storm service</a> is available 24/7 across the entire service area.</p>
       </div>
     </div>
   </section>

@@ -276,7 +276,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="closing-cta">
         <h2 class="section-title">Keep Your Trees Healthy and Your Property Safe</h2>
-        <p class="prose-centered" style="text-align: center; color: var(--text-light);">Whether it's one tree or your entire property, we'll give you a straight answer and a fair price. Call today or fill out the form for a free estimate.</p>
+        <p class="prose-centered" style="text-align: center; color: var(--text-light);">One tree or your entire property — straight answer, fair price. Call today or fill out the form for a free estimate.</p>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <div class="cta-buttons">
           <a href="/contact" class="btn-primary">Get a Free Estimate</a>

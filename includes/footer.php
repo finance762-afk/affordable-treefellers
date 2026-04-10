@@ -31,7 +31,8 @@
           <p><a href="tel:+18165093232"><i data-lucide="phone"></i> (816) 509-3232</a></p>
           <p><a href="mailto:bigvermont@hotmail.com"><i data-lucide="mail"></i> bigvermont@hotmail.com</a></p>
           <p><i data-lucide="map-pin"></i> Shawnee, Kansas</p>
-          <p><i data-lucide="clock"></i> Mon&ndash;Sat 9AM&ndash;5PM</p>
+          <p><i data-lucide="clock"></i> Mon&ndash;Fri 9:00 AM &ndash; 5:00 PM</p>
+          <p style="font-size: 0.85rem; color: rgba(255,255,255,0.7); margin-top: 2px;">Closed weekends, but you can still reach us anytime at <a href="tel:+18165093232" style="color: var(--accent);">(816) 509-3232</a> for questions or emergencies.</p>
           <p><i data-lucide="zap"></i> 24/7 Emergency Service</p>
         </div>
 

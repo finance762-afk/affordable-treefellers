@@ -44,7 +44,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="page-hero" style="background-image: url('https://i.imgur.com/2cjSybQ.jpeg');">
     <div class="container">
       <h1>Tree Services in Shawnee, KS</h1>
-      <p>From a single branch to an entire lot, Affordable Treefellers has the crew and equipment to handle it. Every service comes with a free on-site estimate and a firm price before we start.</p>
+      <p>Full-service tree care for homes and businesses across Shawnee, KS. Every job comes with a free on-site estimate and a firm price before we start.</p>
     </div>
   </section>
 
@@ -59,7 +59,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="prose-centered" style="text-align: center;">
-        <p>Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas. Owner Eric Frauenknecht and his crew handle everything from precision trimming and full tree removal to stump grinding, storm damage cleanup, and commercial land clearing — all within a 30&ndash;40 mile radius of Shawnee, KS. USDOT #3421117.</p>
+        <p>Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas. Our crew handles everything from precision trimming and full tree removal to stump grinding, storm damage cleanup, and commercial land clearing — all within a 30&ndash;40 mile radius of Shawnee, KS. USDOT #3421117.</p>
       </div>
     </div>
   </section>
@@ -96,7 +96,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/stump-grinding" class="services-overview-card" data-animate="fade-up">
           <div class="card-img">
-            <img src="https://i.imgur.com/FtWpS3D.jpeg" alt="Vermeer chipper for stump grinding in Shawnee, KS" width="600" height="375" loading="lazy">
+            <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers equipment for stump grinding in Shawnee, KS" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Stump Grinding &amp; Removal</h3>
