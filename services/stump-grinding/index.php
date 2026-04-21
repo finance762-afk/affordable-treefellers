@@ -99,12 +99,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="grid-asym">
-        <div class="prose" data-animate="fade-up">
+        <div class="prose">
           <p style="font-size: 1.1rem; line-height: 1.7;">Stump grinding in Shawnee, KS costs <strong>$100 to $500+ per stump</strong> depending on diameter, root spread, and site access. Most residential stumps take 30&ndash;90 minutes to grind. Affordable Treefellers provides stump grinding and removal for homeowners and commercial properties across the Shawnee, Kansas area and the greater Kansas City, KS metro.</p>
           <p>A leftover stump isn't just an eyesore — it's a tripping hazard, a mower obstacle, and an invitation for termites, carpenter ants, and fungal growth. We grind every stump 6&ndash;12 inches below grade level so you can reclaim that space for grass, a garden bed, a patio, or new construction.</p>
           <p>Stump grinding is also available as an add-on to any <a href="/services/tree-removal" style="color: var(--primary); font-weight: 600;">tree removal</a> job — often at a discounted rate when bundled with the removal.</p>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img">
           <img src="https://i.imgur.com/XcCQgIQ.jpeg" alt="Cleared lot after stump grinding and land clearing in Shawnee, KS" width="600" height="450" loading="lazy">
         </div>
       </div>
@@ -113,13 +113,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <!-- Answer Blocks -->
   <section class="bg-alt">
+    <div class="section-divider section-divider--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How Much Does Stump Grinding Cost in Shawnee?</h2>
+      <div class="answer-block reveal-up">
+        <h2>How much does <span class="text-accent">stump grinding</span> cost in Shawnee?</h2>
         <p class="prose">Cost depends on stump diameter and accessibility. Small stumps (under 12 inches) run <strong>$100&ndash;$150</strong>. Medium stumps (12&ndash;24 inches) cost <strong>$150&ndash;$300</strong>. Large stumps (24+ inches) range from <strong>$250&ndash;$500+</strong>. Have multiple stumps? We offer multi-stump discounts — the more stumps, the lower the per-stump price. Every estimate is free, and we measure on-site so there are no surprises.</p>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Stump Grinding vs. Full Stump Removal — Which Do You Need?</h3>
+      <div class="answer-block reveal-up reveal-delay-1">
+        <h3>Stump grinding vs. <span class="text-accent">full removal</span> — which do you need?</h3>
         <p class="prose">Stump grinding chips the stump below the soil surface and is the right choice for 90% of residential situations. It's faster, less invasive, and doesn't leave a massive hole in your yard. Full stump removal (extracting the entire root ball) is only necessary for specific construction projects that require complete root clearance. We'll advise which approach fits your situation during the estimate.</p>
       </div>
     </div>
@@ -129,8 +134,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split-reverse">
-        <div data-animate="fade-up">
-          <h2 class="section-title">Why You Shouldn't Leave That Stump</h2>
+        <div class="reveal-left">
+          <span class="section-subtitle">stumps are trouble</span>
+          <h2 class="section-title">Why you <span class="text-accent">shouldn't leave</span> that stump</h2>
           <ul class="check-list">
             <li><i data-lucide="check"></i> <span><strong>Tripping hazard</strong> — especially in yards where kids play or guests walk</span></li>
             <li><i data-lucide="check"></i> <span><strong>Pest magnet</strong> — decaying stumps attract termites, carpenter ants, and beetles</span></li>
@@ -140,7 +146,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <li><i data-lucide="check"></i> <span><strong>Property value</strong> — stumps reduce curb appeal and can complicate property sales</span></li>
           </ul>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-right">
           <img src="https://i.imgur.com/Fy5sXIJ.jpeg" alt="Cut logs in yard after tree removal awaiting stump grinding in Kansas" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -150,7 +156,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Mid-Page CTA -->
   <section style="padding: 0;">
     <div class="container">
-      <div class="inline-cta" data-animate="fade-up">
+      <div class="inline-cta reveal-up">
         <h2>Get Rid of That Stump</h2>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <p>Free on-site estimates. Multi-stump discounts available.</p>
@@ -163,26 +169,26 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div style="text-align: center; margin-bottom: var(--space-2xl);">
-        <span class="eyebrow-label">Our Process</span>
-        <h2 class="section-title">How Stump Grinding Works</h2>
+        <span class="section-subtitle">our process</span>
+        <h2 class="section-title">How <span class="text-accent">stump grinding</span> works</h2>
       </div>
       <div class="process-grid">
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up">
           <div class="step-number">1</div>
           <h3>Assess &amp; Measure</h3>
           <p>We measure the stump, check for underground utilities, and confirm equipment access to the site.</p>
         </div>
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up reveal-delay-1">
           <div class="step-number">2</div>
           <h3>Clear the Area</h3>
           <p>Rocks, debris, and obstacles are removed from around the stump so the grinder can work efficiently.</p>
         </div>
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up reveal-delay-2">
           <div class="step-number">3</div>
           <h3>Grind Below Grade</h3>
           <p>The grinder chips the stump 6&ndash;12 inches below grade, working across the entire root flare.</p>
         </div>
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up reveal-delay-3">
           <div class="step-number">4</div>
           <h3>Backfill &amp; Level</h3>
           <p>We backfill the hole with wood grindings and level the area. Topsoil available on request for reseeding.</p>
@@ -195,11 +201,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split">
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-left">
           <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers equipment for stump grinding jobs in Shawnee, Kansas" width="800" height="600" loading="lazy">
         </div>
-        <div data-animate="fade-up">
-          <h2 class="section-title">What Happens After Grinding?</h2>
+        <div class="reveal-right">
+          <span class="section-subtitle">after the grind</span>
+          <h2 class="section-title">What happens <span class="text-accent">after grinding</span>?</h2>
           <p class="prose">After the stump is ground, you're left with a pile of wood chips filling the hole. Most homeowners leave these in place and let them decompose naturally — they break down into the soil within a season. If you want to reseed grass immediately, we can haul away the chips and bring in topsoil for a clean starting surface.</p>
           <p class="prose" style="margin-top: var(--space-md);"><strong>Can you plant a new tree where the stump was?</strong> Yes, but wait 1&ndash;2 seasons for the grindings to decompose and the soil to settle. Plant the new tree slightly offset from the original stump location for best root establishment.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">

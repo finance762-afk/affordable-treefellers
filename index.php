@@ -150,6 +150,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <a href="/services" class="btn-secondary" style="border-color: #fff; color: #fff;">Our Services</a>
       </div>
     </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,90 L1440,0 L1440,90 Z" fill="#1A1A1A"/>
+      </svg>
+    </div>
   </section>
 
   <!-- ===== TRUST BADGE STRIP ===== -->
@@ -174,41 +179,41 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt" id="services">
     <div class="container">
       <div style="text-align: center; margin-bottom: var(--space-2xl);">
-        <span class="eyebrow-label">What We Do</span>
-        <h2 class="section-title">Our Tree Services</h2>
+        <span class="section-subtitle">what we handle</span>
+        <h2 class="section-title">Our Tree <span class="text-accent">Services</span></h2>
       </div>
-      <div class="grid-3" data-stagger>
-        <a href="/services/tree-removal" class="service-card" data-animate="fade-up">
+      <div class="grid-3">
+        <a href="/services/tree-removal" class="service-card card-tint-1 reveal-up">
           <div class="card-icon"><i data-lucide="axe"></i></div>
           <h3>Tree Removal</h3>
           <p>Safe removal of dead, dying, or hazardous trees from residential and commercial properties across Shawnee and Johnson County.</p>
           <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
-        <a href="/services/tree-trimming-pruning" class="service-card" data-animate="fade-up">
+        <a href="/services/tree-trimming-pruning" class="service-card card-tint-2 reveal-up reveal-delay-1">
           <div class="card-icon"><i data-lucide="scissors"></i></div>
           <h3>Tree Trimming &amp; Pruning</h3>
           <p>Precision trimming to maintain tree health, clear structures, and keep your property looking sharp year-round.</p>
           <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
-        <a href="/services/stump-grinding" class="service-card" data-animate="fade-up">
+        <a href="/services/stump-grinding" class="service-card card-tint-3 reveal-up reveal-delay-2">
           <div class="card-icon"><i data-lucide="circle-dot"></i></div>
           <h3>Stump Grinding &amp; Removal</h3>
           <p>Complete stump elimination below grade level so you can reclaim your yard without tripping hazards or regrowth.</p>
           <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
-        <a href="/services/storm-damage-cleanup" class="service-card" data-animate="fade-up">
+        <a href="/services/storm-damage-cleanup" class="service-card card-tint-neutral reveal-up reveal-delay-3">
           <div class="card-icon"><i data-lucide="cloud-lightning"></i></div>
           <h3>Storm Damage Cleanup</h3>
           <p>24/7 emergency response for fallen trees, broken limbs, and storm debris blocking roads, roofs, or power lines.</p>
           <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
-        <a href="/services/commercial-residential-tree-care" class="service-card" data-animate="fade-up">
+        <a href="/services/commercial-residential-tree-care" class="service-card card-tint-1 reveal-up reveal-delay-4">
           <div class="card-icon"><i data-lucide="building-2"></i></div>
           <h3>Commercial &amp; Residential Tree Care</h3>
           <p>Ongoing maintenance programs for property managers, HOAs, and homeowners who need consistent, reliable tree work.</p>
           <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
         </a>
-        <a href="/services/lot-land-clearing" class="service-card" data-animate="fade-up">
+        <a href="/services/lot-land-clearing" class="service-card card-tint-2 reveal-up reveal-delay-5">
           <div class="card-icon"><i data-lucide="trees"></i></div>
           <h3>Lot &amp; Land Clearing</h3>
           <p>Brush removal, tree clearing, and site prep for construction, fencing, or property development projects.</p>
@@ -216,25 +221,31 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </a>
       </div>
     </div>
+    <div class="section-divider section-divider--bottom" aria-hidden="true">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z" fill="#1B7A2B"/>
+      </svg>
+    </div>
   </section>
 
   <!-- ===== STAT COUNTERS ===== -->
   <section class="stats-section">
-    <div class="container">
+    <span class="stat-watermark" aria-hidden="true" style="color: #ffffff; opacity: 0.06;">2013</span>
+    <div class="container" style="position: relative; z-index: 1;">
       <div class="stats-grid">
-        <div class="stat-counter" data-animate="fade-up">
+        <div class="stat-counter reveal-scale">
           <div class="stat-number" data-count="10" data-suffix="+">0</div>
           <div class="stat-label">Years Serving Kansas</div>
         </div>
-        <div class="stat-counter" data-animate="fade-up">
+        <div class="stat-counter reveal-scale reveal-delay-1">
           <div class="stat-number" data-count="2500" data-suffix="+">0</div>
           <div class="stat-label">Trees Serviced</div>
         </div>
-        <div class="stat-counter" data-animate="fade-up">
+        <div class="stat-counter reveal-scale reveal-delay-2">
           <div class="stat-number" data-count="30" data-suffix=" Mi">0</div>
           <div class="stat-label">Service Radius</div>
         </div>
-        <div class="stat-counter" data-animate="fade-up">
+        <div class="stat-counter reveal-scale reveal-delay-3">
           <div class="stat-number">24/7</div>
           <div class="stat-label">Emergency Response</div>
         </div>
@@ -242,17 +253,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </div>
   </section>
 
-  <!-- ===== WHY TRUST US (Split Section) ===== -->
+  <!-- ===== WHY TRUST US (About Composition) ===== -->
   <section>
     <div class="container">
-      <div class="split">
-        <div class="trust-img-wrap">
-          <img src="https://i.imgur.com/ZTry5Cq.jpeg" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, Kansas" width="800" height="600" loading="lazy">
-          <span class="trust-img-accent">Serving Shawnee Since 2013</span>
+      <div class="about-grid">
+        <div class="about-image-wrap reveal-left">
+          <img class="about-image-primary" src="https://i.imgur.com/ZTry5Cq.jpeg" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, Kansas" width="800" height="1000" loading="lazy">
+          <img class="about-image-secondary" src="https://i.imgur.com/cgdK3ZI.jpeg" alt="Affordable Treefellers crew member on the job in Kansas" width="600" height="750" loading="lazy">
         </div>
-        <div class="trust-content" data-animate="fade-up">
-          <span class="eyebrow-label">Why Shawnee Trusts Us</span>
-          <h2 class="section-title">Built on Hard Work, Not Overhead</h2>
+        <div class="trust-content reveal-right">
+          <span class="section-subtitle">meet the crew</span>
+          <h2 class="section-title">Built on <span class="text-accent">hard work</span>, not overhead</h2>
           <p class="prose">Affordable Treefellers has been doing tree work in Shawnee and the KC metro since 2013. The company started small and grew because we show up on time, charge fair prices, and clean up after ourselves. Our in-house crew handles everything from routine trims to emergency storm calls — same faces on every job, no runaround.</p>
           <ul class="benefit-list">
             <li>
@@ -428,14 +439,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </section>
 
   <!-- ===== CLOSING CTA ===== -->
-  <section class="closing-cta">
-    <div class="container">
-      <h2 class="section-title">Ready to Get Started?</h2>
-      <p class="prose-centered" style="text-align: center; color: var(--text-light); font-size: 1.1rem;">One branch or an entire tree — we handle it. Free estimates, fair prices, and no job too big or small across the Shawnee, KS area.</p>
-      <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
+  <section class="closing-cta" style="background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 60%, var(--primary-dark) 100%); color: #fff; overflow: hidden;">
+    <i class="floating-accent float-animate-slow" data-lucide="trees" aria-hidden="true" style="top: 10%; left: 6%; font-size: 10rem; color: #ffffff; opacity: 0.05;"></i>
+    <i class="floating-accent float-animate" data-lucide="leaf" aria-hidden="true" style="bottom: 12%; right: 8%; font-size: 8rem; color: var(--accent); opacity: 0.08;"></i>
+    <div class="container" style="position: relative; z-index: 1;">
+      <span class="section-subtitle" style="color: var(--accent);">let's get started</span>
+      <h2 class="section-title" style="color: #fff;">Ready to <span class="text-accent" style="color: var(--accent);">work with us</span>?</h2>
+      <p class="prose-centered" style="text-align: center; color: rgba(255,255,255,0.85); font-size: 1.1rem;">One branch or an entire tree — we handle it. Free estimates, fair prices, and no job too big or small across the Shawnee, KS area.</p>
+      <a href="tel:+18165093232" class="cta-phone" style="color: var(--accent);">(816) 509-3232</a>
       <div class="cta-buttons">
-        <a href="/contact" class="btn-primary">Request a Free Estimate</a>
-        <a href="/services" class="btn-secondary">View All Services</a>
+        <a href="/contact" class="btn-primary" style="background: var(--accent); color: #1a1a1a; box-shadow: 0 4px 0 #c48a1e;">Request a Free Estimate</a>
+        <a href="/services" class="btn-secondary" style="border-color: #fff; color: #fff;">View All Services</a>
       </div>
     </div>
   </section>

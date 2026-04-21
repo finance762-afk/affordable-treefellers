@@ -22,6 +22,21 @@ document.addEventListener('DOMContentLoaded', () => {
     animElements.forEach(el => revealObserver.observe(el));
   }
 
+  /* --- Multi-directional Reveals (premium v6.0) --- */
+  const revealTargets = document.querySelectorAll('.reveal-up, .reveal-down, .reveal-left, .reveal-right, .reveal-scale');
+  if (revealTargets.length) {
+    const directionalObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          directionalObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+
+    revealTargets.forEach(el => directionalObserver.observe(el));
+  }
+
   /* --- Stagger Grid Children --- */
   const staggerGrids = document.querySelectorAll('[data-stagger]');
   if (staggerGrids.length) {

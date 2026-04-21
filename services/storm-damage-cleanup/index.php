@@ -101,10 +101,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Answer-First Opening -->
   <section>
     <div class="container">
-      <div class="prose" data-animate="fade-up" style="max-width: 100%;">
+      <div class="prose" style="max-width: 100%;">
         <p style="font-size: 1.15rem; line-height: 1.7;"><strong>If a tree is on your house, blocking your driveway, or tangled in power lines, call <a href="tel:+18165093232" style="color: var(--primary);">(816) 509-3232</a> now.</strong> We respond to storm emergencies 24 hours a day, 7 days a week, and typically reach properties in our service area within 2 hours.</p>
       </div>
-      <div class="prose" data-animate="fade-up" style="margin-top: var(--space-lg);">
+      <div class="prose" style="margin-top: var(--space-lg);">
         <p>Affordable Treefellers provides emergency storm damage tree removal and cleanup in Shawnee, Kansas and throughout the greater Kansas City, KS metro area. Kansas sees some of the most severe weather in the country — tornadoes, straight-line winds topping 80 mph, ice storms, and heavy thunderstorms that bring down full-grown trees in seconds. When that happens, you need a crew with the equipment and experience to get your property safe and accessible fast.</p>
         <p>Since 2013, we've responded to hundreds of storm calls across Johnson County. Our bucket trucks, chainsaws, and chippers are storm-ready year-round. We work directly with your insurance adjuster and provide the documentation you need for your claim.</p>
       </div>
@@ -113,14 +113,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <!-- What We Handle (Split with image) -->
   <section class="bg-alt">
+    <div class="section-divider section-divider--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
     <div class="container">
       <div class="split">
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-left">
           <img src="https://i.imgur.com/AP4RtPl.jpeg" alt="Branch fallen in snowy Kansas neighborhood requiring storm damage cleanup" width="800" height="600" loading="lazy">
         </div>
-        <div data-animate="fade-up">
-          <span class="eyebrow-label">Emergency Services</span>
-          <h2 class="section-title">What We Handle After a Storm</h2>
+        <div class="reveal-right">
+          <span class="section-subtitle">emergency services</span>
+          <h2 class="section-title">What We <span class="text-accent">Handle</span> After a Storm</h2>
           <ul class="check-list">
             <li><i data-lucide="check"></i> <span><strong>Trees on homes and roofs</strong> — careful removal to minimize further structural damage</span></li>
             <li><i data-lucide="check"></i> <span><strong>Trees on vehicles</strong> — safe extraction and debris cleanup</span></li>
@@ -137,11 +142,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Answer Blocks -->
   <section>
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
+      <div class="answer-block reveal-up reveal-delay-1">
         <h2>Does Insurance Cover Storm Damage Tree Removal?</h2>
         <p class="prose">In most cases, <strong>yes</strong>. If a storm-felled tree damages your home, garage, vehicle, or other insured structure, your homeowners policy typically covers the removal cost. Trees that fall in open yard areas without striking a structure may have limited or no coverage — it depends on your specific policy. We work with insurance adjusters regularly and provide detailed documentation, photos, and itemized invoices to support your claim.</p>
       </div>
-      <div class="answer-block" data-animate="fade-up">
+      <div class="answer-block reveal-up reveal-delay-2">
         <h3>A Tree Fell on My House — What Should I Do First?</h3>
         <p class="prose"><strong>Step 1:</strong> Ensure everyone is safe. If the tree compromised the roof structure, evacuate the area beneath it. <strong>Step 2:</strong> Call us at <a href="tel:+18165093232" style="color: var(--primary); font-weight: 600;">(816) 509-3232</a> for emergency removal. <strong>Step 3:</strong> Contact your insurance company to start a claim. <strong>Step 4:</strong> Tarp any exposed areas to prevent water damage. We can help with emergency tarping during the removal process and coordinate directly with your insurance adjuster.</p>
       </div>
@@ -164,12 +169,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split-reverse">
-        <div data-animate="fade-up">
-          <h2 class="section-title">Why Kansas Properties Are Especially Vulnerable</h2>
+        <div class="reveal-left">
+          <span class="section-subtitle">kansas weather</span>
+          <h2 class="section-title">Why Kansas Properties Are Especially <span class="text-accent">Vulnerable</span></h2>
           <p class="prose">The Kansas City metro sits in the heart of Tornado Alley. From late spring through early fall, severe thunderstorms can produce straight-line winds over 80 mph, large hail, and tornadoes that snap trunks like matchsticks. Winter brings ice storms that load branches beyond their breaking point — an inch of ice on a 60-foot oak adds thousands of pounds of stress.</p>
           <p class="prose" style="margin-top: var(--space-md);">Johnson County's mature tree canopy — oaks, elms, maples, cottonwoods — means more exposure when storms hit. Regular <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">tree trimming</a> reduces wind resistance and removes deadwood before it becomes a projectile, but when a storm overwhelms even healthy trees, we're the crew to call.</p>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-right">
           <img src="https://i.imgur.com/AxHfkOk.jpeg" alt="Fallen tree with exposed root ball near power lines after severe storm in Kansas" width="800" height="600" loading="lazy">
         </div>
       </div>

@@ -34,10 +34,10 @@
   <meta property="og:url" content="<?php echo $canonicalUrl; ?>">
   <meta property="og:type" content="<?php echo ($currentPage === 'home') ? 'website' : 'article'; ?>">
 
-  <!-- Google Fonts — Oswald + Lato -->
+  <!-- Google Fonts — Oswald + Lato + Caveat (accent) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lato:wght@400;700&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- Preload Heading Font -->
   <link rel="preload" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/oswald/v53/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2" crossorigin>
@@ -50,7 +50,7 @@
   <?php endif; ?>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=6">
 
   <!-- Preconnect / DNS Prefetch -->
   <link rel="dns-prefetch" href="//www.googletagmanager.com">

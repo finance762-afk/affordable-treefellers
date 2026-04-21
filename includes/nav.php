@@ -56,3 +56,13 @@
     (816) 509-3232
   </a>
 </div>
+
+<!-- Mobile Bottom CTA Bar (only visible < 768px) -->
+<div class="mobile-cta-bar" aria-label="Quick contact actions">
+  <a href="tel:+18165093232" class="cta-call">
+    <i data-lucide="phone"></i> Call
+  </a>
+  <a href="/contact" class="cta-estimate">
+    <i data-lucide="clipboard-check"></i> Free Estimate
+  </a>
+</div>

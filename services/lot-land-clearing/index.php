@@ -99,11 +99,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split">
-        <div class="prose" data-animate="fade-up">
+        <div class="prose">
           <p style="font-size: 1.1rem; line-height: 1.7;">Lot clearing in Shawnee, KS starts around <strong>$1,500 for small residential parcels</strong> and scales up based on acreage, tree density, and whether stump grinding is included. Most residential lots clear in 1&ndash;3 days. Affordable Treefellers provides lot and land clearing services for homeowners, builders, and property developers across Shawnee, Kansas and the greater Kansas City, KS area.</p>
           <p>Building pad for new construction, fence line, neglected lot, or space for landscaping — we bring the crew and equipment to handle the full scope. Trees, brush, stumps, and debris get removed and processed on-site with our own chippers.</p>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img">
           <img src="https://i.imgur.com/RW6NMwI.jpeg" alt="Overgrown brush requiring lot clearing in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -112,12 +112,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <!-- Answer Blocks -->
   <section class="bg-alt">
+    <div class="section-divider section-divider--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How Much Does Lot Clearing Cost in Shawnee, KS?</h2>
+      <div class="answer-block reveal-up reveal-delay-1">
+        <h2>How Much Does <span class="text-accent">Lot Clearing</span> Cost in Shawnee, KS?</h2>
         <p class="prose">Cost depends on the size of the area, the density and size of trees, and whether stump grinding is included. Small residential lots (under 1/4 acre) with moderate brush typically run <strong>$1,500&ndash;$3,000</strong>. Medium parcels with a mix of trees and brush range <strong>$3,000&ndash;$6,000</strong>. Larger or heavily wooded commercial parcels can run <strong>$6,000&ndash;$10,000+</strong>. Every clearing project gets a free on-site walk-through and firm quote.</p>
       </div>
-      <div class="answer-block" data-animate="fade-up">
+      <div class="answer-block reveal-up reveal-delay-2">
         <h3>What's Included in a Land Clearing Job?</h3>
         <p class="prose">Our full clearing service covers everything: <strong>tree felling and removal</strong>, <strong>brush and undergrowth clearing</strong>, <strong>on-site chipping and debris processing</strong>, and <strong>stump grinding below grade</strong>. When we're done, your lot is clean and ready for the next phase — grading, construction, fencing, or landscaping. We don't leave piles of debris behind.</p>
       </div>
@@ -128,9 +133,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split-reverse">
-        <div data-animate="fade-up">
-          <span class="eyebrow-label">Common Projects</span>
-          <h2 class="section-title">What People Clear Land For</h2>
+        <div class="reveal-right">
+          <span class="section-subtitle">common projects</span>
+          <h2 class="section-title">What People <span class="text-accent">Clear Land</span> For</h2>
           <ul class="check-list">
             <li><i data-lucide="check"></i> <span><strong>New construction</strong> — building pads, driveways, and utility access for new homes or additions</span></li>
             <li><i data-lucide="check"></i> <span><strong>Fence installation</strong> — clearing a clean line for new fencing along property boundaries</span></li>
@@ -141,7 +146,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
           <p class="prose" style="margin-top: var(--space-md); color: var(--text-light);">Don't need the whole lot cleared? We handle partial clearing too — just the section you need, leaving the rest untouched.</p>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-left">
           <img src="https://i.imgur.com/pIAnpuf.jpeg" alt="Wood chipper processing brush during lot clearing in Shawnee, Kansas" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -151,7 +156,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Mid-Page CTA -->
   <section style="padding: 0;">
     <div class="container">
-      <div class="inline-cta" data-animate="fade-up">
+      <div class="inline-cta reveal-up">
         <h2>Got a Lot That Needs Clearing?</h2>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <p>Free on-site walk-through and firm project quote. No hidden fees.</p>
@@ -164,25 +169,25 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div style="max-width: 700px;">
-        <span class="eyebrow-label">Our Process</span>
-        <h2 class="section-title">How We Clear a Lot</h2>
+        <span class="section-subtitle">site prep</span>
+        <h2 class="section-title">How We <span class="text-accent">Clear a Lot</span></h2>
         <div class="process-vertical" style="margin-top: var(--space-xl);">
-          <div class="step" data-animate="fade-up">
+          <div class="step reveal-up reveal-delay-1">
             <span class="step-marker">1</span>
             <h3>Site Walk &amp; Estimate</h3>
             <p>We walk the property with you, mark the clearing boundaries, identify any trees to preserve, and give a firm project price.</p>
           </div>
-          <div class="step" data-animate="fade-up">
+          <div class="step reveal-up reveal-delay-2">
             <span class="step-marker">2</span>
             <h3>Tree Felling &amp; Brush Removal</h3>
             <p>Trees are felled, limbed, and sectioned. Brush and undergrowth are cut and staged for processing.</p>
           </div>
-          <div class="step" data-animate="fade-up">
+          <div class="step reveal-up reveal-delay-3">
             <span class="step-marker">3</span>
             <h3>On-Site Chipping</h3>
             <p>All wood and brush is processed through our chippers. Chips can be spread on-site or hauled away per your preference.</p>
           </div>
-          <div class="step" data-animate="fade-up">
+          <div class="step reveal-up reveal-delay-3">
             <span class="step-marker">4</span>
             <h3>Stump Grinding &amp; Final Cleanup</h3>
             <p>All stumps are ground below grade. The lot is left clean, level, and ready for grading, construction, or landscaping.</p>
@@ -196,11 +201,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div class="split">
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-right">
           <img src="https://i.imgur.com/XcCQgIQ.jpeg" alt="Cleared residential lot ready for construction or fencing in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
-        <div data-animate="fade-up">
-          <h2 class="section-title">The Right Equipment for the Job</h2>
+        <div class="reveal-left">
+          <span class="section-subtitle">the right equipment</span>
+          <h2 class="section-title">The Right <span class="text-accent">Equipment</span> for the Job</h2>
           <p class="prose">Land clearing is equipment-intensive work. We bring what's needed so the job moves efficiently and the site is left clean:</p>
           <ul class="check-list" style="margin-top: var(--space-md);">
             <li><i data-lucide="check"></i> <span><strong>Professional chainsaws</strong> — heavy-duty saws for felling and bucking</span></li>

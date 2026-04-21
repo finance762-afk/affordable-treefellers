@@ -66,13 +66,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <!-- Services Grid -->
   <section class="bg-alt">
+    <div class="section-divider section-divider--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
     <div class="container">
       <div style="text-align: center; margin-bottom: var(--space-2xl);">
-        <h2 class="section-title">What We Do</h2>
+        <span class="section-subtitle">what we do</span>
+        <h2 class="section-title">Full-service <span class="text-accent">tree care</span></h2>
       </div>
-      <div class="grid-3" data-stagger>
+      <div class="grid-3">
 
-        <a href="/services/tree-removal" class="services-overview-card" data-animate="fade-up">
+        <a href="/services/tree-removal" class="services-overview-card card-tint-1 reveal-up">
           <div class="card-img">
             <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Tree removal with chainsaw in Shawnee, KS" width="600" height="375" loading="lazy">
           </div>
@@ -83,7 +89,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </a>
 
-        <a href="/services/tree-trimming-pruning" class="services-overview-card" data-animate="fade-up">
+        <a href="/services/tree-trimming-pruning" class="services-overview-card card-tint-2 reveal-up reveal-delay-1">
           <div class="card-img">
             <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck trimming mature tree in Shawnee, Kansas" width="600" height="375" loading="lazy">
           </div>
@@ -94,7 +100,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </a>
 
-        <a href="/services/stump-grinding" class="services-overview-card" data-animate="fade-up">
+        <a href="/services/stump-grinding" class="services-overview-card card-tint-3 reveal-up reveal-delay-2">
           <div class="card-img">
             <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers equipment for stump grinding in Shawnee, KS" width="600" height="375" loading="lazy">
           </div>
@@ -105,7 +111,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </a>
 
-        <a href="/services/storm-damage-cleanup" class="services-overview-card" data-animate="fade-up">
+        <a href="/services/storm-damage-cleanup" class="services-overview-card card-tint-neutral reveal-up reveal-delay-3">
           <div class="card-img">
             <img src="https://i.imgur.com/AxHfkOk.jpeg" alt="Fallen tree near power lines after storm in Kansas" width="600" height="375" loading="lazy">
           </div>
@@ -116,7 +122,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </a>
 
-        <a href="/services/commercial-residential-tree-care" class="services-overview-card" data-animate="fade-up">
+        <a href="/services/commercial-residential-tree-care" class="services-overview-card card-tint-1 reveal-up reveal-delay-4">
           <div class="card-img">
             <img src="https://i.imgur.com/c9RF7k9.jpeg" alt="Bucket truck at residential property for tree service" width="600" height="375" loading="lazy">
           </div>
@@ -127,7 +133,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </a>
 
-        <a href="/services/lot-land-clearing" class="services-overview-card" data-animate="fade-up">
+        <a href="/services/lot-land-clearing" class="services-overview-card card-tint-2 reveal-up reveal-delay-5">
           <div class="card-img">
             <img src="https://i.imgur.com/XcCQgIQ.jpeg" alt="Cleared residential lot ready for construction in Shawnee" width="600" height="375" loading="lazy">
           </div>
@@ -143,14 +149,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </section>
 
   <!-- Closing CTA -->
-  <section class="closing-cta">
-    <div class="container">
-      <h2 class="section-title">Need Tree Work in Shawnee?</h2>
-      <p class="prose-centered" style="text-align: center; color: var(--text-light); font-size: 1.1rem;">Every job starts with a free estimate and a straightforward price. No hidden fees, no pressure — just honest tree work from a crew that's been doing this since 2013.</p>
-      <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
+  <section class="closing-cta" style="background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 60%, var(--primary-dark) 100%); color: #fff; overflow: hidden;">
+    <i class="floating-accent float-animate-slow" data-lucide="trees" aria-hidden="true" style="top: 10%; left: 6%; font-size: 10rem; color: #ffffff; opacity: 0.05;"></i>
+    <i class="floating-accent float-animate" data-lucide="leaf" aria-hidden="true" style="bottom: 12%; right: 8%; font-size: 8rem; color: var(--accent); opacity: 0.08;"></i>
+    <div class="container" style="position: relative; z-index: 1;">
+      <span class="section-subtitle" style="color: var(--accent);">ready when you are</span>
+      <h2 class="section-title" style="color: #fff;">Need <span class="text-accent" style="color: var(--accent);">tree work</span> in Shawnee?</h2>
+      <p class="prose-centered" style="text-align: center; color: rgba(255,255,255,0.85); font-size: 1.1rem;">Every job starts with a free estimate and a straightforward price. No hidden fees, no pressure — just honest tree work from a crew that's been doing this since 2013.</p>
+      <a href="tel:+18165093232" class="cta-phone" style="color: var(--accent);">(816) 509-3232</a>
       <div class="cta-buttons">
-        <a href="/contact" class="btn-primary">Get a Free Estimate</a>
-        <a href="/about" class="btn-secondary">About Our Team</a>
+        <a href="/contact" class="btn-primary" style="background: var(--accent); color: #1a1a1a; box-shadow: 0 4px 0 #c48a1e;">Get a Free Estimate</a>
+        <a href="/about" class="btn-secondary" style="border-color: #fff; color: #fff;">About Our Team</a>
       </div>
     </div>
   </section>

@@ -104,11 +104,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split-reverse">
-        <div class="prose" data-animate="fade-up">
+        <div class="prose">
           <p style="font-size: 1.1rem; line-height: 1.7;">Tree trimming in Shawnee, KS typically costs <strong>$150 to $1,200+</strong> depending on the number of trees, their size, and how much work each one needs. Most residential trimming jobs take a few hours to a full day. Affordable Treefellers provides professional tree trimming and pruning for homes and businesses across the Shawnee, Kansas area and throughout the greater Kansas City, KS metro.</p>
           <p>Regular trimming prevents problems before they start — branches against your roof, limbs blocking sight lines, dead wood waiting to drop in the next Kansas storm. Our crew uses bucket trucks for high canopy access and professional chainsaws for precise cuts that promote healthy regrowth rather than stress the tree.</p>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img">
           <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck positioned for tree trimming at residential property in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -117,13 +117,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <!-- Answer Block Section -->
   <section class="bg-alt">
+    <div class="section-divider section-divider--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>When Is the Best Time to Trim Trees in Kansas?</h2>
+      <div class="answer-block reveal-up">
+        <h2>When Is the Best Time to <span class="text-accent">trim trees</span> in Kansas?</h2>
         <p class="prose">For most Kansas hardwoods — oaks, elms, maples, and walnuts — the best time to prune is during <strong>dormancy from late November through early March</strong>. Pruning while trees are dormant reduces disease risk (especially oak wilt and Dutch elm disease) and lets wounds seal before spring growth begins. However, dead or hazardous branches should be removed <strong>immediately regardless of season</strong>. Spring-flowering trees like redbuds and dogwoods should ideally be trimmed right after they finish blooming.</p>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>What Is the Difference Between Trimming and Pruning?</h3>
+      <div class="answer-block reveal-up reveal-delay-1">
+        <h3>What Is the Difference Between <span class="text-accent">trimming</span> and <span class="text-accent">pruning</span>?</h3>
         <p class="prose">Trimming focuses on cutting back overgrowth for shape, clearance, and aesthetics — it's about how the tree looks and what it's touching. Pruning is more surgical: removing specific dead, diseased, or structurally weak branches to improve the tree's health and structural integrity. Most residential jobs involve some of both, and we assess what each tree needs during the free estimate.</p>
       </div>
     </div>
@@ -133,12 +138,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split">
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-left">
           <img src="https://i.imgur.com/2cjSybQ.jpeg" alt="Affordable Treefellers crew in safety gear performing tree trimming in Kansas" width="800" height="600" loading="lazy">
         </div>
-        <div data-animate="fade-up">
-          <span class="eyebrow-label">What We Do</span>
-          <h2 class="section-title">Trimming Services We Offer</h2>
+        <div class="reveal-right">
+          <span class="section-subtitle">what we do</span>
+          <h2 class="section-title">Trimming <span class="text-accent">services</span> we offer</h2>
           <ul class="check-list">
             <li><i data-lucide="check"></i> <span><strong>Crown thinning</strong> — selective removal of inner branches to improve airflow and light penetration</span></li>
             <li><i data-lucide="check"></i> <span><strong>Deadwood removal</strong> — eliminating dead and dying branches before they fall</span></li>
@@ -155,7 +160,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Mid-Page CTA -->
   <section style="padding: 0;">
     <div class="container">
-      <div class="inline-cta" data-animate="fade-up">
+      <div class="inline-cta reveal-up">
         <h2>Schedule Your Tree Trimming</h2>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <p>Free estimates for homes and businesses in the Shawnee, KS area.</p>
@@ -168,8 +173,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split-reverse">
-        <div data-animate="fade-up">
-          <h2 class="section-title">Why Regular Trimming Matters in Kansas</h2>
+        <div class="reveal-left">
+          <span class="section-subtitle">storm-ready trees</span>
+          <h2 class="section-title">Why <span class="text-accent">regular trimming</span> matters in Kansas</h2>
           <p class="prose">Kansas weather is hard on trees. Summer storms, ice loads in winter, straight-line winds, and occasional tornadoes all stress tree canopies. Regular trimming reduces wind resistance, removes deadwood before it becomes a projectile, and helps trees develop strong branch structure that withstands severe weather.</p>
           <p class="prose" style="margin-top: var(--space-md);">Beyond storm prep, trimming improves curb appeal, prevents branches from damaging roofing and siding, keeps sight lines clear for driveways and intersections, and promotes healthy growth patterns that extend your tree's lifespan by decades.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
@@ -177,7 +183,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <p><strong>Bucket Truck Access</strong> — Our 60+ foot bucket truck reaches high canopies safely without climbing, reducing damage to your tree and our crew's risk. Ideal for large oaks, elms, and cottonwoods common in Johnson County.</p>
           </div>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-right">
           <img src="https://i.imgur.com/BPmnacY.jpeg" alt="Worker in bucket truck elevated in large tree canopy for trimming in Shawnee" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -188,26 +194,26 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div style="text-align: center; margin-bottom: var(--space-2xl);">
-        <span class="eyebrow-label">Our Process</span>
-        <h2 class="section-title">How Our Trimming Process Works</h2>
+        <span class="section-subtitle">our process</span>
+        <h2 class="section-title">How our <span class="text-accent">trimming process</span> works</h2>
       </div>
       <div class="process-vertical">
-        <div class="step" data-animate="fade-up">
+        <div class="step reveal-up">
           <span class="step-marker">1</span>
           <h3>On-Site Assessment</h3>
           <p>We walk your property with you, identify which trees need work, and discuss your goals — clearance, health, storm prep, or aesthetics.</p>
         </div>
-        <div class="step" data-animate="fade-up">
+        <div class="step reveal-up reveal-delay-1">
           <span class="step-marker">2</span>
           <h3>Free Estimate</h3>
           <p>You get a firm price covering all trees discussed. No per-branch surprises, no upsells after we start.</p>
         </div>
-        <div class="step" data-animate="fade-up">
+        <div class="step reveal-up reveal-delay-2">
           <span class="step-marker">3</span>
           <h3>Precision Trimming</h3>
           <p>Our crew makes proper pruning cuts at branch collars — not flush cuts or stubs — that promote natural healing and prevent rot.</p>
         </div>
-        <div class="step" data-animate="fade-up">
+        <div class="step reveal-up reveal-delay-3">
           <span class="step-marker">4</span>
           <h3>Full Cleanup</h3>
           <p>All branches and debris are chipped on-site and hauled away. We rake under every tree we touch.</p>

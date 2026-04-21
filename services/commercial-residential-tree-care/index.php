@@ -88,7 +88,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Answer-First Opening -->
   <section>
     <div class="container">
-      <div class="prose" data-animate="fade-up">
+      <div class="prose">
         <p style="font-size: 1.1rem; line-height: 1.7;">Affordable Treefellers handles tree care for residential homeowners and commercial properties alike — same crew, same equipment, same fair pricing. We do <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">trimming</a>, <a href="/services/tree-removal" style="color: var(--primary); font-weight: 600;">removal</a>, <a href="/services/stump-grinding" style="color: var(--primary); font-weight: 600;">stump grinding</a>, and ongoing maintenance plans for properties of every size in Shawnee, Kansas and throughout the greater Kansas City, KS metro area.</p>
         <p>Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas. USDOT #3421117. Since 2013, we've served homeowners, landlords, HOAs, apartment communities, office parks, retail centers, and municipal properties across Johnson County and the surrounding area.</p>
       </div>
@@ -97,12 +97,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <!-- Answer Blocks -->
   <section class="bg-alt">
+    <div class="section-divider section-divider--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
+      <div class="answer-block reveal-up">
         <h2>How Much Does Commercial Tree Care Cost in Shawnee?</h2>
         <p class="prose">Costs depend on the scope of work and number of trees. Residential trimming for a few trees typically runs <strong>$150&ndash;$1,200</strong>. Commercial maintenance contracts for multi-property accounts are quoted per visit based on tree count and service type. We provide free assessments for both residential and commercial properties — no obligation, firm pricing.</p>
       </div>
-      <div class="answer-block" data-animate="fade-up">
+      <div class="answer-block reveal-up reveal-delay-1">
         <h3>What Does a Tree Maintenance Plan Include?</h3>
         <p class="prose">Our maintenance plans include scheduled trimming, deadwood removal, and hazard assessments. Annual plans cover one visit per year; semi-annual plans cover spring and fall service. Plan members get priority scheduling after storms and consistent year-to-year pricing without surprises.</p>
       </div>
@@ -141,11 +146,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split">
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-left">
           <img src="https://i.imgur.com/kleywYF.jpeg" alt="Affordable Treefellers crew with chipper performing tree care at residential property" width="800" height="600" loading="lazy">
         </div>
-        <div data-animate="fade-up">
-          <h2 class="section-title">Ongoing Maintenance Plans</h2>
+        <div class="reveal-right">
+          <span class="section-subtitle">ongoing care</span>
+          <h2 class="section-title">Ongoing <span class="text-accent">Maintenance</span> Plans</h2>
           <p class="prose">Trees don't stop growing after one trim. Kansas weather, fast-growing species, and the sheer number of trees on most properties mean tree work is ongoing. Our maintenance plans take the guesswork out:</p>
           <ul class="check-list" style="margin-top: var(--space-md);">
             <li><i data-lucide="check"></i> <span><strong>Annual plans</strong> — scheduled trimming, deadwood removal, and hazard assessment once a year</span></li>
@@ -161,7 +167,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Mid-Page CTA -->
   <section style="padding: 0;">
     <div class="container">
-      <div class="inline-cta" data-animate="fade-up">
+      <div class="inline-cta reveal-up">
         <h2>Build a Maintenance Plan for Your Property</h2>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <p>We'll assess your property and recommend a plan that fits your needs and budget.</p>
@@ -174,8 +180,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split-reverse">
-        <div data-animate="fade-up">
-          <h2 class="section-title">Why Property Managers Choose Us</h2>
+        <div class="reveal-left">
+          <span class="section-subtitle">for property managers</span>
+          <h2 class="section-title">Why Property Managers <span class="text-accent">Choose Us</span></h2>
           <ul class="benefit-list">
             <li>
               <span class="benefit-icon"><i data-lucide="users"></i></span>
@@ -195,7 +202,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </li>
           </ul>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-right">
           <img src="https://i.imgur.com/4Wuvaqu.jpeg" alt="Affordable Treefellers trucks with stripped trunk during commercial tree work" width="800" height="600" loading="lazy">
         </div>
       </div>

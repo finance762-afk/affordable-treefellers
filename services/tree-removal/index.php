@@ -103,7 +103,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Answer-First Opening -->
   <section>
     <div class="container">
-      <div class="prose" data-animate="fade-up">
+      <div class="prose">
         <p style="font-size: 1.1rem; line-height: 1.7;">Tree removal in Shawnee, KS typically ranges from <strong>$400 to $4,500+</strong> depending on the tree's size, condition, and proximity to structures. Most residential jobs are completed in a single day. Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas, providing safe, controlled tree removal for homeowners and commercial properties across Johnson County and the surrounding Kansas City, KS metro area.</p>
         <p>Dead ash threatening your roof, storm-cracked elm blocking your driveway, or a healthy tree in the way of a construction project — our crew has the equipment and experience to handle it. We've removed thousands of trees since 2013 using our bucket trucks, professional chainsaws, and rigging systems built for tight-access residential lots.</p>
       </div>
@@ -112,13 +112,18 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <!-- Answer Block -->
   <section class="bg-alt">
+    <div class="section-divider section-divider--top" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,0 L1440,80 L0,80 Z" fill="#ffffff"/>
+      </svg>
+    </div>
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How Much Does Tree Removal Cost in Shawnee?</h2>
+      <div class="answer-block reveal-up">
+        <h2>How Much Does <span class="text-accent">Tree Removal</span> Cost in Shawnee?</h2>
         <p class="prose">Removal costs depend on three main factors: tree height, trunk diameter, and proximity to structures or power lines. Most Shawnee-area removals fall in the <strong>$400 to $4,500+</strong> range. Small ornamental trees in open yards sit at the low end. Medium trees run mid-range. Large hardwoods near buildings or utility lines require sectional removal with rigging and land at the higher end. Every estimate is free, and the price we quote is the price you pay.</p>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Do I Need a Permit to Remove a Tree in Shawnee?</h3>
+      <div class="answer-block reveal-up reveal-delay-1">
+        <h3>Do I Need a <span class="text-accent">Permit</span> to Remove a Tree in Shawnee?</h3>
         <p class="prose">Shawnee, KS does not currently require permits for removing trees on private residential property. Trees in the city right-of-way or those protected under HOA covenants may have restrictions — check with your HOA or the City of Shawnee Public Works if you're unsure. We can help navigate this during your free estimate.</p>
       </div>
     </div>
@@ -128,9 +133,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split">
-        <div data-animate="fade-up">
-          <span class="eyebrow-label">When Removal Is the Right Call</span>
-          <h2 class="section-title">Signs a Tree Needs to Come Down</h2>
+        <div class="reveal-right">
+          <span class="section-subtitle">when removal is the right call</span>
+          <h2 class="section-title">Signs a Tree <span class="text-accent">Needs to Come Down</span></h2>
           <ul class="check-list">
             <li><i data-lucide="check"></i> <span>Dead or dying — no leaf growth, peeling bark, fungal growth at the base</span></li>
             <li><i data-lucide="check"></i> <span>Leaning dangerously toward your home, garage, or fence line</span></li>
@@ -141,7 +146,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
           <p class="prose" style="margin-top: var(--space-lg); color: var(--text-light);">Not sure if removal is necessary? We assess every tree on-site and only recommend removal when trimming won't solve the problem. If <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">trimming or pruning</a> can save the tree, we'll tell you.</p>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-left">
           <img src="https://i.imgur.com/NfefzTe.jpeg" alt="Large felled tree trunk with worker for scale during removal in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -151,7 +156,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Mid-Page CTA -->
   <section style="padding: 0;">
     <div class="container">
-      <div class="inline-cta" data-animate="fade-up">
+      <div class="inline-cta reveal-up">
         <h2>Get a Free Tree Removal Estimate</h2>
         <a href="tel:+18165093232" class="cta-phone">(816) 509-3232</a>
         <p>Free on-site assessment. Firm pricing. No pressure.</p>
@@ -164,16 +169,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split-reverse">
-        <div data-animate="fade-up">
-          <span class="eyebrow-label">Our Equipment</span>
-          <h2 class="section-title">Built for the Toughest Jobs</h2>
+        <div class="reveal-left">
+          <span class="section-subtitle">our equipment</span>
+          <h2 class="section-title">Built for the <span class="text-accent">Toughest Jobs</span></h2>
           <p class="prose">Every removal starts with the right tools. Our fleet includes bucket trucks with 60+ foot reach for high canopy access, professional chainsaws for efficient cutting, wood chippers for on-site debris processing, and professional rigging equipment for controlled sectional removal near structures.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
             <i data-lucide="truck"></i>
             <p><strong>USDOT #3421117</strong> — Our equipment is DOT-registered for safe transport across Johnson County and the KC metro. Licensed and insured for your protection.</p>
           </div>
         </div>
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-right">
           <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Chainsaw cutting through felled tree trunk during removal" width="800" height="600" loading="lazy">
         </div>
       </div>
@@ -184,26 +189,26 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="bg-alt">
     <div class="container">
       <div style="text-align: center; margin-bottom: var(--space-2xl);">
-        <span class="eyebrow-label">Our Process</span>
-        <h2 class="section-title">How Tree Removal Works</h2>
+        <span class="section-subtitle">our process</span>
+        <h2 class="section-title">How <span class="text-accent">Tree Removal</span> Works</h2>
       </div>
       <div class="process-grid">
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up">
           <div class="step-number">1</div>
           <h3>Free On-Site Estimate</h3>
           <p>We visit your property, assess the tree, and give you a firm quote — no hidden charges, no surprises.</p>
         </div>
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up reveal-delay-1">
           <div class="step-number">2</div>
           <h3>Prep &amp; Safety Setup</h3>
           <p>We establish drop zones, protect nearby structures and landscaping, and position bucket trucks for safe access.</p>
         </div>
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up reveal-delay-2">
           <div class="step-number">3</div>
           <h3>Sectional Removal</h3>
           <p>The tree comes down in controlled sections from the top, using chainsaws and rigging to prevent damage.</p>
         </div>
-        <div class="process-step" data-animate="fade-up">
+        <div class="process-step reveal-up reveal-delay-3">
           <div class="step-number">4</div>
           <h3>Cleanup &amp; Haul-Off</h3>
           <p>All wood, branches, and debris get chipped and hauled away. Your yard is left cleaner than we found it.</p>
@@ -216,11 +221,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="split">
-        <div class="svc-img" data-animate="wipe-right">
+        <div class="svc-img reveal-left">
           <img src="https://i.imgur.com/zRVMqgp.jpeg" alt="De-limbed trunk standing during controlled tree removal in Kansas" width="800" height="600" loading="lazy">
         </div>
-        <div data-animate="fade-up">
-          <h2 class="section-title">What Types of Trees Do We Remove?</h2>
+        <div class="reveal-right">
+          <span class="section-subtitle">what we remove</span>
+          <h2 class="section-title">What <span class="text-accent">Types of Trees</span> Do We Remove?</h2>
           <p class="prose">We handle all species common to the Shawnee and Johnson County area — oaks, elms, maples, ash, Bradford pears, cottonwoods, cedars, and more. No tree is too big or too small. Our crew regularly takes down:</p>
           <ul class="check-list" style="margin-top: var(--space-md);">
             <li><i data-lucide="check"></i> <span>Dead or dying trees that pose a falling hazard</span></li>
