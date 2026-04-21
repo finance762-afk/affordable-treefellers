@@ -95,24 +95,58 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  /* --- GA4 Event Stubs — Conversion Tracking --- */
+  /* --- GA4 Event Tracking --- */
 
-  // Click-to-call tracking
-  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
-    el.addEventListener('click', () => {
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'phone_call', { event_category: 'contact', event_label: el.href });
+  // Track phone click-to-call
+  document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof gtag === 'function') {
+        gtag('event', 'phone_click', {
+          'event_category': 'engagement',
+          'event_label': link.getAttribute('href').replace('tel:', '')
+        });
       }
     });
   });
 
-  // Form submission tracking
+  // Track form submissions
   document.querySelectorAll('form').forEach(form => {
     form.addEventListener('submit', () => {
-      if (typeof gtag !== 'undefined') {
-        gtag('event', 'form_submit', { event_category: 'contact', event_label: window.location.pathname });
+      if (typeof gtag === 'function') {
+        gtag('event', 'form_submit', {
+          'event_category': 'conversion',
+          'event_label': form.getAttribute('action') || 'unknown_form'
+        });
       }
     });
+  });
+
+  // Track email click
+  document.querySelectorAll('a[href^="mailto:"]').forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof gtag === 'function') {
+        gtag('event', 'email_click', {
+          'event_category': 'engagement',
+          'event_label': link.getAttribute('href').replace('mailto:', '')
+        });
+      }
+    });
+  });
+
+  // Track service page scroll depth (fires once at 75%)
+  let scrollTracked = false;
+  window.addEventListener('scroll', () => {
+    if (scrollTracked) return;
+    const scrollPercent = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100;
+    if (scrollPercent >= 75) {
+      scrollTracked = true;
+      if (typeof gtag === 'function') {
+        gtag('event', 'scroll_75', {
+          'event_category': 'engagement',
+          'event_label': window.location.pathname
+        });
+      }
+    }
   });
 
 });

@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title><?php echo $pageTitle; ?></title>
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="GSC_VERIFICATION_CODE_HERE" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', {
+      'send_page_view': true,
+      'anonymize_ip': true
+    });
+  </script>
+
   <meta name="description" content="<?php echo $pageDescription; ?>">
   <link rel="canonical" href="<?php echo $canonicalUrl; ?>">
   <?php if (!empty($noindex)): ?>
@@ -34,26 +50,12 @@
   <?php endif; ?>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=4">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=5">
 
   <!-- Preconnect / DNS Prefetch -->
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
   <link rel="dns-prefetch" href="//www.google-analytics.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-
-  <!-- GA4 Placeholder -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-XXXXXXXXXX');
-  </script> -->
-
-  <!-- GSC Verification (homepage only) -->
-  <?php if ($currentPage === 'home'): ?>
-  <!-- <meta name="google-site-verification" content="VERIFICATION_CODE_HERE"> -->
-  <?php endif; ?>
 
   <!-- Hero Image Preload -->
   <?php if (!empty($heroImage)): ?>
