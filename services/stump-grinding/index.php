@@ -204,7 +204,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" style="margin-top: var(--space-md);"><strong>Can you plant a new tree where the stump was?</strong> Yes, but wait 1&ndash;2 seasons for the grindings to decompose and the soil to settle. Plant the new tree slightly offset from the original stump location for best root establishment.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
             <i data-lucide="settings"></i>
-            <p><strong>Professional-Grade Equipment</strong> — We use a commercial stump grinder that handles stumps of any diameter, from 6-inch ornamentals to 36-inch hardwood trunks. The Vermeer BC1000 chipper processes all debris on-site.</p>
+            <p><strong>Professional-Grade Equipment</strong> — We run commercial stump grinders that handle stumps of any diameter, from 6-inch ornamentals to 36-inch hardwood trunks. Our chippers process all debris on-site.</p>
           </div>
         </div>
       </div>

@@ -46,8 +46,8 @@ $schemaMarkup    = '{
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How much does tree removal cost in Shawnee, KS?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Tree removal in the Shawnee area typically costs between $300 and $2,500+. Small ornamental trees in open yards run $300-$600. Medium trees (30-60 feet) range from $600-$1,500. Large hardwoods near structures or power lines can be $1,500-$2,500+. We provide a free on-site estimate with a firm quote." }
+          "name": "How much does tree removal cost in Shawnee?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Tree removal in the Shawnee area typically ranges from $400 to $4,500+ depending on the size of the tree, its location relative to structures or power lines, and how much cleanup is involved. Small ornamental trees on open lots run lower, while large hardwoods near homes or utility lines require more equipment and crew time. We provide free on-site estimates with a firm price before any work begins — no surprises." }
         },
         {
           "@type": "Question",
@@ -66,8 +66,8 @@ $schemaMarkup    = '{
       "name": "How Tree Removal Works with Affordable Treefellers",
       "step": [
         { "@type": "HowToStep", "position": 1, "name": "Free On-Site Estimate", "text": "We visit your property, assess the tree, and provide a firm price quote with no hidden fees." },
-        { "@type": "HowToStep", "position": 2, "name": "Prep and Safety Setup", "text": "We set up drop zones, protect nearby structures and landscaping, and position our bucket truck." },
-        { "@type": "HowToStep", "position": 3, "name": "Sectional Removal", "text": "The tree is taken down in controlled sections from the top down, using Stihl chainsaws and rigging where needed." },
+        { "@type": "HowToStep", "position": 2, "name": "Prep and Safety Setup", "text": "We set up drop zones, protect nearby structures and landscaping, and position our bucket trucks." },
+        { "@type": "HowToStep", "position": 3, "name": "Sectional Removal", "text": "The tree is taken down in controlled sections from the top down, using professional chainsaws and rigging where needed." },
         { "@type": "HowToStep", "position": 4, "name": "Debris Removal and Cleanup", "text": "All wood, branches, and debris are chipped and hauled off. We leave your yard cleaner than we found it." }
       ]
     },
@@ -104,8 +104,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section>
     <div class="container">
       <div class="prose" data-animate="fade-up">
-        <p style="font-size: 1.1rem; line-height: 1.7;">Tree removal in Shawnee, KS typically costs between <strong>$300 and $2,500+</strong> depending on the tree's size, condition, and proximity to structures. Most residential jobs are completed in a single day. Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas, providing safe, controlled tree removal for homeowners and commercial properties across Johnson County and the surrounding Kansas City, KS metro area.</p>
-        <p>Dead ash threatening your roof, storm-cracked elm blocking your driveway, or a healthy tree in the way of a construction project — our crew has the equipment and experience to handle it. We've removed thousands of trees since 2013 using our bucket truck, Stihl professional chainsaws, and rigging systems built for tight-access residential lots.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Tree removal in Shawnee, KS typically ranges from <strong>$400 to $4,500+</strong> depending on the tree's size, condition, and proximity to structures. Most residential jobs are completed in a single day. Affordable Treefellers LLC is a licensed and insured tree service company based in Shawnee, Kansas, providing safe, controlled tree removal for homeowners and commercial properties across Johnson County and the surrounding Kansas City, KS metro area.</p>
+        <p>Dead ash threatening your roof, storm-cracked elm blocking your driveway, or a healthy tree in the way of a construction project — our crew has the equipment and experience to handle it. We've removed thousands of trees since 2013 using our bucket trucks, professional chainsaws, and rigging systems built for tight-access residential lots.</p>
       </div>
     </div>
   </section>
@@ -115,7 +115,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="answer-block" data-animate="fade-up">
         <h2>How Much Does Tree Removal Cost in Shawnee?</h2>
-        <p class="prose">Removal costs depend on three main factors: tree height, trunk diameter, and proximity to structures or power lines. Small ornamental trees in open areas run <strong>$300&ndash;$600</strong>. Medium trees (30&ndash;60 feet) cost <strong>$600&ndash;$1,500</strong>. Large hardwoods near buildings or utility lines range from <strong>$1,500&ndash;$2,500+</strong> because they require sectional removal with rigging. Every estimate is free, and the price we quote is the price you pay.</p>
+        <p class="prose">Removal costs depend on three main factors: tree height, trunk diameter, and proximity to structures or power lines. Most Shawnee-area removals fall in the <strong>$400 to $4,500+</strong> range. Small ornamental trees in open yards sit at the low end. Medium trees run mid-range. Large hardwoods near buildings or utility lines require sectional removal with rigging and land at the higher end. Every estimate is free, and the price we quote is the price you pay.</p>
       </div>
       <div class="answer-block" data-animate="fade-up">
         <h3>Do I Need a Permit to Remove a Tree in Shawnee?</h3>
@@ -167,14 +167,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div data-animate="fade-up">
           <span class="eyebrow-label">Our Equipment</span>
           <h2 class="section-title">Built for the Toughest Jobs</h2>
-          <p class="prose">Every removal starts with the right tools. Our fleet includes a bucket truck with a 60+ foot reach for high canopy access, Stihl MS 461 and MS 661 chainsaws for efficient cutting, a Vermeer BC1000 chipper for on-site debris processing, and professional rigging equipment for controlled sectional removal near structures.</p>
+          <p class="prose">Every removal starts with the right tools. Our fleet includes bucket trucks with 60+ foot reach for high canopy access, professional chainsaws for efficient cutting, wood chippers for on-site debris processing, and professional rigging equipment for controlled sectional removal near structures.</p>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
             <i data-lucide="truck"></i>
             <p><strong>USDOT #3421117</strong> — Our equipment is DOT-registered for safe transport across Johnson County and the KC metro. Licensed and insured for your protection.</p>
           </div>
         </div>
         <div class="svc-img" data-animate="wipe-right">
-          <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Stihl chainsaw cutting through felled tree trunk during removal" width="800" height="600" loading="lazy">
+          <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Chainsaw cutting through felled tree trunk during removal" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -196,7 +196,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">2</div>
           <h3>Prep &amp; Safety Setup</h3>
-          <p>We establish drop zones, protect nearby structures and landscaping, and position the bucket truck for safe access.</p>
+          <p>We establish drop zones, protect nearby structures and landscaping, and position bucket trucks for safe access.</p>
         </div>
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">3</div>
@@ -244,11 +244,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="faq-list">
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
-            How much does tree removal cost in Shawnee, KS?
+            How much does tree removal cost in Shawnee?
             <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
-            <div class="faq-answer-inner">Most residential tree removals in Shawnee cost between $300 and $2,500+. The main factors are height, trunk diameter, and proximity to structures or power lines. Small trees on open lots are the least expensive. Large hardwoods near homes require more equipment and labor. We always provide a free, firm estimate before starting.</div>
+            <div class="faq-answer-inner">Tree removal in the Shawnee area typically ranges from $400 to $4,500+ depending on the size of the tree, its location relative to structures or power lines, and how much cleanup is involved. Small ornamental trees on open lots run lower, while large hardwoods near homes or utility lines require more equipment and crew time. We provide free on-site estimates with a firm price before any work begins — no surprises.</div>
           </div>
         </div>
         <div class="faq-item">

@@ -62,7 +62,7 @@ $schemaMarkup    = '{
       "step": [
         { "@type": "HowToStep", "position": 1, "name": "Site Walk and Estimate", "text": "We walk the property with you, mark the clearing boundaries, and provide a firm project quote." },
         { "@type": "HowToStep", "position": 2, "name": "Tree and Brush Removal", "text": "Trees are felled, limbed, and removed. Brush is cut and cleared from the site." },
-        { "@type": "HowToStep", "position": 3, "name": "Chipping and Processing", "text": "Our Vermeer BC1000 chipper processes all wood and brush debris on-site, reducing material to manageable chips." },
+        { "@type": "HowToStep", "position": 3, "name": "Chipping and Processing", "text": "Our chippers process all wood and brush debris on-site, reducing material to manageable chips." },
         { "@type": "HowToStep", "position": 4, "name": "Stump Grinding and Finish", "text": "All stumps are ground below grade and the lot is left clean and ready for the next phase of your project." }
       ]
     },
@@ -101,7 +101,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="split">
         <div class="prose" data-animate="fade-up">
           <p style="font-size: 1.1rem; line-height: 1.7;">Lot clearing in Shawnee, KS starts around <strong>$1,500 for small residential parcels</strong> and scales up based on acreage, tree density, and whether stump grinding is included. Most residential lots clear in 1&ndash;3 days. Affordable Treefellers provides lot and land clearing services for homeowners, builders, and property developers across Shawnee, Kansas and the greater Kansas City, KS area.</p>
-          <p>Building pad for new construction, fence line, neglected lot, or space for landscaping — we bring the crew and equipment to handle the full scope. Trees, brush, stumps, and debris get removed and processed on-site with our Vermeer chipper.</p>
+          <p>Building pad for new construction, fence line, neglected lot, or space for landscaping — we bring the crew and equipment to handle the full scope. Trees, brush, stumps, and debris get removed and processed on-site with our own chippers.</p>
         </div>
         <div class="svc-img" data-animate="wipe-right">
           <img src="https://i.imgur.com/RW6NMwI.jpeg" alt="Overgrown brush requiring lot clearing in Shawnee, KS" width="800" height="600" loading="lazy">
@@ -180,7 +180,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="step" data-animate="fade-up">
             <span class="step-marker">3</span>
             <h3>On-Site Chipping</h3>
-            <p>All wood and brush is processed through our Vermeer BC1000 chipper. Chips can be spread on-site or hauled away per your preference.</p>
+            <p>All wood and brush is processed through our chippers. Chips can be spread on-site or hauled away per your preference.</p>
           </div>
           <div class="step" data-animate="fade-up">
             <span class="step-marker">4</span>
@@ -203,10 +203,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <h2 class="section-title">The Right Equipment for the Job</h2>
           <p class="prose">Land clearing is equipment-intensive work. We bring what's needed so the job moves efficiently and the site is left clean:</p>
           <ul class="check-list" style="margin-top: var(--space-md);">
-            <li><i data-lucide="check"></i> <span><strong>Stihl professional chainsaws</strong> — MS 461 and MS 661 for felling and bucking</span></li>
-            <li><i data-lucide="check"></i> <span><strong>Bucket truck</strong> — 60+ foot reach for tall trees that need sectional removal</span></li>
-            <li><i data-lucide="check"></i> <span><strong>Vermeer BC1000 chipper</strong> — processes all wood and brush debris on-site</span></li>
-            <li><i data-lucide="check"></i> <span><strong>Commercial stump grinder</strong> — grinds stumps 6&ndash;12 inches below grade</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Professional chainsaws</strong> — heavy-duty saws for felling and bucking</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Bucket trucks</strong> — 60+ foot reach for tall trees that need sectional removal</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Wood chippers</strong> — process all wood and brush debris on-site</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Commercial stump grinders</strong> — grind stumps 6&ndash;12 inches below grade</span></li>
           </ul>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
             <i data-lucide="truck"></i>

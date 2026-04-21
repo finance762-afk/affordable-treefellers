@@ -253,7 +253,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div class="trust-content" data-animate="fade-up">
           <span class="eyebrow-label">Why Shawnee Trusts Us</span>
           <h2 class="section-title">Built on Hard Work, Not Overhead</h2>
-          <p class="prose">Affordable Treefellers has been doing tree work in Shawnee and the KC metro since 2013. The company started small and grew because we show up on time, charge fair prices, and clean up after ourselves. Our crew handles everything from routine trims to emergency storm calls — no subcontractors, no runaround.</p>
+          <p class="prose">Affordable Treefellers has been doing tree work in Shawnee and the KC metro since 2013. The company started small and grew because we show up on time, charge fair prices, and clean up after ourselves. Our in-house crew handles everything from routine trims to emergency storm calls — same faces on every job, no runaround.</p>
           <ul class="benefit-list">
             <li>
               <span class="benefit-icon"><i data-lucide="users"></i></span>
@@ -265,7 +265,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </li>
             <li>
               <span class="benefit-icon"><i data-lucide="truck"></i></span>
-              <span><strong>Full Equipment Fleet</strong> &mdash; bucket truck, Vermeer chipper, Stihl saws</span>
+              <span><strong>Full Equipment Fleet</strong> &mdash; our own trucks, chippers, chainsaws, and stump grinders</span>
             </li>
             <li>
               <span class="benefit-icon"><i data-lucide="shield-check"></i></span>
@@ -290,7 +290,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <img src="https://i.imgur.com/bb6Nte3.jpeg" alt="Massive felled tree trunk in residential yard in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
-          <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Felled trunk with Stihl chainsaw during tree removal in Shawnee" width="600" height="450" loading="lazy">
+          <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Felled trunk with chainsaw during tree removal in Shawnee" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
           <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck trimming mature tree in Shawnee, Kansas neighborhood" width="600" height="450" loading="lazy">
@@ -318,23 +318,23 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="process-grid">
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">1</div>
-          <h3>Call for an Estimate</h3>
-          <p>Give us a call or fill out the form. We'll get the details and schedule a time that works for you.</p>
+          <h3>Assess the Job</h3>
+          <p>Give us a call or fill out the form. We come to your property, walk the job with you, and flag anything that needs a closer look before pricing.</p>
         </div>
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">2</div>
-          <h3>On-Site Assessment</h3>
-          <p>We come to your property, evaluate the job, and give you a straightforward price — no surprises.</p>
+          <h3>Plan the Approach</h3>
+          <p>We give you a firm, straightforward price and map out drop zones, access points, and any structure or utility concerns — so there are no surprises on the day of the job.</p>
         </div>
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">3</div>
-          <h3>Professional Service</h3>
-          <p>Our crew handles the work safely with the right equipment — bucket truck, chipper, and professional-grade saws.</p>
+          <h3>Execute Safely</h3>
+          <p>Our in-house crew shows up with the right equipment for the job and works the plan — controlled, efficient, and careful with your yard and everything around it.</p>
         </div>
         <div class="process-step" data-animate="fade-up">
           <div class="step-number">4</div>
-          <h3>Complete Cleanup</h3>
-          <p>We haul away all debris and leave your yard cleaner than we found it. No mess, no hassle.</p>
+          <h3>Clean Up Completely</h3>
+          <p>We haul away every branch, chip every pile, and rake the area before we leave. Your yard looks cleaner than when we got there.</p>
         </div>
       </div>
     </div>
@@ -370,7 +370,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </button>
           <div class="faq-answer" role="region">
             <div class="faq-answer-inner">
-              Tree removal in the Shawnee area typically ranges from $300 to $2,500+ depending on the size of the tree, its location relative to structures or power lines, and how much cleanup is involved. Small ornamental trees on open lots run lower, while large hardwoods near homes or utility lines require more equipment and crew time. We provide free on-site estimates with a firm price before any work begins — no surprises.
+              Tree removal in the Shawnee area typically ranges from $400 to $4,500+ depending on the size of the tree, its location relative to structures or power lines, and how much cleanup is involved. Small ornamental trees on open lots run lower, while large hardwoods near homes or utility lines require more equipment and crew time. We provide free on-site estimates with a firm price before any work begins — no surprises.
             </div>
           </div>
         </div>

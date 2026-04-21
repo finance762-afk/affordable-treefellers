@@ -74,11 +74,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/tree-removal" class="services-overview-card" data-animate="fade-up">
           <div class="card-img">
-            <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Tree removal with Stihl chainsaw in Shawnee, KS" width="600" height="375" loading="lazy">
+            <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Tree removal with chainsaw in Shawnee, KS" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Tree Removal</h3>
-            <p>Safe, complete removal of dead, hazardous, or unwanted trees. Bucket truck equipped for any height or access challenge.</p>
+            <p>Safe, complete removal of dead, hazardous, or unwanted trees. Bucket trucks equipped for any height or access challenge.</p>
             <span class="card-link">Learn More <i data-lucide="arrow-right"></i></span>
           </div>
         </a>

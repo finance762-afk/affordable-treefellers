@@ -57,7 +57,7 @@ $schemaMarkup    = '{
         {
           "@type": "Question",
           "name": "Can you trim branches near power lines?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes, with proper safety protocols. Our bucket truck provides safe elevated access for trimming near power lines without climbing. For branches in direct contact with high-voltage lines, we coordinate with the local utility company. Never attempt to trim near power lines yourself." }
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes, with proper safety protocols. Our bucket trucks provide safe elevated access for trimming near power lines without climbing. For branches in direct contact with high-voltage lines, we coordinate with the local utility company. Never attempt to trim near power lines yourself." }
         }
       ]
     },
@@ -66,7 +66,7 @@ $schemaMarkup    = '{
       "name": "How Professional Tree Trimming Works",
       "step": [
         { "@type": "HowToStep", "position": 1, "name": "Assessment", "text": "We evaluate each tree for dead, diseased, or structurally weak branches and identify clearance needs." },
-        { "@type": "HowToStep", "position": 2, "name": "Access Setup", "text": "Position bucket truck or climbing gear depending on tree height and site conditions." },
+        { "@type": "HowToStep", "position": 2, "name": "Access Setup", "text": "Position bucket trucks or climbing gear depending on tree height and site conditions." },
         { "@type": "HowToStep", "position": 3, "name": "Precision Cutting", "text": "Remove targeted branches using proper pruning cuts that promote healing and prevent disease entry." },
         { "@type": "HowToStep", "position": 4, "name": "Cleanup", "text": "All branches and debris are chipped on-site and hauled away." }
       ]
@@ -106,7 +106,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="split-reverse">
         <div class="prose" data-animate="fade-up">
           <p style="font-size: 1.1rem; line-height: 1.7;">Tree trimming in Shawnee, KS typically costs <strong>$150 to $1,200+</strong> depending on the number of trees, their size, and how much work each one needs. Most residential trimming jobs take a few hours to a full day. Affordable Treefellers provides professional tree trimming and pruning for homes and businesses across the Shawnee, Kansas area and throughout the greater Kansas City, KS metro.</p>
-          <p>Regular trimming prevents problems before they start — branches against your roof, limbs blocking sight lines, dead wood waiting to drop in the next Kansas storm. Our crew uses a bucket truck for high canopy access and Stihl chainsaws for precise cuts that promote healthy regrowth rather than stress the tree.</p>
+          <p>Regular trimming prevents problems before they start — branches against your roof, limbs blocking sight lines, dead wood waiting to drop in the next Kansas storm. Our crew uses bucket trucks for high canopy access and professional chainsaws for precise cuts that promote healthy regrowth rather than stress the tree.</p>
         </div>
         <div class="svc-img" data-animate="wipe-right">
           <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck positioned for tree trimming at residential property in Shawnee, KS" width="800" height="600" loading="lazy">
@@ -247,7 +247,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <i data-lucide="chevron-down"></i>
           </button>
           <div class="faq-answer" role="region">
-            <div class="faq-answer-inner">Yes. Our bucket truck allows safe, elevated access for trimming near power lines without climbing. For branches in direct contact with high-voltage lines, we coordinate with the local utility. Never attempt to trim near power lines yourself — always call a professional.</div>
+            <div class="faq-answer-inner">Yes. Our bucket trucks allow safe, elevated access for trimming near power lines without climbing. For branches in direct contact with high-voltage lines, we coordinate with the local utility. Never attempt to trim near power lines yourself — always call a professional.</div>
           </div>
         </div>
         <div class="faq-item">

@@ -20,7 +20,7 @@ a { text-decoration: none; color: inherit; }
 /* --- CSS Variables --- */
 :root {
   /* Layout */
-  --navbar-height: 80px;
+  --navbar-height: 92px;
   --max-width: 1200px;
   --content-width: 65ch;
   --section-pad: 80px 20px;
@@ -154,15 +154,13 @@ h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
   z-index: 1000;
   display: flex;
   align-items: center;
-  background: var(--primary);
+  background: #0A0A0A;
   transition: background var(--transition), box-shadow var(--transition);
 }
 .navbar.scrolled {
-  background: rgba(var(--primary-rgb), 0.88);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  box-shadow: var(--elevation-2);
+  background: #0A0A0A;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.35);
 }
 .navbar .container {
   display: flex;
@@ -173,9 +171,26 @@ h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
   display: flex;
   align-items: center;
 }
+.navbar-logo img,
 .logo-img {
-  height: 50px;
+  max-height: 68px;
+  height: auto;
   width: auto;
+  transition: max-height 0.3s ease;
+}
+.navbar.scrolled .navbar-logo img,
+.navbar.scrolled .logo-img {
+  max-height: 54px;
+}
+@media (max-width: 767px) {
+  .navbar-logo img,
+  .logo-img {
+    max-height: 52px;
+  }
+  .navbar.scrolled .navbar-logo img,
+  .navbar.scrolled .logo-img {
+    max-height: 44px;
+  }
 }
 .navbar-links {
   display: flex;

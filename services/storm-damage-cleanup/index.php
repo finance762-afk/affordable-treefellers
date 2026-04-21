@@ -106,7 +106,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="prose" data-animate="fade-up" style="margin-top: var(--space-lg);">
         <p>Affordable Treefellers provides emergency storm damage tree removal and cleanup in Shawnee, Kansas and throughout the greater Kansas City, KS metro area. Kansas sees some of the most severe weather in the country — tornadoes, straight-line winds topping 80 mph, ice storms, and heavy thunderstorms that bring down full-grown trees in seconds. When that happens, you need a crew with the equipment and experience to get your property safe and accessible fast.</p>
-        <p>Since 2013, we've responded to hundreds of storm calls across Johnson County. Our bucket truck, chainsaws, and chipper are storm-ready year-round. We work directly with your insurance adjuster and provide the documentation you need for your claim.</p>
+        <p>Since 2013, we've responded to hundreds of storm calls across Johnson County. Our bucket trucks, chainsaws, and chippers are storm-ready year-round. We work directly with your insurance adjuster and provide the documentation you need for your claim.</p>
       </div>
     </div>
   </section>

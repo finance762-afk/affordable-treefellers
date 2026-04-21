@@ -121,15 +121,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="split-reverse">
         <div data-animate="fade-up">
           <span class="eyebrow-label">Our Equipment</span>
-          <h2 class="section-title">The Right Tools for Every Job</h2>
+          <h2 class="section-title">Full Equipment Fleet</h2>
           <div class="prose">
-            <p>Having the right equipment means we can handle jobs safely, efficiently, and without subcontracting — which keeps your costs down and the quality consistent. Our fleet includes:</p>
+            <p>We own all our own trucks and equipment — no rentals, no subcontractor gear, no waiting on third parties. Everything we need to take down a tree, grind a stump, or clear a lot rolls up in our trucks on day one.</p>
           </div>
           <ul class="check-list" style="margin-top: var(--space-md);">
-            <li><i data-lucide="check"></i> <span><strong>Bucket truck</strong> — 60+ foot reach for high canopy trimming and sectional removal without climbing</span></li>
-            <li><i data-lucide="check"></i> <span><strong>Vermeer BC1000 wood chipper</strong> — processes all branches and brush on-site, reducing debris to manageable chips</span></li>
-            <li><i data-lucide="check"></i> <span><strong>Stihl professional chainsaws</strong> — MS 461 and MS 661 models for precision cutting on jobs large and small</span></li>
-            <li><i data-lucide="check"></i> <span><strong>Commercial stump grinder</strong> — handles stumps of any diameter, grinding 6&ndash;12 inches below grade</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Bucket trucks</strong> — 60+ foot reach for high canopy trimming and sectional removal without climbing</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Wood chippers</strong> — process all branches and brush on-site, reducing debris to manageable chips</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Professional chainsaws</strong> — heavy-duty saws for precision cutting on jobs large and small</span></li>
+            <li><i data-lucide="check"></i> <span><strong>Commercial stump grinders</strong> — handle stumps of any diameter, grinding 6&ndash;12 inches below grade</span></li>
             <li><i data-lucide="check"></i> <span><strong>Rigging systems</strong> — for controlled removal of trees in tight spaces near structures and power lines</span></li>
           </ul>
           <div class="equipment-callout" style="margin-top: var(--space-lg);">
