@@ -5,7 +5,27 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   /* --- Enable animations (elements visible by default until JS confirms) --- */
-  document.documentElement.classList.add('js-ready');
+  document.documentElement.classList.add('js-ready');/* Safety: reveal anything already in viewport at load time */
+  setTimeout(() => {
+    document.querySelectorAll('[data-animate]').forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add('in-view');
+      }
+    });
+    document.querySelectorAll('.reveal-up, .reveal-down, .reveal-left, .reveal-right, .reveal-scale').forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add('is-visible');
+      }
+    });
+  }, 50);
+
+  /* Ultimate fallback: force-reveal anything still hidden after 2 seconds */
+  setTimeout(() => {
+    document.querySelectorAll('[data-animate]:not(.in-view)').forEach(el => el.classList.add('in-view'));
+    document.querySelectorAll('.reveal-up:not(.is-visible), .reveal-down:not(.is-visible), .reveal-left:not(.is-visible), .reveal-right:not(.is-visible), .reveal-scale:not(.is-visible)').forEach(el => el.classList.add('is-visible'));
+  }, 2000);
 
   /* --- Scroll Reveal (fade-up, wipe-right) --- */
   const animElements = document.querySelectorAll('[data-animate]');
