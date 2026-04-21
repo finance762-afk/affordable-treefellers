@@ -50,7 +50,7 @@
   <?php endif; ?>
 
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="/assets/css/styles.css?v=6">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=7">
 
   <!-- Preconnect / DNS Prefetch -->
   <link rel="dns-prefetch" href="//www.googletagmanager.com">

@@ -1714,8 +1714,45 @@ section, .hero, .storm-cta, .page-hero, .stats-section {
   .grid-asymmetric { grid-template-columns: 1fr; }
 }
 @media (max-width: 767px) {
-  .about-grid { grid-template-columns: 1fr; gap: var(--space-xl); }
-  .about-image-wrap { min-height: 340px; }
+  .about-grid,
+  .grid-asymmetric {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .about-image-wrap {
+    position: relative;
+    min-height: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+
+  .about-image-primary,
+  .about-image-secondary {
+    position: static;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    transform: none;
+    border: none;
+    box-shadow: var(--elevation-2);
+    border-radius: 6px;
+  }
+
+  .about-image-secondary {
+    transform: rotate(-2deg);
+    border: 4px solid #fff;
+    margin-top: var(--space-md);
+  }
+
+  /* Ensure image wrap comes BEFORE text on mobile for better flow */
+  .about-grid > .about-image-wrap { order: 1; }
+  .about-grid > .about-text,
+  .about-grid > *:not(.about-image-wrap) { order: 2; }
 }
 
 /* ============================================

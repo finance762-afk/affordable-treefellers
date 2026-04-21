@@ -261,7 +261,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <img class="about-image-primary" src="https://i.imgur.com/ZTry5Cq.jpeg" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, Kansas" width="800" height="1000" loading="lazy">
           <img class="about-image-secondary" src="https://i.imgur.com/cgdK3ZI.jpeg" alt="Affordable Treefellers crew member on the job in Kansas" width="600" height="750" loading="lazy">
         </div>
-        <div class="trust-content reveal-right">
+        <div class="about-text trust-content reveal-right">
           <span class="section-subtitle">meet the crew</span>
           <h2 class="section-title">Built on <span class="text-accent">hard work</span>, not overhead</h2>
           <p class="prose">Affordable Treefellers has been doing tree work in Shawnee and the KC metro since 2013. The company started small and grew because we show up on time, charge fair prices, and clean up after ourselves. Our in-house crew handles everything from routine trims to emergency storm calls — same faces on every job, no runaround.</p>
