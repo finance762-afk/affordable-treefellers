@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . "/site-config.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,9 @@
   <title><?php echo $pageTitle; ?></title>
 
   <!-- Google Search Console Verification -->
-  <meta name="google-site-verification" content="GSC_VERIFICATION_CODE_HERE" />
+  <?php if (!empty($gscVerification)): ?>
+  <meta name="google-site-verification" content="<?php echo htmlspecialchars($gscVerification, ENT_QUOTES, 'UTF-8'); ?>">
+  <?php endif; ?>
 
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -68,6 +71,7 @@
   <?php echo $schemaMarkup; ?>
   </script>
   <?php endif; ?>
+<?php require_once __DIR__ . '/edit-mode.php'; ?>
 </head>
 <body>
   <!-- Skip to Content -->
