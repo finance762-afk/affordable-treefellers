@@ -68,7 +68,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <!-- Form -->
         <div data-animate="fade-up">
           <h2 style="font-size: 1.4rem; margin-bottom: var(--space-lg);">Request a Free Estimate</h2>
-          <form action="https://formsubmit.co/bigvermont@hotmail.com" method="POST">
+          <form action="https://db.pageone.cloud/functions/v1/leads/affordable-treefellers" method="POST">
             <!-- Hidden Fields -->
             <input type="hidden" name="_next" value="https://affordabletreefellers.com/thank-you">
             <input type="hidden" name="_captcha" value="false">
