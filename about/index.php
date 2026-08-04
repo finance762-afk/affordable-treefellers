@@ -2,9 +2,9 @@
 $pageTitle       = "About Affordable Treefellers | Tree Service in Shawnee, KS Since 2013";
 $pageDescription = "Affordable Treefellers LLC — a skilled tree service team based in Shawnee, KS. Founded by Eric Frauenknecht in 2013. Licensed, insured, USDOT #3421117. Serving the Kansas City, KS area.";
 $canonicalUrl    = "https://affordabletreefellers.com/about";
-$ogImage         = "https://i.imgur.com/ZTry5Cq.jpeg";
+$ogImage         = "/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-1600.webp";
 $currentPage     = "about";
-$heroImage       = "https://i.imgur.com/ZTry5Cq.jpeg";
+$heroImage       = "/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-1600.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -15,7 +15,7 @@ $schemaMarkup    = '{
       "@type": "Organization",
       "name": "Affordable Treefellers LLC",
       "url": "https://affordabletreefellers.com",
-      "logo": "https://i.imgur.com/uviMLZK.png",
+      "logo": "/assets/images/logo.png",
       "foundingDate": "2013",
       "founder": {
         "@type": "Person",
@@ -71,7 +71,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/ZTry5Cq.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-1600.webp');">
     <div class="container">
       <h1>About Affordable Treefellers</h1>
       <p>Local tree service crew based in Shawnee, KS. Fair prices, reliable work since 2013.</p>
@@ -99,8 +99,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="about-grid">
         <div class="about-image-wrap reveal-left">
-          <img class="about-image-primary" src="https://i.imgur.com/ZTry5Cq.jpeg" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, KS" width="800" height="1000" loading="lazy">
-          <img class="about-image-secondary" src="https://i.imgur.com/cgdK3ZI.jpeg" alt="Affordable Treefellers crew member on the job in Kansas" width="600" height="750" loading="lazy">
+          <img class="about-image-primary" src="/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-960.webp" srcset="/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-480.webp 480w, /assets/images/eric-frauenknecht-owner-of-affordable-treefeller-960.webp 960w, /assets/images/eric-frauenknecht-owner-of-affordable-treefeller-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, KS" width="800" height="1000" loading="lazy">
+          <img class="about-image-secondary" src="/assets/images/affordable-treefellers-crew-member-on-the-job-in-960.webp" srcset="/assets/images/affordable-treefellers-crew-member-on-the-job-in-480.webp 480w, /assets/images/affordable-treefellers-crew-member-on-the-job-in-960.webp 960w, /assets/images/affordable-treefellers-crew-member-on-the-job-in-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Affordable Treefellers crew member on the job in Kansas" width="600" height="750" loading="lazy">
         </div>
         <div class="about-text reveal-right">
           <span class="section-subtitle">our story</span>
@@ -164,10 +164,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div class="reveal-left" style="display: flex; flex-direction: column; gap: var(--space-md);">
           <div class="svc-img">
-            <img src="https://i.imgur.com/1KvudFj.jpeg" alt="Affordable Treefellers truck ready for tree service in Shawnee, Kansas" width="800" height="600" loading="lazy">
+            <img src="/assets/images/affordable-treefellers-truck-ready-for-tree-serv-960.webp" srcset="/assets/images/affordable-treefellers-truck-ready-for-tree-serv-480.webp 480w, /assets/images/affordable-treefellers-truck-ready-for-tree-serv-960.webp 960w, /assets/images/affordable-treefellers-truck-ready-for-tree-serv-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Affordable Treefellers truck ready for tree service in Shawnee, Kansas" width="800" height="600" loading="lazy">
           </div>
           <div class="svc-img">
-            <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers work truck used for tree service jobs in Kansas" width="800" height="600" loading="lazy">
+            <img src="/assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp" srcset="/assets/images/affordable-treefellers-work-truck-at-job-site-in-480.webp 480w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp 960w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Affordable Treefellers work truck used for tree service jobs in Kansas" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -191,7 +191,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/Cc181DF.jpeg" alt="Worker with chainsaw cutting trunk during tree service job in Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/worker-with-chainsaw-cutting-trunk-during-tree-s-960.webp" srcset="/assets/images/worker-with-chainsaw-cutting-trunk-during-tree-s-480.webp 480w, /assets/images/worker-with-chainsaw-cutting-trunk-during-tree-s-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Worker with chainsaw cutting trunk during tree service job in Kansas" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="section-subtitle">what you can expect</span>
@@ -229,15 +229,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="grid-3">
         <div class="svc-img reveal-up">
-          <img src="https://i.imgur.com/ZTry5Cq.jpeg" alt="Eric Frauenknecht, owner of Affordable Treefellers" width="600" height="450" loading="lazy">
+          <img src="/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-960.webp" srcset="/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-480.webp 480w, /assets/images/eric-frauenknecht-owner-of-affordable-treefeller-960.webp 960w, /assets/images/eric-frauenknecht-owner-of-affordable-treefeller-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Eric Frauenknecht, owner of Affordable Treefellers" width="600" height="450" loading="lazy">
           <p style="text-align: center; margin-top: var(--space-sm); font-weight: 600;">Eric Frauenknecht, Owner</p>
         </div>
         <div class="svc-img reveal-up reveal-delay-1">
-          <img src="https://i.imgur.com/cgdK3ZI.jpeg" alt="Affordable Treefellers crew member on the job" width="600" height="450" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-crew-member-on-the-job-in-960.webp" srcset="/assets/images/affordable-treefellers-crew-member-on-the-job-in-480.webp 480w, /assets/images/affordable-treefellers-crew-member-on-the-job-in-960.webp 960w, /assets/images/affordable-treefellers-crew-member-on-the-job-in-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Affordable Treefellers crew member on the job" width="600" height="450" loading="lazy">
           <p style="text-align: center; margin-top: var(--space-sm); font-weight: 600;">The Crew</p>
         </div>
         <div class="svc-img reveal-up reveal-delay-2">
-          <img src="https://i.imgur.com/t56i219.jpeg" alt="Affordable Treefellers brand supporter in company hat" width="600" height="450" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-brand-supporter-in-compan-960.webp" srcset="/assets/images/affordable-treefellers-brand-supporter-in-compan-480.webp 480w, /assets/images/affordable-treefellers-brand-supporter-in-compan-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Affordable Treefellers brand supporter in company hat" width="600" height="450" loading="lazy">
           <p style="text-align: center; margin-top: var(--space-sm); font-weight: 600;">Affordable Treefellers Family</p>
         </div>
       </div>
@@ -288,7 +288,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </div>
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/mbhx05O.jpeg" alt="Affordable Treefellers worker with ladder at residential tree service job" width="800" height="600" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-worker-with-ladder-at-res-960.webp" srcset="/assets/images/affordable-treefellers-worker-with-ladder-at-res-480.webp 480w, /assets/images/affordable-treefellers-worker-with-ladder-at-res-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Affordable Treefellers worker with ladder at residential tree service job" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

@@ -2,9 +2,9 @@
 $pageTitle       = "Tree Removal in Shawnee, KS | Affordable Treefellers LLC";
 $pageDescription = "Professional tree removal in Shawnee, KS. Dead, hazardous, and storm-damaged tree removal with bucket truck. Licensed, insured, USDOT #3421117. Free estimates — call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/services/tree-removal";
-$ogImage         = "https://i.imgur.com/bcIwTki.jpeg";
+$ogImage         = "/assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-1600.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/bb6Nte3.jpeg";
+$heroImage       = "/assets/images/massive-felled-tree-trunk-in-residential-yard-in-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -86,7 +86,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/bb6Nte3.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/massive-felled-tree-trunk-in-residential-yard-in-960.webp');">
     <div class="container">
       <h1>Tree Removal in Shawnee, KS</h1>
       <p>Safe, complete tree removal for residential and commercial properties across the greater Kansas City, KS area.</p>
@@ -147,7 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" style="margin-top: var(--space-lg); color: var(--text-light);">Not sure if removal is necessary? We assess every tree on-site and only recommend removal when trimming won't solve the problem. If <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">trimming or pruning</a> can save the tree, we'll tell you.</p>
         </div>
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/NfefzTe.jpeg" alt="Large felled tree trunk with worker for scale during removal in Shawnee, KS" width="800" height="600" loading="lazy">
+          <img src="/assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-960.webp" srcset="/assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-480.webp 480w, /assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-960.webp 960w, /assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Large felled tree trunk with worker for scale during removal in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -179,7 +179,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </div>
         <div class="svc-img reveal-right">
-          <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Chainsaw cutting through felled tree trunk during removal" width="800" height="600" loading="lazy">
+          <img src="/assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-960.webp" srcset="/assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-480.webp 480w, /assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-960.webp 960w, /assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Chainsaw cutting through felled tree trunk during removal" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -222,7 +222,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/zRVMqgp.jpeg" alt="De-limbed trunk standing during controlled tree removal in Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/de-limbed-trunk-standing-during-controlled-tree-960.webp" srcset="/assets/images/de-limbed-trunk-standing-during-controlled-tree-480.webp 480w, /assets/images/de-limbed-trunk-standing-during-controlled-tree-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="De-limbed trunk standing during controlled tree removal in Kansas" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="section-subtitle">what we remove</span>

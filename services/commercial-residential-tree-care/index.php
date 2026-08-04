@@ -2,9 +2,9 @@
 $pageTitle       = "Commercial & Residential Tree Care in Shawnee, KS | Affordable Treefellers";
 $pageDescription = "Professional tree care for homes, businesses, HOAs, and property managers in Shawnee, KS. Trimming, removal, maintenance plans. USDOT #3421117. Call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/services/commercial-residential-tree-care";
-$ogImage         = "https://i.imgur.com/c9RF7k9.jpeg";
+$ogImage         = "/assets/images/bucket-truck-at-residential-property-for-tree-se-960.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/c9RF7k9.jpeg";
+$heroImage       = "/assets/images/bucket-truck-at-residential-property-for-tree-se-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -71,7 +71,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/c9RF7k9.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/bucket-truck-at-residential-property-for-tree-se-960.webp');">
     <div class="container">
       <h1>Commercial &amp; Residential Tree Care in Shawnee, KS</h1>
       <p>Reliable tree service for homeowners, property managers, HOAs, and businesses across the Kansas City, KS area.</p>
@@ -147,7 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/kleywYF.jpeg" alt="Affordable Treefellers crew with chipper performing tree care at residential property" width="800" height="600" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-crew-with-chipper-perform-960.webp" srcset="/assets/images/affordable-treefellers-crew-with-chipper-perform-480.webp 480w, /assets/images/affordable-treefellers-crew-with-chipper-perform-960.webp 960w, /assets/images/affordable-treefellers-crew-with-chipper-perform-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Affordable Treefellers crew with chipper performing tree care at residential property" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="section-subtitle">ongoing care</span>
@@ -203,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="svc-img reveal-right">
-          <img src="https://i.imgur.com/4Wuvaqu.jpeg" alt="Affordable Treefellers trucks with stripped trunk during commercial tree work" width="800" height="600" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-trucks-with-stripped-trun-960.webp" srcset="/assets/images/affordable-treefellers-trucks-with-stripped-trun-480.webp 480w, /assets/images/affordable-treefellers-trucks-with-stripped-trun-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Affordable Treefellers trucks with stripped trunk during commercial tree work" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

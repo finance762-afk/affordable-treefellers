@@ -2,9 +2,9 @@
 $pageTitle       = "Lot & Land Clearing in Shawnee, KS | Affordable Treefellers LLC";
 $pageDescription = "Professional lot and land clearing in Shawnee, KS. Tree removal, brush clearing, and site prep for construction and development. Licensed, insured. Call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/services/lot-land-clearing";
-$ogImage         = "https://i.imgur.com/XcCQgIQ.jpeg";
+$ogImage         = "/assets/images/cleared-residential-lot-ready-for-construction-i-960.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/XcCQgIQ.jpeg";
+$heroImage       = "/assets/images/cleared-residential-lot-ready-for-construction-i-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/XcCQgIQ.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/cleared-residential-lot-ready-for-construction-i-960.webp');">
     <div class="container">
       <h1>Lot &amp; Land Clearing in Shawnee, KS</h1>
       <p>Complete site clearing for new construction, fence lines, and overgrown properties. Trees, brush, and stumps — all handled.</p>
@@ -104,7 +104,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>Building pad for new construction, fence line, neglected lot, or space for landscaping — we bring the crew and equipment to handle the full scope. Trees, brush, stumps, and debris get removed and processed on-site with our own chippers.</p>
         </div>
         <div class="svc-img">
-          <img src="https://i.imgur.com/RW6NMwI.jpeg" alt="Overgrown brush requiring lot clearing in Shawnee, KS" width="800" height="600" loading="lazy">
+          <img src="/assets/images/overgrown-brush-requiring-lot-clearing-in-shawne-960.webp" srcset="/assets/images/overgrown-brush-requiring-lot-clearing-in-shawne-480.webp 480w, /assets/images/overgrown-brush-requiring-lot-clearing-in-shawne-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Overgrown brush requiring lot clearing in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" style="margin-top: var(--space-md); color: var(--text-light);">Don't need the whole lot cleared? We handle partial clearing too — just the section you need, leaving the rest untouched.</p>
         </div>
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/pIAnpuf.jpeg" alt="Wood chipper processing brush during lot clearing in Shawnee, Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/wood-chipper-processing-brush-during-lot-clearin-960.webp" srcset="/assets/images/wood-chipper-processing-brush-during-lot-clearin-480.webp 480w, /assets/images/wood-chipper-processing-brush-during-lot-clearin-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Wood chipper processing brush during lot clearing in Shawnee, Kansas" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -202,7 +202,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img reveal-right">
-          <img src="https://i.imgur.com/XcCQgIQ.jpeg" alt="Cleared residential lot ready for construction or fencing in Shawnee, KS" width="800" height="600" loading="lazy">
+          <img src="/assets/images/cleared-residential-lot-ready-for-construction-i-960.webp" srcset="/assets/images/cleared-residential-lot-ready-for-construction-i-480.webp 480w, /assets/images/cleared-residential-lot-ready-for-construction-i-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Cleared residential lot ready for construction or fencing in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-left">
           <span class="section-subtitle">the right equipment</span>

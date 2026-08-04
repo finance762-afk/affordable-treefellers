@@ -2,7 +2,7 @@
 $pageTitle       = "Contact Affordable Treefellers | Free Estimates in Shawnee, KS";
 $pageDescription = "Contact Affordable Treefellers for a free tree service estimate in Shawnee, KS. Call (816) 509-3232 or fill out the form. Licensed and insured. 24/7 emergency service.";
 $canonicalUrl    = "https://affordabletreefellers.com/contact";
-$ogImage         = "https://i.imgur.com/BPmnacY.jpeg";
+$ogImage         = "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp";
 $currentPage     = "contact";
 $heroImage       = "";
 $useSwiper       = false;

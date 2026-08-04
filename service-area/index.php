@@ -2,9 +2,9 @@
 $pageTitle       = "Tree Service Areas | Shawnee, KS & Surrounding Communities | Affordable Treefellers";
 $pageDescription = "Affordable Treefellers serves Shawnee, Overland Park, Olathe, Lenexa, and communities across the Kansas City, KS metro. 30-40 mile service radius. Call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/service-area";
-$ogImage         = "https://i.imgur.com/aZemz7o.jpeg";
+$ogImage         = "/assets/images/azemz7o-960.webp";
 $currentPage     = "service-area";
-$heroImage       = "https://i.imgur.com/aZemz7o.jpeg";
+$heroImage       = "/assets/images/azemz7o-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -51,7 +51,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/aZemz7o.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/azemz7o-960.webp');">
     <div class="container">
       <h1>Tree Service Areas in Shawnee, KS &amp; Surrounding Communities</h1>
       <p>Serving the Kansas side of the KC metro within a 30&ndash;40 mile radius of Shawnee, KS.</p>

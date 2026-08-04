@@ -2,9 +2,9 @@
 $pageTitle       = "Tree Services in Shawnee, KS | Affordable Treefellers LLC";
 $pageDescription = "Affordable Treefellers provides tree removal, trimming, stump grinding, storm damage cleanup, and land clearing in Shawnee, KS. Licensed and insured. Free estimates — call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/services";
-$ogImage         = "https://i.imgur.com/BPmnacY.jpeg";
+$ogImage         = "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/2cjSybQ.jpeg";
+$heroImage       = "/assets/images/affordable-treefellers-crew-in-safety-gear-perfo-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -41,7 +41,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Page Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/2cjSybQ.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/affordable-treefellers-crew-in-safety-gear-perfo-960.webp');">
     <div class="container">
       <h1>Tree Services in Shawnee, KS</h1>
       <p>Full-service tree care for homes and businesses across Shawnee, KS. Every job comes with a free on-site estimate and a firm price before we start.</p>
@@ -80,7 +80,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/tree-removal" class="services-overview-card card-tint-1 reveal-up">
           <div class="card-img">
-            <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Tree removal with chainsaw in Shawnee, KS" width="600" height="375" loading="lazy">
+            <img src="/assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-960.webp" srcset="/assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-480.webp 480w, /assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-960.webp 960w, /assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Tree removal with chainsaw in Shawnee, KS" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Tree Removal</h3>
@@ -91,7 +91,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/tree-trimming-pruning" class="services-overview-card card-tint-2 reveal-up reveal-delay-1">
           <div class="card-img">
-            <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck trimming mature tree in Shawnee, Kansas" width="600" height="375" loading="lazy">
+            <img src="/assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-960.webp" srcset="/assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-480.webp 480w, /assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Bucket truck trimming mature tree in Shawnee, Kansas" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Tree Trimming &amp; Pruning</h3>
@@ -102,7 +102,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/stump-grinding" class="services-overview-card card-tint-3 reveal-up reveal-delay-2">
           <div class="card-img">
-            <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers equipment for stump grinding in Shawnee, KS" width="600" height="375" loading="lazy">
+            <img src="/assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp" srcset="/assets/images/affordable-treefellers-work-truck-at-job-site-in-480.webp 480w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp 960w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Affordable Treefellers equipment for stump grinding in Shawnee, KS" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Stump Grinding &amp; Removal</h3>
@@ -113,7 +113,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/storm-damage-cleanup" class="services-overview-card card-tint-neutral reveal-up reveal-delay-3">
           <div class="card-img">
-            <img src="https://i.imgur.com/AxHfkOk.jpeg" alt="Fallen tree near power lines after storm in Kansas" width="600" height="375" loading="lazy">
+            <img src="/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp" srcset="/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-480.webp 480w, /assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Fallen tree near power lines after storm in Kansas" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Storm Damage Cleanup</h3>
@@ -124,7 +124,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/commercial-residential-tree-care" class="services-overview-card card-tint-1 reveal-up reveal-delay-4">
           <div class="card-img">
-            <img src="https://i.imgur.com/c9RF7k9.jpeg" alt="Bucket truck at residential property for tree service" width="600" height="375" loading="lazy">
+            <img src="/assets/images/bucket-truck-at-residential-property-for-tree-se-960.webp" srcset="/assets/images/bucket-truck-at-residential-property-for-tree-se-480.webp 480w, /assets/images/bucket-truck-at-residential-property-for-tree-se-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Bucket truck at residential property for tree service" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Commercial &amp; Residential Tree Care</h3>
@@ -135,7 +135,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <a href="/services/lot-land-clearing" class="services-overview-card card-tint-2 reveal-up reveal-delay-5">
           <div class="card-img">
-            <img src="https://i.imgur.com/XcCQgIQ.jpeg" alt="Cleared residential lot ready for construction in Shawnee" width="600" height="375" loading="lazy">
+            <img src="/assets/images/cleared-residential-lot-ready-for-construction-i-960.webp" srcset="/assets/images/cleared-residential-lot-ready-for-construction-i-480.webp 480w, /assets/images/cleared-residential-lot-ready-for-construction-i-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Cleared residential lot ready for construction in Shawnee" width="600" height="375" loading="lazy">
           </div>
           <div class="card-body">
             <h3>Lot &amp; Land Clearing</h3>

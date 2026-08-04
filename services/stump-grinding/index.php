@@ -2,9 +2,9 @@
 $pageTitle       = "Stump Grinding & Removal in Shawnee, KS | Affordable Treefellers";
 $pageDescription = "Affordable stump grinding in Shawnee, KS. Stumps ground 6-12 inches below grade for clean yards and new construction. Licensed and insured. Free estimates — call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/services/stump-grinding";
-$ogImage         = "https://i.imgur.com/BvsalRQ.jpeg";
+$ogImage         = "/assets/images/affordable-treefellers-work-truck-at-job-site-in-1600.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/BvsalRQ.jpeg";
+$heroImage       = "/assets/images/affordable-treefellers-work-truck-at-job-site-in-1600.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/BvsalRQ.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/affordable-treefellers-work-truck-at-job-site-in-1600.webp');">
     <div class="container">
       <h1>Stump Grinding &amp; Removal in Shawnee, KS</h1>
       <p>Reclaim your yard. We grind stumps below grade so you can reseed, landscape, or build over the spot.</p>
@@ -105,7 +105,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>Stump grinding is also available as an add-on to any <a href="/services/tree-removal" style="color: var(--primary); font-weight: 600;">tree removal</a> job — often at a discounted rate when bundled with the removal.</p>
         </div>
         <div class="svc-img">
-          <img src="https://i.imgur.com/XcCQgIQ.jpeg" alt="Cleared lot after stump grinding and land clearing in Shawnee, KS" width="600" height="450" loading="lazy">
+          <img src="/assets/images/cleared-residential-lot-ready-for-construction-i-960.webp" srcset="/assets/images/cleared-residential-lot-ready-for-construction-i-480.webp 480w, /assets/images/cleared-residential-lot-ready-for-construction-i-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Cleared lot after stump grinding and land clearing in Shawnee, KS" width="600" height="450" loading="lazy">
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </ul>
         </div>
         <div class="svc-img reveal-right">
-          <img src="https://i.imgur.com/Fy5sXIJ.jpeg" alt="Cut logs in yard after tree removal awaiting stump grinding in Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/cut-logs-in-yard-after-tree-removal-awaiting-stu-960.webp" srcset="/assets/images/cut-logs-in-yard-after-tree-removal-awaiting-stu-480.webp 480w, /assets/images/cut-logs-in-yard-after-tree-removal-awaiting-stu-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Cut logs in yard after tree removal awaiting stump grinding in Kansas" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -202,7 +202,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers equipment for stump grinding jobs in Shawnee, Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp" srcset="/assets/images/affordable-treefellers-work-truck-at-job-site-in-480.webp 480w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp 960w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Affordable Treefellers equipment for stump grinding jobs in Shawnee, Kansas" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="section-subtitle">after the grind</span>

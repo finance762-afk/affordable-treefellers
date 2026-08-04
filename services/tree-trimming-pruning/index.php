@@ -2,9 +2,9 @@
 $pageTitle       = "Tree Trimming & Pruning in Shawnee, KS | Affordable Treefellers";
 $pageDescription = "Professional tree trimming and pruning in Shawnee, KS. Crown thinning, deadwood removal, and shaping for residential and commercial properties. Licensed and insured. Call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com/services/tree-trimming-pruning";
-$ogImage         = "https://i.imgur.com/Er9wTxc.jpeg";
+$ogImage         = "/assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-960.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/1RZkeHs.jpeg";
+$heroImage       = "/assets/images/1rzkehs-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -86,7 +86,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/1RZkeHs.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/1rzkehs-960.webp');">
     <div class="container">
       <h1>Tree Trimming &amp; Pruning in Shawnee, KS</h1>
       <p>Precision trimming to keep your trees healthy, your property safe, and your sight lines clear.</p>
@@ -109,7 +109,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p>Regular trimming prevents problems before they start — branches against your roof, limbs blocking sight lines, dead wood waiting to drop in the next Kansas storm. Our crew uses bucket trucks for high canopy access and professional chainsaws for precise cuts that promote healthy regrowth rather than stress the tree.</p>
         </div>
         <div class="svc-img">
-          <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck positioned for tree trimming at residential property in Shawnee, KS" width="800" height="600" loading="lazy">
+          <img src="/assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-960.webp" srcset="/assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-480.webp 480w, /assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Bucket truck positioned for tree trimming at residential property in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -139,7 +139,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/2cjSybQ.jpeg" alt="Affordable Treefellers crew in safety gear performing tree trimming in Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-crew-in-safety-gear-perfo-960.webp" srcset="/assets/images/affordable-treefellers-crew-in-safety-gear-perfo-480.webp 480w, /assets/images/affordable-treefellers-crew-in-safety-gear-perfo-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Affordable Treefellers crew in safety gear performing tree trimming in Kansas" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="section-subtitle">what we do</span>
@@ -184,7 +184,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           </div>
         </div>
         <div class="svc-img reveal-right">
-          <img src="https://i.imgur.com/BPmnacY.jpeg" alt="Worker in bucket truck elevated in large tree canopy for trimming in Shawnee" width="800" height="600" loading="lazy">
+          <img src="/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp" srcset="/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-480.webp 480w, /assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Worker in bucket truck elevated in large tree canopy for trimming in Shawnee" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
 $pageTitle       = "Thank You | Affordable Treefellers";
 $pageDescription = "Thank you for contacting Affordable Treefellers. We will be in touch soon.";
 $canonicalUrl    = "https://affordabletreefellers.com/thank-you";
-$ogImage         = "https://i.imgur.com/BPmnacY.jpeg";
+$ogImage         = "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp";
 $currentPage     = "";
 $heroImage       = "";
 $useSwiper       = false;

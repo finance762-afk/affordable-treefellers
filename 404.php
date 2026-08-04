@@ -2,7 +2,7 @@
 $pageTitle       = "Page Not Found | Affordable Treefellers";
 $pageDescription = "The page you're looking for doesn't exist. Return to the Affordable Treefellers homepage or browse our tree services.";
 $canonicalUrl    = "https://affordabletreefellers.com/404";
-$ogImage         = "https://i.imgur.com/BPmnacY.jpeg";
+$ogImage         = "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp";
 $currentPage     = "";
 $heroImage       = "";
 $useSwiper       = false;

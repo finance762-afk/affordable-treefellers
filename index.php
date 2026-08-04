@@ -2,9 +2,9 @@
 $pageTitle       = "Affordable Treefellers | Tree Removal & Trimming in Shawnee, KS";
 $pageDescription = "Affordable Treefellers LLC provides professional tree removal, trimming, stump grinding, and storm damage cleanup in Shawnee, KS and the surrounding Kansas City area. Licensed, insured, USDOT #3421117. Call (816) 509-3232.";
 $canonicalUrl    = "https://affordabletreefellers.com";
-$ogImage         = "https://i.imgur.com/BPmnacY.jpeg";
+$ogImage         = "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp";
 $currentPage     = "home";
-$heroImage       = "https://i.imgur.com/BPmnacY.jpeg";
+$heroImage       = "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -52,7 +52,7 @@ $schemaMarkup    = '{
         "geoRadius": "64374"
       },
       "priceRange": "$$",
-      "image": "https://i.imgur.com/BPmnacY.jpeg",
+      "image": "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5",
@@ -63,7 +63,7 @@ $schemaMarkup    = '{
       "@type": "Organization",
       "name": "Affordable Treefellers LLC",
       "url": "https://affordabletreefellers.com",
-      "logo": "https://i.imgur.com/uviMLZK.png",
+      "logo": "/assets/images/logo.png",
       "foundingDate": "2013",
       "founder": { "@type": "Person", "name": "Eric Frauenknecht" },
       "telephone": "+18165093232",
@@ -140,7 +140,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- ===== HERO ===== -->
-  <section class="hero" style="background-image: url('https://i.imgur.com/BPmnacY.jpeg');">
+  <section class="hero" style="background-image: url('/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp');">
     <div class="container">
       <h1>Tree Service You Can Count On in Shawnee, KS</h1>
       <p class="hero-subtitle">Licensed &amp; Insured &bull; Since 2013 &bull; 24/7 Emergency Service</p>
@@ -258,8 +258,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="about-grid">
         <div class="about-image-wrap reveal-left">
-          <img class="about-image-primary" src="https://i.imgur.com/ZTry5Cq.jpeg" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, Kansas" width="800" height="1000" loading="lazy">
-          <img class="about-image-secondary" src="https://i.imgur.com/cgdK3ZI.jpeg" alt="Affordable Treefellers crew member on the job in Kansas" width="600" height="750" loading="lazy">
+          <img class="about-image-primary" src="/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-960.webp" srcset="/assets/images/eric-frauenknecht-owner-of-affordable-treefeller-480.webp 480w, /assets/images/eric-frauenknecht-owner-of-affordable-treefeller-960.webp 960w, /assets/images/eric-frauenknecht-owner-of-affordable-treefeller-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Eric Frauenknecht, owner of Affordable Treefellers in Shawnee, Kansas" width="800" height="1000" loading="lazy">
+          <img class="about-image-secondary" src="/assets/images/affordable-treefellers-crew-member-on-the-job-in-960.webp" srcset="/assets/images/affordable-treefellers-crew-member-on-the-job-in-480.webp 480w, /assets/images/affordable-treefellers-crew-member-on-the-job-in-960.webp 960w, /assets/images/affordable-treefellers-crew-member-on-the-job-in-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Affordable Treefellers crew member on the job in Kansas" width="600" height="750" loading="lazy">
         </div>
         <div class="about-text trust-content reveal-right">
           <span class="section-subtitle">meet the crew</span>
@@ -298,22 +298,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="gallery-grid">
         <div class="gallery-item wide" data-animate="fade-up">
-          <img src="https://i.imgur.com/bb6Nte3.jpeg" alt="Massive felled tree trunk in residential yard in Shawnee, KS" width="800" height="600" loading="lazy">
+          <img src="/assets/images/massive-felled-tree-trunk-in-residential-yard-in-960.webp" srcset="/assets/images/massive-felled-tree-trunk-in-residential-yard-in-480.webp 480w, /assets/images/massive-felled-tree-trunk-in-residential-yard-in-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Massive felled tree trunk in residential yard in Shawnee, KS" width="800" height="600" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
-          <img src="https://i.imgur.com/bcIwTki.jpeg" alt="Felled trunk with chainsaw during tree removal in Shawnee" width="600" height="450" loading="lazy">
+          <img src="/assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-960.webp" srcset="/assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-480.webp 480w, /assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-960.webp 960w, /assets/images/felled-trunk-with-chainsaw-during-tree-removal-i-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Felled trunk with chainsaw during tree removal in Shawnee" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
-          <img src="https://i.imgur.com/Er9wTxc.jpeg" alt="Bucket truck trimming mature tree in Shawnee, Kansas neighborhood" width="600" height="450" loading="lazy">
+          <img src="/assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-960.webp" srcset="/assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-480.webp 480w, /assets/images/bucket-truck-trimming-mature-tree-in-shawnee-kan-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="Bucket truck trimming mature tree in Shawnee, Kansas neighborhood" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
-          <img src="https://i.imgur.com/1KvudFj.jpeg" alt="Affordable Treefellers truck ready for tree service in Shawnee, KS" width="600" height="450" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-truck-ready-for-tree-serv-960.webp" srcset="/assets/images/affordable-treefellers-truck-ready-for-tree-serv-480.webp 480w, /assets/images/affordable-treefellers-truck-ready-for-tree-serv-960.webp 960w, /assets/images/affordable-treefellers-truck-ready-for-tree-serv-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Affordable Treefellers truck ready for tree service in Shawnee, KS" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item" data-animate="fade-up">
-          <img src="https://i.imgur.com/BvsalRQ.jpeg" alt="Affordable Treefellers work truck at job site in Kansas" width="600" height="450" loading="lazy">
+          <img src="/assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp" srcset="/assets/images/affordable-treefellers-work-truck-at-job-site-in-480.webp 480w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-960.webp 960w, /assets/images/affordable-treefellers-work-truck-at-job-site-in-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 600px" alt="Affordable Treefellers work truck at job site in Kansas" width="600" height="450" loading="lazy">
         </div>
         <div class="gallery-item wide" data-animate="fade-up">
-          <img src="https://i.imgur.com/NfefzTe.jpeg" alt="Large felled tree trunk with worker for scale showing tree removal in Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-960.webp" srcset="/assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-480.webp 480w, /assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-960.webp 960w, /assets/images/large-felled-tree-trunk-with-worker-for-scale-sh-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Large felled tree trunk with worker for scale showing tree removal in Kansas" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -352,7 +352,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </section>
 
   <!-- ===== STORM DAMAGE CTA (Signature Section) ===== -->
-  <section class="storm-cta" style="background-image: url('https://i.imgur.com/AxHfkOk.jpeg');">
+  <section class="storm-cta" style="background-image: url('/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp');">
     <div class="container">
       <div style="max-width: 650px;">
         <h2>Storm Hit Your Property? We're On It.</h2>

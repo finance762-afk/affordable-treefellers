@@ -2,9 +2,9 @@
 $pageTitle       = "Storm Damage Cleanup & Emergency Tree Service in Shawnee, KS | Affordable Treefellers";
 $pageDescription = "24/7 emergency storm damage tree removal in Shawnee, KS. Fallen trees, broken limbs, and debris cleanup. Licensed, insured, fast response. Call (816) 509-3232 now.";
 $canonicalUrl    = "https://affordabletreefellers.com/services/storm-damage-cleanup";
-$ogImage         = "https://i.imgur.com/AxHfkOk.jpeg";
+$ogImage         = "/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/AxHfkOk.jpeg";
+$heroImage       = "/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -71,7 +71,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- Hero -->
-  <section class="page-hero" style="background-image: url('https://i.imgur.com/AxHfkOk.jpeg');">
+  <section class="page-hero" style="background-image: url('/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp');">
     <div class="container">
       <h1>Storm Damage Cleanup &amp; Emergency Tree Service in Shawnee, KS</h1>
       <p>24/7 emergency response. Fallen trees, broken limbs, and storm debris — we handle it fast.</p>
@@ -121,7 +121,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="split">
         <div class="svc-img reveal-left">
-          <img src="https://i.imgur.com/AP4RtPl.jpeg" alt="Branch fallen in snowy Kansas neighborhood requiring storm damage cleanup" width="800" height="600" loading="lazy">
+          <img src="/assets/images/branch-fallen-in-snowy-kansas-neighborhood-requi-960.webp" srcset="/assets/images/branch-fallen-in-snowy-kansas-neighborhood-requi-480.webp 480w, /assets/images/branch-fallen-in-snowy-kansas-neighborhood-requi-960.webp 960w, /assets/images/branch-fallen-in-snowy-kansas-neighborhood-requi-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Branch fallen in snowy Kansas neighborhood requiring storm damage cleanup" width="800" height="600" loading="lazy">
         </div>
         <div class="reveal-right">
           <span class="section-subtitle">emergency services</span>
@@ -154,7 +154,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </section>
 
   <!-- Mid CTA — Emergency -->
-  <section class="storm-cta" style="background-image: url('https://i.imgur.com/61rOsrb.jpeg');">
+  <section class="storm-cta" style="background-image: url('/assets/images/61rosrb-1600.webp');">
     <div class="container">
       <div style="max-width: 650px;">
         <h2>Don't Wait — Call Now</h2>
@@ -176,7 +176,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <p class="prose" style="margin-top: var(--space-md);">Johnson County's mature tree canopy — oaks, elms, maples, cottonwoods — means more exposure when storms hit. Regular <a href="/services/tree-trimming-pruning" style="color: var(--primary); font-weight: 600;">tree trimming</a> reduces wind resistance and removes deadwood before it becomes a projectile, but when a storm overwhelms even healthy trees, we're the crew to call.</p>
         </div>
         <div class="svc-img reveal-right">
-          <img src="https://i.imgur.com/AxHfkOk.jpeg" alt="Fallen tree with exposed root ball near power lines after severe storm in Kansas" width="800" height="600" loading="lazy">
+          <img src="/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp" srcset="/assets/images/fallen-tree-near-power-lines-after-storm-in-kans-480.webp 480w, /assets/images/fallen-tree-near-power-lines-after-storm-in-kans-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Fallen tree with exposed root ball near power lines after severe storm in Kansas" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>

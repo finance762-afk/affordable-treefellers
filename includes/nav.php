@@ -2,7 +2,7 @@
 <nav class="navbar" aria-label="Main navigation">
   <div class="container">
     <a href="/" class="navbar-logo">
-      <img src="https://i.imgur.com/uviMLZK.png" alt="Affordable Treefellers LLC" width="200" height="50" class="logo-img">
+      <img src="/assets/images/logo.png" alt="Affordable Treefellers LLC" width="200" height="50" class="logo-img">
     </a>
 
     <ul class="navbar-links">
