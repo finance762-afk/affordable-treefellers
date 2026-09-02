@@ -52,12 +52,7 @@ $schemaMarkup    = '{
         "geoRadius": "64374"
       },
       "priceRange": "$$",
-      "image": "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5",
-        "reviewCount": "45"
-      }
+      "image": "/assets/images/worker-in-bucket-truck-elevated-in-large-tree-ca-960.webp"
     },
     {
       "@type": "Organization",

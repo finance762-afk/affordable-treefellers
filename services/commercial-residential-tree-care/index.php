@@ -58,8 +58,7 @@ $schemaMarkup    = '{
     },
     {
       "@type": "LocalBusiness",
-      "name": "Affordable Treefellers LLC",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "reviewCount": "45" }
+      "name": "Affordable Treefellers LLC"
     }
   ]
 }';
